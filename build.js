@@ -57,7 +57,9 @@ function processBlocks(tpl, ctx) {
         const itemCtx = typeof item === 'object' && item !== null
           ? Object.assign(base, item, { __item: item })
           : Object.assign(base, { '.': item, this: item });
-        return processBlocks(inner, itemCtx);
+        let out = processBlocks(inner, itemCtx);
+        out = renderVars(out, itemCtx);
+        return out;
       }).join('');
     });
     // if (truthy)
