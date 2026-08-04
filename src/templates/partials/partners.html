@@ -1,0 +1,14 @@
+<section class="band partners" id="partners">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{partners.eyebrow}}</p>
+      <h2>{{partners.title}}</h2>
+      <p class="section-sub">{{partners.subtitle}}</p>
+    </header>
+    <ul class="logo-wall reveal">
+      {{#each partners.logos}}
+      <li class="logo-tile"><span class="logo-text">{{name}}</span></li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="{{__base}}/{{__locale}}/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 4C9 9 6 14 6 19a10 10 0 0 0 20 0c0-5-3-10-10-15z" fill="#5C7A5A"/><path d="M11 19a5 5 0 0 0 5 5" stroke="#FAF7EF" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-text">{{brand.name}}</span>
+    </a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="#products">{{nav.products}}</a>
+      <a href="#factory">{{nav.factory}}</a>
+      <a href="#sustainability">{{nav.sustainability}}</a>
+      <a href="#inquiry">{{nav.contact}}</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" aria-label="{{nav.langLabel}}">
+        <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">{{__locale}}</button>
+        <ul class="lang-menu" role="menu">
+          {{#each __locales}}
+          <li><a href="{{__base}}/{{code}}/" role="menuitem" {{#if current}}aria-current="true"{{/if}}>{{code}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+      <a class="btn btn-primary" href="#inquiry">{{nav.quote}}</a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="nav-mobile" aria-label="Mobile">
+    <a href="#products">{{nav.products}}</a>
+    <a href="#factory">{{nav.factory}}</a>
+    <a href="#sustainability">{{nav.sustainability}}</a>
+    <a href="#inquiry">{{nav.contact}}</a>
+    <a class="btn btn-primary" href="#inquiry">{{nav.quote}}</a>
+  </nav>
+</header>

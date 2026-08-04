@@ -1,0 +1,44 @@
+<section class="band inquiry" id="inquiry">
+  <div class="container inquiry-grid">
+    <div class="inquiry-copy reveal">
+      <p class="eyebrow">{{inquiry.eyebrow}}</p>
+      <h2>{{inquiry.title}}</h2>
+      <p class="section-sub">{{inquiry.subtitle}}</p>
+      <ul class="inquiry-contact">
+        <li><span>{{footer.emailLabel}}</span> <a href="mailto:{{footer.email}}">{{footer.email}}</a></li>
+        <li><span>{{footer.whatsappLabel}}</span> {{footer.whatsapp}}</li>
+      </ul>
+    </div>
+    <form class="inquiry-form reveal"
+          action="{{inquiry.formEndpoint}}"
+          method="POST"
+          data-form="inquiry"
+          novalidate>
+      <input type="hidden" name="_subject" value="New inquiry — Hongbao Knitting website">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+      <div class="form-row">
+        <label>{{inquiry.fields.name}}<input type="text" name="Name" required></label>
+        <label>{{inquiry.fields.email}}<input type="email" name="Email" required></label>
+      </div>
+      <div class="form-row">
+        <label>{{inquiry.fields.company}}<input type="text" name="Company"></label>
+        <label>{{inquiry.fields.country}}<input type="text" name="Country"></label>
+      </div>
+      <label class="form-full">{{inquiry.fields.product}}
+        <select name="Product">
+          {{#each products.categories}}
+          <option value="{{name}}">{{name}}</option>
+          {{/each}}
+        </select>
+      </label>
+      <label class="form-full">{{inquiry.fields.message}}
+        <textarea name="Message" rows="4" placeholder="{{inquiry.fields.messagePlaceholder}}"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary btn-lg btn-block">{{inquiry.fields.submit}}</button>
+      <p class="form-note">{{inquiry.fields.privacy}}</p>
+      <p class="form-success" data-success hidden>{{inquiry.fields.success}}</p>
+    </form>
+  </div>
+</section>

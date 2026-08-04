@@ -1,0 +1,24 @@
+<section class="band quality" id="quality">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{quality.eyebrow}}</p>
+      <h2>{{quality.title}}</h2>
+      <p class="section-sub">{{quality.subtitle}}</p>
+    </header>
+    <div class="quality-cols reveal">
+      <div class="quality-story">
+        <p class="lead">{{quality.story}}</p>
+        <ul class="bullet-list">
+          {{#each quality.methods}}
+          <li><strong>{{title}}</strong> — {{desc}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <ul class="metric-grid">
+        {{#each quality.metrics}}
+        <li class="metric"><span class="metric-value">{{value}}</span><span class="metric-label">{{label}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>

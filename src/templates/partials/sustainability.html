@@ -1,0 +1,22 @@
+<section class="band sustainability" id="sustainability">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{sustainability.eyebrow}}</p>
+      <h2>{{sustainability.title}}</h2>
+      <p class="section-sub">{{sustainability.subtitle}}</p>
+    </header>
+    <p class="eco-intro reveal">{{sustainability.intro}}</p>
+    <ul class="eco-grid reveal">
+      {{#each sustainability.items}}
+      <li class="eco-card">
+        <span class="eco-leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 2C7 6 5 11 5 15a7 7 0 0 0 14 0c0-4-2-9-7-13z" fill="#5C7A5A"/></svg>
+        </span>
+        <h3>{{title}}</h3>
+        <p>{{desc}}</p>
+      </li>
+      {{/each}}
+    </ul>
+    <p class="eco-note reveal">{{sustainability.note}}</p>
+  </div>
+</section>

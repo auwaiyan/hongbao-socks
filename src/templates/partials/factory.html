@@ -1,0 +1,32 @@
+<section class="band factory" id="factory">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{factory.eyebrow}}</p>
+      <h2>{{factory.title}}</h2>
+      <p class="section-sub">{{factory.subtitle}}</p>
+    </header>
+    <ul class="stat-grid reveal">
+      {{#each factory.stats}}
+      <li class="stat"><span class="stat-value">{{value}}</span><span class="stat-label">{{label}}</span></li>
+      {{/each}}
+    </ul>
+    <div class="factory-cols reveal">
+      <div class="factory-block">
+        <h3>{{factory.equipment.title}}</h3>
+        <ul class="bullet-list">
+          {{#each factory.equipment.items}}
+          <li><strong>{{title}}</strong> — {{desc}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="factory-block">
+        <h3>{{factory.teams.title}}</h3>
+        <ul class="bullet-list">
+          {{#each factory.teams.items}}
+          <li><strong>{{title}}</strong> — {{desc}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

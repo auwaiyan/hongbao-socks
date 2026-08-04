@@ -1,0 +1,34 @@
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-bg-tint"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">{{hero.eyebrow}}</p>
+      <h1 class="hero-title">{{hero.title}}</h1>
+      <p class="hero-sub">{{hero.subtitle}}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="#inquiry">{{hero.ctaPrimary}}</a>
+        <a class="btn btn-ghost btn-lg" href="#products">{{hero.ctaSecondary}} →</a>
+      </div>
+    </div>
+    <div class="hero-media reveal">
+      <div class="hero-video">
+        <video
+          poster="{{__base}}/assets/images/factory-line.jpg"
+          preload="none"
+          controls
+          playsinline
+          aria-label="{{hero.videoPosterAlt}}">
+          <source src="{{__base}}/assets/video/factory-line.mp4" type="video/mp4">
+        </video>
+        <span class="hero-video-label">{{factory.videoLabel}}</span>
+      </div>
+    </div>
+  </div>
+  <ul class="trust-strip container">
+    {{#each hero.trust}}
+    <li><span class="trust-value">{{value}}</span><span class="trust-label">{{label}}</span></li>
+    {{/each}}
+  </ul>
+</section>

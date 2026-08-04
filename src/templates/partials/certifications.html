@@ -1,0 +1,17 @@
+<section class="band certifications" id="certifications">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{certifications.eyebrow}}</p>
+      <h2>{{certifications.title}}</h2>
+      <p class="section-sub">{{certifications.subtitle}}</p>
+    </header>
+    <ul class="cert-grid reveal">
+      {{#each certifications.items}}
+      <li class="cert-card">
+        <div class="cert-badge">{{name}}</div>
+        <p>{{desc}}</p>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

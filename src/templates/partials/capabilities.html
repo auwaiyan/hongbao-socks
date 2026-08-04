@@ -1,0 +1,18 @@
+<section class="band capabilities" id="capabilities">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{capabilities.eyebrow}}</p>
+      <h2>{{capabilities.title}}</h2>
+      <p class="section-sub">{{capabilities.subtitle}}</p>
+    </header>
+    <ul class="cap-grid reveal">
+      {{#each capabilities.items}}
+      <li class="cap-card">
+        <span class="cap-icon" data-icon="{{icon}}" aria-hidden="true"></span>
+        <h3>{{title}}</h3>
+        <p>{{desc}}</p>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

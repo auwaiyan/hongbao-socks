@@ -1,0 +1,18 @@
+<section class="band process" id="process">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">{{process.eyebrow}}</p>
+      <h2>{{process.title}}</h2>
+      <p class="section-sub">{{process.subtitle}}</p>
+    </header>
+    <ol class="step-flow reveal">
+      {{#each process.steps}}
+      <li class="step">
+        <span class="step-num">{{__i}}</span>
+        <h3>{{title}}</h3>
+        <p>{{desc}}</p>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+</section>

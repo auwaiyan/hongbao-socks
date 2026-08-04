@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main>
+  <section class="band catalog" id="products">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">{{products.eyebrow}}</p>
+        <h1>{{products.title}}</h1>
+        <p class="section-sub">{{products.subtitle}}</p>
+      </header>
+      <div class="catalog-list">
+      {{#each products.categories}}
+        <article class="cat-block reveal" id="{{key}}">
+          <div class="cat-thumb" data-cat="{{key}}" aria-hidden="true"></div>
+          <div class="cat-body">
+            <p class="cat-materials">{{materials}}</p>
+            <h2>{{name}}</h2>
+            <p class="cat-desc">{{desc}}</p>
+            <a class="btn btn-primary" href="{{__base}}/{{__locale}}/#inquiry">{{products.inquire}} →</a>
+          </div>
+        </article>
+      {{/each}}
+      </div>
+      <div class="reveal" style="text-align:center;margin-top:3rem">
+        <a class="btn btn-ghost btn-lg" href="{{__base}}/{{__locale}}/#inquiry">{{inquiry.title}} →</a>
+      </div>
+    </div>
+  </section>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>
