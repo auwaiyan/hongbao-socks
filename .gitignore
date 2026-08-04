@@ -1,5 +1,7 @@
 # build output
 docs/
+# generated self-contained preview html
+site-preview-*.html
 # dependencies
 node_modules/
 # logs

@@ -16,7 +16,7 @@ const DEFAULT_LOCALE = 'en';
 const LOCALE_NAMES = { en: 'English', de: 'Deutsch', es: 'Español', fr: 'Français' };
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
-const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '/';
+const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
 const SITE_URL = (process.env.SITE_URL || 'https://hongbaoknitting.com').replace(/\/$/, '');
 
 /* ---------- tiny template engine ---------- */
