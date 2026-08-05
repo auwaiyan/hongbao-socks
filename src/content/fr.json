@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Hongbao Knitting",
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "name": "Huakui Knitting",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
     "since": "2003"
   },
@@ -16,10 +16,10 @@
   "hero": {
     "eyebrow": "Fabricant grossiste de chaussettes sur mesure · depuis 2003",
     "title": "Des chaussettes durables, conçues par un fabricant source.",
-    "subtitle": "Hongbao est un partenaire intégré de design, de R&D et de fabrication — pas une société de négoce. Du contrôle qualité à la japonaise à la sélection de matières éco, nous fabriquons des chaussettes auxquelles les grandes marques mondiales font confiance.",
+    "subtitle": "Huakui est un partenaire intégré de design, de R&D et de fabrication — pas une société de négoce. Du contrôle qualité à la japonaise à la sélection de matières éco, nous fabriquons des chaussettes auxquelles les grandes marques mondiales font confiance.",
     "ctaPrimary": "Demander un devis",
     "ctaSecondary": "Découvrir les produits",
-    "videoPosterAlt": "Ligne de production de l'usine Hongbao",
+    "videoPosterAlt": "Ligne de production de l'usine Huakui",
     "trust": [
       { "value": "20+", "label": "ans de fabrication" },
       { "value": "16 000 m²", "label": "surface de production" },
@@ -30,7 +30,7 @@
   "certifications": {
     "eyebrow": "La confiance d'abord",
     "title": "Des certifications qui passent votre barre de due diligence",
-    "subtitle": "Avant qu'un acheteur lise plus loin, celles-ci disent que Hongbao est un fournisseur digne de confiance.",
+    "subtitle": "Avant qu'un acheteur lise plus loin, celles-ci disent que Huakui est un fournisseur digne de confiance.",
     "items": [
       { "name": "ISO 9001", "desc": "Management de la qualité — contrôle systématique du design à la livraison, pour que chaque commande parte à un standard constant." },
       { "name": "ISO 14001", "desc": "Management environnemental — un engagement vérifié d'opérations plus durables et à moindre impact, fiable pour vos rapports supply chain." },
@@ -64,7 +64,7 @@
   },
   "factory": {
     "eyebrow": "Fabricant source",
-    "title": "À l'intérieur de l'usine Hongbao",
+    "title": "À l'intérieur de l'usine Huakui",
     "subtitle": "16 000 mètres carrés d'espace de production standardisé, 110 spécialistes et des équipements plébiscités par les marques internationales.",
     "videoLabel": "Ligne de production — voir le processus complet",
     "stats": [
@@ -148,7 +148,7 @@
     "note": "Des certifications supplémentaires comme GOTS et OEKO-TEX peuvent être obtenues selon les besoins du projet — demandez à notre équipe."
   },
   "whyUs": {
-    "eyebrow": "Pourquoi Hongbao",
+    "eyebrow": "Pourquoi Huakui",
     "title": "Votre valeur assurée, à chaque étape",
     "subtitle": "Deux décennies d'expertise spécialisée, livrées aux standards de marque internationale.",
     "items": [
@@ -166,7 +166,7 @@
     "eyebrow": "Contact",
     "title": "Fabriquons vos chaussettes",
     "subtitle": "Dites-nous matières, quantité et délai. Notre équipe répond sous 24 heures.",
-    "formEndpoint": "https://formsubmit.co/sales@hongbaoknitting.com",
+    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
     "fields": {
       "name": "Votre nom",
       "email": "E-mail",
@@ -182,15 +182,15 @@
     }
   },
   "footer": {
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "address": "Foshan, Guangdong, Chine",
     "region": "GMT+8",
     "emailLabel": "E-mail",
-    "email": "sales@hongbaoknitting.com",
+    "email": "sales@huakuiknitting.com",
     "whatsappLabel": "WhatsApp",
     "whatsapp": "+86 1XX XXXX XXXX",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
-    "copyright": "© Hongbao Knitting. Tous droits réservés.",
+    "copyright": "© Huakui Knitting. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "certs": "ISO 9001 · ISO 14001 · ISO 45001 · High-Tech Enterprise"
   }

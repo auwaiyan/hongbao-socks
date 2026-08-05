@@ -2,6 +2,8 @@
 docs/
 # generated self-contained preview html
 site-preview-*.html
+# one-off scripts (not part of the site)
+rename-brand.js
 # dependencies
 node_modules/
 # logs

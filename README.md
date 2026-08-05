@@ -1,7 +1,7 @@
-# Hongbao Knitting — B2B overseas website
+# Huakui Knitting — B2B overseas website
 
 Static, multi-language (EN / DE / ES / FR) marketing site for
-**Foshan Hongbao Knitting Co., Ltd.** Built with plain HTML/CSS/JS and a
+**Foshan Huakui Knitting Co., Ltd.** Built with plain HTML/CSS/JS and a
 zero-dependency Node build script. Deploys to Vercel.
 
 ## Quick start (local preview)
@@ -57,7 +57,7 @@ for the keys below and swap in real data:
    - Output Directory: `docs`
 5. Click **Deploy**. Vercel builds and gives you a
    `https://hongbao-socks-<random>.vercel.app` URL with HTTPS + global CDN.
-6. (Optional) **Settings → Domains** → add `hongbaoknitting.com`, point DNS at
+6. (Optional) **Settings → Domains** → add `huakuiknitting.com`, point DNS at
    Vercel → free Let's Encrypt SSL.
 
 Every later `git push` re-deploys automatically.

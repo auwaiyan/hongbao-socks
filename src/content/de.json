@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Hongbao Knitting",
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "name": "Huakui Knitting",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "tagline": "Innovation. Exzellenz. Führung. Vision.",
     "since": "2003"
   },
@@ -16,10 +16,10 @@
   "hero": {
     "eyebrow": "Großhandel-Hersteller für Mastrümpfe · seit 2003",
     "title": "Nachhaltige Strümpfe direkt vom Quellbetrieb.",
-    "subtitle": "Hongbao ist ein integrierter Partner für Design, F&E und Fertigung — kein Handelsunternehmen. Vom japanisch geprägten Qualitätsmanagement bis zur Beschaffung ökologischer Materialien stellen wir Strümpfe her, denen die führenden Marken der Welt vertrauen.",
+    "subtitle": "Huakui ist ein integrierter Partner für Design, F&E und Fertigung — kein Handelsunternehmen. Vom japanisch geprägten Qualitätsmanagement bis zur Beschaffung ökologischer Materialien stellen wir Strümpfe her, denen die führenden Marken der Welt vertrauen.",
     "ctaPrimary": "Angebot anfordern",
     "ctaSecondary": "Produkte entdecken",
-    "videoPosterAlt": "Produktionslinie der Hongbao-Fabrik",
+    "videoPosterAlt": "Produktionslinie der Huakui-Fabrik",
     "trust": [
       { "value": "20+", "label": "Jahre Fertigung" },
       { "value": "16.000 m²", "label": "Produktionsfläche" },
@@ -30,7 +30,7 @@
   "certifications": {
     "eyebrow": "Vertrauen zuerst",
     "title": "Zertifikate, die Ihre Due-Diligence-Schwelle bestehen",
-    "subtitle": "Bevor ein Käufer weiterliest, sagen diese: Hongbao ist ein Lieferant, dem man vertrauen kann.",
+    "subtitle": "Bevor ein Käufer weiterliest, sagen diese: Huakui ist ein Lieferant, dem man vertrauen kann.",
     "items": [
       { "name": "ISO 9001", "desc": "Qualitätsmanagement — systematische Kontrolle vom Design bis zur Lieferung, damit jede Bestellung nach einheitlichem Standard verschickt wird." },
       { "name": "ISO 14001", "desc": "Umweltmanagement — ein geprüftes Bekenntnis zu emissionsärmerer, nachhaltiger Produktion, auf das Ihre Lieferkettenberichterstattung vertrauen kann." },
@@ -64,7 +64,7 @@
   },
   "factory": {
     "eyebrow": "Quellbetrieb",
-    "title": "Ein Blick in die Hongbao-Fabrik",
+    "title": "Ein Blick in die Huakui-Fabrik",
     "subtitle": "16.000 Quadratmeter standardisierte Produktionsfläche, 110 Spezialisten und Maschinen, denen internationale Marken vertrauen.",
     "videoLabel": "Produktionslinie — den kompletten Prozess ansehen",
     "stats": [
@@ -148,7 +148,7 @@
     "note": "Zusatz-Zertifikate wie GOTS und OEKO-TEX können pro Projektanforderung erworben werden — fragen Sie unser Team."
   },
   "whyUs": {
-    "eyebrow": "Warum Hongbao",
+    "eyebrow": "Warum Huakui",
     "title": "Ihr gesicherter Wert in jedem Schritt",
     "subtitle": "Zwei Jahrzehnte Spezial-Erfahrung, geliefert nach internationalem Markenstandard.",
     "items": [
@@ -166,7 +166,7 @@
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns Ihre Strümpfe machen",
     "subtitle": "Sagen Sie uns Material, Menge und Deadline. Unser Handelsteam antwortet innerhalb von 24 Stunden.",
-    "formEndpoint": "https://formsubmit.co/sales@hongbaoknitting.com",
+    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
     "fields": {
       "name": "Ihr Name",
       "email": "E-Mail",
@@ -182,15 +182,15 @@
     }
   },
   "footer": {
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "E-Mail",
-    "email": "sales@hongbaoknitting.com",
+    "email": "sales@huakuiknitting.com",
     "whatsappLabel": "WhatsApp",
     "whatsapp": "+86 1XX XXXX XXXX",
     "tagline": "Innovation. Exzellenz. Führung. Vision.",
-    "copyright": "© Hongbao Knitting. Alle Rechte vorbehalten.",
+    "copyright": "© Huakui Knitting. Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",
     "certs": "ISO 9001 · ISO 14001 · ISO 45001 · High-Tech Enterprise"
   }

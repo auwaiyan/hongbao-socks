@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Hongbao Knitting",
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "name": "Huakui Knitting",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
     "since": "2003"
   },
@@ -16,10 +16,10 @@
   "hero": {
     "eyebrow": "Custom Socks Wholesale Manufacturer · Since 2003",
     "title": "Sustainable socks, crafted by a source factory.",
-    "subtitle": "Hongbao is an integrated design, R&D and manufacturing partner — not a trading company. From Japanese-standard quality control to eco-material sourcing, we make socks the world's leading brands trust.",
+    "subtitle": "Huakui is an integrated design, R&D and manufacturing partner — not a trading company. From Japanese-standard quality control to eco-material sourcing, we make socks the world's leading brands trust.",
     "ctaPrimary": "Request a Quote",
     "ctaSecondary": "Explore Products",
-    "videoPosterAlt": "Hongbao factory production line",
+    "videoPosterAlt": "Huakui factory production line",
     "trust": [
       { "value": "20+", "label": "years of manufacturing" },
       { "value": "16,000㎡", "label": "factory floor" },
@@ -30,7 +30,7 @@
   "certifications": {
     "eyebrow": "Trust first",
     "title": "Certifications that clear your due-diligence bar",
-    "subtitle": "Before a buyer reads another line, these tell you Hongbao is a supplier worth trusting.",
+    "subtitle": "Before a buyer reads another line, these tell you Huakui is a supplier worth trusting.",
     "items": [
       { "name": "ISO 9001", "desc": "Quality Management System — systematic control from design to delivery, so every order ships to a consistent standard." },
       { "name": "ISO 14001", "desc": "Environmental Management System — a verified commitment to lower-impact, sustainable operations your supply-chain reporting can rely on." },
@@ -64,7 +64,7 @@
   },
   "factory": {
     "eyebrow": "Source factory",
-    "title": "Inside the Hongbao factory",
+    "title": "Inside the Huakui factory",
     "subtitle": "16,000 square metres of standardised production space, 110 specialists, and equipment trusted by international brands.",
     "videoLabel": "Factory production line — watch the full process",
     "stats": [
@@ -148,7 +148,7 @@
     "note": "Additional certifications such as GOTS and OEKO-TEX can be obtained per project requirement — ask our team."
   },
   "whyUs": {
-    "eyebrow": "Why Hongbao",
+    "eyebrow": "Why Huakui",
     "title": "Your assured value, at every step",
     "subtitle": "Two decades of specialised expertise, delivered to international-brand standards.",
     "items": [
@@ -166,7 +166,7 @@
     "eyebrow": "Contact",
     "title": "Let's make your socks",
     "subtitle": "Tell us your materials, quantity and deadline. Our trade team replies within 24 hours.",
-    "formEndpoint": "https://formsubmit.co/sales@hongbaoknitting.com",
+    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
     "fields": {
       "name": "Your name",
       "email": "Email",
@@ -182,15 +182,15 @@
     }
   },
   "footer": {
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "Email",
-    "email": "sales@hongbaoknitting.com",
+    "email": "sales@huakuiknitting.com",
     "whatsappLabel": "WhatsApp",
     "whatsapp": "+86 1XX XXXX XXXX",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
-    "copyright": "© Hongbao Knitting. All rights reserved.",
+    "copyright": "© Huakui Knitting. All rights reserved.",
     "privacy": "Privacy Policy",
     "certs": "ISO 9001 · ISO 14001 · ISO 45001 · High-Tech Enterprise"
   }

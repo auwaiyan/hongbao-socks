@@ -1,12 +1,12 @@
 /**
- * Hongbao Knitting — static site build script (zero dependencies)
+ * Huakui Knitting — static site build script (zero dependencies)
  *
  * Reads content JSON + HTML templates, renders 4 language folders into /docs.
  * Mini template engine: partials {{> name}}, variables {{a.b.c}},
  * loops {{#each list}}...{{/each}}, conditionals {{#if key}}...{{/if}}.
  *
  * Usage:  node build.js
- * Env:    BASE_PATH (default "/"), SITE_URL (default https://hongbaoknitting.com)
+ * Env:    BASE_PATH (default "/"), SITE_URL (default https://huakuiknitting.com)
  */
 const fs = require('fs');
 const path = require('path');
@@ -17,7 +17,7 @@ const LOCALE_NAMES = { en: 'English', de: 'Deutsch', es: 'Español', fr: 'Franç
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
-const SITE_URL = (process.env.SITE_URL || 'https://hongbaoknitting.com').replace(/\/$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://huakuiknitting.com').replace(/\/$/, '');
 
 /* ---------- tiny template engine ---------- */
 function get(ctx, key) {
@@ -172,7 +172,7 @@ function build() {
 
   // root redirect (browser-language detection)
   const redirectHtml = `<!doctype html><html lang="${DEFAULT_LOCALE}"><head><meta charset="utf-8">
-<title>Hongbao Knitting — Sustainable Socks Manufacturer</title>
+<title>Huakui Knitting — Sustainable Socks Manufacturer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="canonical" href="${SITE_URL}${BASE}/${DEFAULT_LOCALE}/" />
 <!--HREFLANG-->
@@ -193,7 +193,7 @@ function build() {
 
   // 404
   const notFound = `<!doctype html><html lang="${DEFAULT_LOCALE}"><head><meta charset="utf-8">
-<title>404 — Hongbao Knitting</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>404 — Huakui Knitting</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>body{margin:0;font-family:system-ui,sans-serif;background:#FAF7EF;color:#2A2A28;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}
 a{color:#5C7A5A}</style></head><body><div><h1 style="font-size:4rem;margin:0;color:#5C7A5A">404</h1>
 <p>This page wandered off the production line.</p><p><a href="${BASE}/${DEFAULT_LOCALE}/">Back to home →</a></p></div></body></html>`;

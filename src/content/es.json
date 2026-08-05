@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Hongbao Knitting",
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "name": "Huakui Knitting",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "tagline": "Innovación. Excelencia. Liderazgo. Visión.",
     "since": "2003"
   },
@@ -16,10 +16,10 @@
   "hero": {
     "eyebrow": "Fabricante mayorista de calcetines a medida · desde 2003",
     "title": "Calcetines sostenibles, hechos por un fabricante de origen.",
-    "subtitle": "Hongbao es un socio integrado de diseño, I+D y fabricación — no una empresa comercial. Desde el control de calidad de estilo japonés hasta la selección de materiales ecológicos, fabricamos calcetines en los que confían las marcas líderes del mundo.",
+    "subtitle": "Huakui es un socio integrado de diseño, I+D y fabricación — no una empresa comercial. Desde el control de calidad de estilo japonés hasta la selección de materiales ecológicos, fabricamos calcetines en los que confían las marcas líderes del mundo.",
     "ctaPrimary": "Solicitar cotización",
     "ctaSecondary": "Ver productos",
-    "videoPosterAlt": "Línea de producción de la fábrica Hongbao",
+    "videoPosterAlt": "Línea de producción de la fábrica Huakui",
     "trust": [
       { "value": "+20", "label": "años de fabricación" },
       { "value": "16.000 m²", "label": "nave de producción" },
@@ -30,7 +30,7 @@
   "certifications": {
     "eyebrow": "Confianza primero",
     "title": "Certificaciones que superan su debido diligence",
-    "subtitle": "Antes de que un comprador siga leyendo, estas le dicen que Hongbao es un proveedor digno de confianza.",
+    "subtitle": "Antes de que un comprador siga leyendo, estas le dicen que Huakui es un proveedor digno de confianza.",
     "items": [
       { "name": "ISO 9001", "desc": "Gestión de calidad — control sistemático del diseño a la entrega, para que cada pedido se envíe con un estándar consistente." },
       { "name": "ISO 14001", "desc": "Gestión ambiental — un compromiso verificado con operaciones más sostenibles y de menor impacto, válido para sus informes de cadena de suministro." },
@@ -64,7 +64,7 @@
   },
   "factory": {
     "eyebrow": "Fabricante de origen",
-    "title": "Dentro de la fábrica Hongbao",
+    "title": "Dentro de la fábrica Huakui",
     "subtitle": "16.000 metros cuadrados de espacio de producción estandarizado, 110 especialistas y equipos en los que confían las marcas internacionales.",
     "videoLabel": "Línea de producción — vea el proceso completo",
     "stats": [
@@ -148,7 +148,7 @@
     "note": "Certificaciones adicionales como GOTS y OEKO-TEX pueden obtenerse según los requisitos del proyecto — consúlte a nuestro equipo."
   },
   "whyUs": {
-    "eyebrow": "Por qué Hongbao",
+    "eyebrow": "Por qué Huakui",
     "title": "Valor asegurado en cada paso",
     "subtitle": "Dos décadas de experiencia especializada, entregada con estándares de marca internacional.",
     "items": [
@@ -166,7 +166,7 @@
     "eyebrow": "Contacto",
     "title": "Hagamos sus calcetines",
     "subtitle": "Díganos materiales, cantidad y plazo. Nuestro equipo responde en 24 horas.",
-    "formEndpoint": "https://formsubmit.co/sales@hongbaoknitting.com",
+    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
     "fields": {
       "name": "Su nombre",
       "email": "Correo",
@@ -182,15 +182,15 @@
     }
   },
   "footer": {
-    "legalName": "Foshan Hongbao Knitting Co., Ltd.",
+    "legalName": "Foshan Huakui Knitting Co., Ltd.",
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "Correo",
-    "email": "sales@hongbaoknitting.com",
+    "email": "sales@huakuiknitting.com",
     "whatsappLabel": "WhatsApp",
     "whatsapp": "+86 1XX XXXX XXXX",
     "tagline": "Innovación. Excelencia. Liderazgo. Visión.",
-    "copyright": "© Hongbao Knitting. Todos los derechos reservados.",
+    "copyright": "© Huakui Knitting. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "certs": "ISO 9001 · ISO 14001 · ISO 45001 · High-Tech Enterprise"
   }

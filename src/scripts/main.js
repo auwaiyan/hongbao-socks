@@ -1,4 +1,4 @@
-/* Hongbao Knitting — interactions (vanilla, ~3KB) */
+/* Huakui Knitting — interactions (vanilla, ~3KB) */
 (function () {
   'use strict';
 
