@@ -185,7 +185,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* ---------- capabilities ---------- */
 .cap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 .cap-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.6rem 1.3rem; }
-.cap-icon { display: inline-flex; width: 44px; height: 44px; border-radius: 12px; background: var(--green-50); color: var(--green); align-items: center; justify-content: center; margin-bottom: .8rem; }
+.cap-icon { width: 44px; height: 44px; border-radius: 12px; background-color: var(--green-50); background-repeat: no-repeat; background-position: center; background-size: 24px 24px; margin-bottom: .8rem; }
+.cap-icon-draw { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235C7A5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z'/%3E%3C/svg%3E"); }
+.cap-icon-design { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235C7A5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Cpath d='M3 9h18'/%3E%3Cpath d='M9 21V9'/%3E%3C/svg%3E"); }
+.cap-icon-proto { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235C7A5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2l9 5v10l-9 5-9-5V7z'/%3E%3Cpath d='M12 22V12'/%3E%3Cpath d='M3 7l9 5 9-5'/%3E%3C/svg%3E"); }
+.cap-icon-rnd { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235C7A5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 3h6'/%3E%3Cpath d='M10 3v6L5 19a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3'/%3E%3Cpath d='M7 14h10'/%3E%3C/svg%3E"); }
 .cap-card h3 { font-size: 1.1rem; margin-bottom: .4em; }
 .cap-card p { color: var(--muted); font-size: .92rem; margin: 0; }
 
@@ -203,7 +207,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   transition: transform .15s ease;
 }
 .logo-tile:hover { transform: translateY(-2px); }
-.logo-text { font-family: var(--serif); font-size: 1.15rem; color: var(--forest); letter-spacing: .01em; }
+.logo-text { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--brand, var(--forest)); letter-spacing: .02em; }
+.logo-text::after { content: ""; display: block; width: 28px; height: 2px; background: var(--brand, var(--forest)); margin: 7px auto 0; opacity: .65; border-radius: 2px; }
 
 /* ---------- factory ---------- */
 .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2.5rem; }

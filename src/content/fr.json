@@ -21,10 +21,22 @@
     "ctaSecondary": "Découvrir les produits",
     "videoPosterAlt": "Ligne de production de l'usine Huakui",
     "trust": [
-      { "value": "20+", "label": "ans de fabrication" },
-      { "value": "16 000 m²", "label": "surface de production" },
-      { "value": "ISO", "label": "9001 · 14001 · 45001" },
-      { "value": "99,9 %", "label": "taux de conformité QC" }
+      {
+        "value": "20+",
+        "label": "ans de fabrication"
+      },
+      {
+        "value": "16 000 m²",
+        "label": "surface de production"
+      },
+      {
+        "value": "ISO",
+        "label": "9001 · 14001 · 45001"
+      },
+      {
+        "value": "99,9 %",
+        "label": "taux de conformité QC"
+      }
     ]
   },
   "certifications": {
@@ -32,10 +44,22 @@
     "title": "Des certifications qui passent votre barre de due diligence",
     "subtitle": "Avant qu'un acheteur lise plus loin, celles-ci disent que Huakui est un fournisseur digne de confiance.",
     "items": [
-      { "name": "ISO 9001", "desc": "Management de la qualité — contrôle systématique du design à la livraison, pour que chaque commande parte à un standard constant." },
-      { "name": "ISO 14001", "desc": "Management environnemental — un engagement vérifié d'opérations plus durables et à moindre impact, fiable pour vos rapports supply chain." },
-      { "name": "ISO 45001", "desc": "Santé et sécurité au travail — un lieu de travail éthique et audité où l'intégrité opérationnelle est fondamentale." },
-      { "name": "High-Tech Enterprise", "desc": "Reconnu par le Bureau des sciences et technologies de Foshan (2019) pour une R&D et une innovation soutenues." }
+      {
+        "name": "ISO 9001",
+        "desc": "Management de la qualité — contrôle systématique du design à la livraison, pour que chaque commande parte à un standard constant."
+      },
+      {
+        "name": "ISO 14001",
+        "desc": "Management environnemental — un engagement vérifié d'opérations plus durables et à moindre impact, fiable pour vos rapports supply chain."
+      },
+      {
+        "name": "ISO 45001",
+        "desc": "Santé et sécurité au travail — un lieu de travail éthique et audité où l'intégrité opérationnelle est fondamentale."
+      },
+      {
+        "name": "High-Tech Enterprise",
+        "desc": "Reconnu par le Bureau des sciences et technologies de Foshan (2019) pour une R&D et une innovation soutenues."
+      }
     ]
   },
   "capabilities": {
@@ -43,10 +67,26 @@
     "title": "Des services qui portent votre projet du croquis au linéaire",
     "subtitle": "Quatre équipes internes répondent aux questions que les acheteurs sérieux posent avant d'envoyer une demande.",
     "items": [
-      { "title": "Fabrication sur plan", "desc": "Envoyez fiche technique, croquis ou échantillon — nous l'engineeringons en outillage prêt à produire.", "icon": "draw" },
-      { "title": "Solutions de design", "desc": "Notre studio transforme les concepts en patrons, coloris et emballages prêts à tricoter.", "icon": "design" },
-      { "title": "Développement de prototypes", "desc": "Boucle d'échantillonnage rapide avec notre R&D, pour voir et toucher la chaussette avant de s'engager.", "icon": "proto" },
-      { "title": "R&D propriétaire", "desc": "Un nouveau fil, calibre ou fonction ? Notre R&D le développe en interne.", "icon": "rnd" }
+      {
+        "title": "Fabrication sur plan",
+        "desc": "Envoyez fiche technique, croquis ou échantillon — nous l'engineeringons en outillage prêt à produire.",
+        "icon": "draw"
+      },
+      {
+        "title": "Solutions de design",
+        "desc": "Notre studio transforme les concepts en patrons, coloris et emballages prêts à tricoter.",
+        "icon": "design"
+      },
+      {
+        "title": "Développement de prototypes",
+        "desc": "Boucle d'échantillonnage rapide avec notre R&D, pour voir et toucher la chaussette avant de s'engager.",
+        "icon": "proto"
+      },
+      {
+        "title": "R&D propriétaire",
+        "desc": "Un nouveau fil, calibre ou fonction ? Notre R&D le développe en interne.",
+        "icon": "rnd"
+      }
     ]
   },
   "partners": {
@@ -54,12 +94,30 @@
     "title": "Les marques qui fixent le standard, faites par nous",
     "subtitle": "Un portefeuille golf premium, sportswear performance et mode patrimoniale — produit aux standards de marque internationaux.",
     "logos": [
-      { "name": "Callaway" },
-      { "name": "Descente" },
-      { "name": "Bridgestone" },
-      { "name": "Munsingwear" },
-      { "name": "Le Coq Sportif" },
-      { "name": "Cutter & Buck" }
+      {
+        "name": "Callaway",
+        "color": "#1A1A1A"
+      },
+      {
+        "name": "Descente",
+        "color": "#C8102E"
+      },
+      {
+        "name": "Bridgestone",
+        "color": "#E60012"
+      },
+      {
+        "name": "Munsingwear",
+        "color": "#1B3A6B"
+      },
+      {
+        "name": "Le Coq Sportif",
+        "color": "#0033A0"
+      },
+      {
+        "name": "Cutter & Buck",
+        "color": "#14564B"
+      }
     ]
   },
   "factory": {
@@ -68,26 +126,59 @@
     "subtitle": "16 000 mètres carrés d'espace de production standardisé, 110 spécialistes et des équipements plébiscités par les marques internationales.",
     "videoLabel": "Ligne de production — voir le processus complet",
     "stats": [
-      { "value": "16 000 m²", "label": "surface de production standardisée" },
-      { "value": "110", "label": "spécialistes en quatre équipes" },
-      { "value": "84–200N", "label": "gamme d'aiguilles, basic à haute densité" },
-      { "value": "6", "label": "procédés de finition internes" }
+      {
+        "value": "16 000 m²",
+        "label": "surface de production standardisée"
+      },
+      {
+        "value": "110",
+        "label": "spécialistes en quatre équipes"
+      },
+      {
+        "value": "84–200N",
+        "label": "gamme d'aiguilles, basic à haute densité"
+      },
+      {
+        "value": "6",
+        "label": "procédés de finition internes"
+      }
     ],
     "equipment": {
       "title": "Équipements et capacités",
       "items": [
-        { "title": "Maille Lonati italienne", "desc": "Machines Lonati mono- et double-cylindre, tricot et couture — précision leader du secteur." },
-        { "title": "Gamme d'aiguilles 84N–200N", "desc": "Du basique du quotidien au tricot haute densité, fin calibre dans une seule usine." },
-        { "title": "Brodage informatisé Tajima", "desc": "Brodage interne, transfert thermique, formage et emballage automatisé — production véritablement intégrée." }
+        {
+          "title": "Maille Lonati italienne",
+          "desc": "Machines Lonati mono- et double-cylindre, tricot et couture — précision leader du secteur."
+        },
+        {
+          "title": "Gamme d'aiguilles 84N–200N",
+          "desc": "Du basique du quotidien au tricot haute densité, fin calibre dans une seule usine."
+        },
+        {
+          "title": "Brodage informatisé Tajima",
+          "desc": "Brodage interne, transfert thermique, formage et emballage automatisé — production véritablement intégrée."
+        }
       ]
     },
     "teams": {
       "title": "Quatre équipes spécialisées",
       "items": [
-        { "title": "Production", "desc": "Une équipe d'atelier expérimentée pilotant les lignes Lonati au quotidien." },
-        { "title": "Contrôle qualité", "desc": "Une unité QC dédiée inspectant chaque étape, standard japonais." },
-        { "title": "R&D et prototypage", "desc": "Une équipe innovante pour l'échantillonnage et le développement propriétaire." },
-        { "title": "Commerce international", "desc": "Une unité de service professionnelle pour les acheteurs mondiaux et l'export." }
+        {
+          "title": "Production",
+          "desc": "Une équipe d'atelier expérimentée pilotant les lignes Lonati au quotidien."
+        },
+        {
+          "title": "Contrôle qualité",
+          "desc": "Une unité QC dédiée inspectant chaque étape, standard japonais."
+        },
+        {
+          "title": "R&D et prototypage",
+          "desc": "Une équipe innovante pour l'échantillonnage et le développement propriétaire."
+        },
+        {
+          "title": "Commerce international",
+          "desc": "Une unité de service professionnelle pour les acheteurs mondiaux et l'export."
+        }
       ]
     }
   },
@@ -96,12 +187,30 @@
     "title": "Six étapes, un même toit",
     "subtitle": "Un processus de tricot standardisé, entièrement interne — du fil à la logistique.",
     "steps": [
-      { "title": "Tricot", "desc": "Tricot et couture Lonati mono/double-cylindre selon spec." },
-      { "title": "Formage", "desc": "Mise en forme thermique pour ajustement, taille et finition propre." },
-      { "title": "Emballage", "desc": "Ligne manuelle mature avec inspection visuelle concomitante." },
-      { "title": "Inspection qualité", "desc": "Inspection de première passe des semi-finis, standard japonais." },
-      { "title": "Audit final", "desc": "Inspection manuelle et instrumentale — défauts, dimensions, couleur." },
-      { "title": "Stockage et logistique", "desc": "Entreposage structuré et logistique partenaire pour une livraison ponctuelle." }
+      {
+        "title": "Tricot",
+        "desc": "Tricot et couture Lonati mono/double-cylindre selon spec."
+      },
+      {
+        "title": "Formage",
+        "desc": "Mise en forme thermique pour ajustement, taille et finition propre."
+      },
+      {
+        "title": "Emballage",
+        "desc": "Ligne manuelle mature avec inspection visuelle concomitante."
+      },
+      {
+        "title": "Inspection qualité",
+        "desc": "Inspection de première passe des semi-finis, standard japonais."
+      },
+      {
+        "title": "Audit final",
+        "desc": "Inspection manuelle et instrumentale — défauts, dimensions, couleur."
+      },
+      {
+        "title": "Stockage et logistique",
+        "desc": "Entreposage structuré et logistique partenaire pour une livraison ponctuelle."
+      }
     ]
   },
   "quality": {
@@ -110,15 +219,36 @@
     "subtitle": "Depuis notre co-entreprise de 2008 avec HOLLYHOCK japonais, le Lean et le Kaizen traversent chaque étape.",
     "story": "Nos systèmes de production et de management qualité sont calqués sur les principes japonais de précision et d'amélioration continue. Chaque produit semi-fini est inspecté ; tout lot sous 95 % de première passe part en reprise exhaustive — seuls les produits respectant nos critères atteignent l'assemblage final.",
     "metrics": [
-      { "value": "99,9 %", "label": "taux final d'acceptation première passe" },
-      { "value": ">96 %", "label": "taux première passe semi-finis" },
-      { "value": "<0,1 %", "label": "seuil de reprise à l'audit" },
-      { "value": "2008", "label": "co-entreprise japonaise depuis (HOLLYHOCK)" }
+      {
+        "value": "99,9 %",
+        "label": "taux final d'acceptation première passe"
+      },
+      {
+        "value": ">96 %",
+        "label": "taux première passe semi-finis"
+      },
+      {
+        "value": "<0,1 %",
+        "label": "seuil de reprise à l'audit"
+      },
+      {
+        "value": "2008",
+        "label": "co-entreprise japonaise depuis (HOLLYHOCK)"
+      }
     ],
     "methods": [
-      { "title": "Lean Manufacturing", "desc": "Discipline de production sans gaspillage héritée de notre partenariat japonais." },
-      { "title": "Amélioration continue (Kaizen)", "desc": "Chaque poste réinjecte de petites améliorations dans le processus." },
-      { "title": "Double inspection", "desc": "Inspection visuelle manuelle plus tests instrumentaux des dimensions et de la couleur." }
+      {
+        "title": "Lean Manufacturing",
+        "desc": "Discipline de production sans gaspillage héritée de notre partenariat japonais."
+      },
+      {
+        "title": "Amélioration continue (Kaizen)",
+        "desc": "Chaque poste réinjecte de petites améliorations dans le processus."
+      },
+      {
+        "title": "Double inspection",
+        "desc": "Inspection visuelle manuelle plus tests instrumentaux des dimensions et de la couleur."
+      }
     ]
   },
   "products": {
@@ -128,10 +258,30 @@
     "cta": "Voir le catalogue complet",
     "inquire": "Demander",
     "categories": [
-      { "key": "men", "name": "Homme", "desc": "Chaussettes de ville et casual — maille fine, lignes du quotidien et premium.", "materials": "Coton peigné · coton bio · mélanges" },
-      { "key": "women", "name": "Femme", "desc": "Chaussettes coton et mode, main douce et finition nette.", "materials": "Coton · bambou · mélanges recyclés" },
-      { "key": "sports", "name": "Sport et éponge", "desc": "Chaussettes de sport épongées conçues pour amorti et durabilité.", "materials": "Fils techniques · mérinos · recyclé" },
-      { "key": "children", "name": "Enfant", "desc": "Chaussettes douces, sûres et durables en tailles enfant.", "materials": "Coton bio · mélanges peaux sensibles" }
+      {
+        "key": "men",
+        "name": "Homme",
+        "desc": "Chaussettes de ville et casual — maille fine, lignes du quotidien et premium.",
+        "materials": "Coton peigné · coton bio · mélanges"
+      },
+      {
+        "key": "women",
+        "name": "Femme",
+        "desc": "Chaussettes coton et mode, main douce et finition nette.",
+        "materials": "Coton · bambou · mélanges recyclés"
+      },
+      {
+        "key": "sports",
+        "name": "Sport et éponge",
+        "desc": "Chaussettes de sport épongées conçues pour amorti et durabilité.",
+        "materials": "Fils techniques · mérinos · recyclé"
+      },
+      {
+        "key": "children",
+        "name": "Enfant",
+        "desc": "Chaussettes douces, sûres et durables en tailles enfant.",
+        "materials": "Coton bio · mélanges peaux sensibles"
+      }
     ]
   },
   "sustainability": {
@@ -140,10 +290,22 @@
     "subtitle": "Notre engagement environnemental est vérifié, pas un slogan — et nous intégrons des options éco à votre projet sur demande.",
     "intro": "ISO 14001 certifie que notre système de management environnemental est audité et réel. Au-delà du certificat, nous proposons sourcing de matières éco et finitions à moindre impact comme options de projet.",
     "items": [
-      { "title": "Certifié ISO 14001", "desc": "Un système de management environnemental audité que vos rapports durabilité peuvent citer." },
-      { "title": "Options de matières éco", "desc": "Coton bio, fibres recyclées (rPET) et bambou — spécifiés à votre brief." },
-      { "title": "Finition à moindre impact", "desc": "Teinture et finition économes en ressources disponibles comme choix de projet." },
-      { "title": "Emballage biodégradable", "desc": "Options d'emballage recyclable et biodégradable sur demande." }
+      {
+        "title": "Certifié ISO 14001",
+        "desc": "Un système de management environnemental audité que vos rapports durabilité peuvent citer."
+      },
+      {
+        "title": "Options de matières éco",
+        "desc": "Coton bio, fibres recyclées (rPET) et bambou — spécifiés à votre brief."
+      },
+      {
+        "title": "Finition à moindre impact",
+        "desc": "Teinture et finition économes en ressources disponibles comme choix de projet."
+      },
+      {
+        "title": "Emballage biodégradable",
+        "desc": "Options d'emballage recyclable et biodégradable sur demande."
+      }
     ],
     "note": "Des certifications supplémentaires comme GOTS et OEKO-TEX peuvent être obtenues selon les besoins du projet — demandez à notre équipe."
   },
@@ -152,14 +314,38 @@
     "title": "Votre valeur assurée, à chaque étape",
     "subtitle": "Deux décennies d'expertise spécialisée, livrées aux standards de marque internationale.",
     "items": [
-      { "title": "Deux décennies d'expertise", "desc": "Fondée en 2003, affinée chaque année depuis." },
-      { "title": "Standards de marque internationale", "desc": "Nous produisons déjà pour de grandes marques mondiales." },
-      { "title": "Chaîne d'approvisionnement intégrée", "desc": "Design, R&D, tricot, finition et QC sous un même toit." },
-      { "title": "R&D interne solide", "desc": "Développement propriétaire quand il vous faut du neuf." },
-      { "title": "Adhérence qualité constante", "desc": "99,9 % de première passe finale — discipline japonaise." },
-      { "title": "Prix compétitifs et justes", "desc": "Économie directe d'usine, sans marge de négoce." },
-      { "title": "Livraison à temps garantie", "desc": "Entreposage structuré et partenariats logistiques." },
-      { "title": "Service flexible et réactif", "desc": "Une équipe de commerce extérieur dédiée aux acheteurs mondiaux." }
+      {
+        "title": "Deux décennies d'expertise",
+        "desc": "Fondée en 2003, affinée chaque année depuis."
+      },
+      {
+        "title": "Standards de marque internationale",
+        "desc": "Nous produisons déjà pour de grandes marques mondiales."
+      },
+      {
+        "title": "Chaîne d'approvisionnement intégrée",
+        "desc": "Design, R&D, tricot, finition et QC sous un même toit."
+      },
+      {
+        "title": "R&D interne solide",
+        "desc": "Développement propriétaire quand il vous faut du neuf."
+      },
+      {
+        "title": "Adhérence qualité constante",
+        "desc": "99,9 % de première passe finale — discipline japonaise."
+      },
+      {
+        "title": "Prix compétitifs et justes",
+        "desc": "Économie directe d'usine, sans marge de négoce."
+      },
+      {
+        "title": "Livraison à temps garantie",
+        "desc": "Entreposage structuré et partenariats logistiques."
+      },
+      {
+        "title": "Service flexible et réactif",
+        "desc": "Une équipe de commerce extérieur dédiée aux acheteurs mondiaux."
+      }
     ]
   },
   "inquiry": {

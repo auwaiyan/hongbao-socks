@@ -21,10 +21,22 @@
     "ctaSecondary": "Produkte entdecken",
     "videoPosterAlt": "Produktionslinie der Huakui-Fabrik",
     "trust": [
-      { "value": "20+", "label": "Jahre Fertigung" },
-      { "value": "16.000 m²", "label": "Produktionsfläche" },
-      { "value": "ISO", "label": "9001 · 14001 · 45001" },
-      { "value": "99,9%", "label": "QC-Erstpassquote" }
+      {
+        "value": "20+",
+        "label": "Jahre Fertigung"
+      },
+      {
+        "value": "16.000 m²",
+        "label": "Produktionsfläche"
+      },
+      {
+        "value": "ISO",
+        "label": "9001 · 14001 · 45001"
+      },
+      {
+        "value": "99,9%",
+        "label": "QC-Erstpassquote"
+      }
     ]
   },
   "certifications": {
@@ -32,10 +44,22 @@
     "title": "Zertifikate, die Ihre Due-Diligence-Schwelle bestehen",
     "subtitle": "Bevor ein Käufer weiterliest, sagen diese: Huakui ist ein Lieferant, dem man vertrauen kann.",
     "items": [
-      { "name": "ISO 9001", "desc": "Qualitätsmanagement — systematische Kontrolle vom Design bis zur Lieferung, damit jede Bestellung nach einheitlichem Standard verschickt wird." },
-      { "name": "ISO 14001", "desc": "Umweltmanagement — ein geprüftes Bekenntnis zu emissionsärmerer, nachhaltiger Produktion, auf das Ihre Lieferkettenberichterstattung vertrauen kann." },
-      { "name": "ISO 45001", "desc": "Arbeitsschutz & Gesundheitsschutz — ein ethischer, auditeder Arbeitsplatz mit fundierter operativer Integrität." },
-      { "name": "High-Tech Enterprise", "desc": "Vom Wissenschafts- und Technologiebüro Foshan anerkannt (2019) für anhaltende F&E und Innovation." }
+      {
+        "name": "ISO 9001",
+        "desc": "Qualitätsmanagement — systematische Kontrolle vom Design bis zur Lieferung, damit jede Bestellung nach einheitlichem Standard verschickt wird."
+      },
+      {
+        "name": "ISO 14001",
+        "desc": "Umweltmanagement — ein geprüftes Bekenntnis zu emissionsärmerer, nachhaltiger Produktion, auf das Ihre Lieferkettenberichterstattung vertrauen kann."
+      },
+      {
+        "name": "ISO 45001",
+        "desc": "Arbeitsschutz & Gesundheitsschutz — ein ethischer, auditeder Arbeitsplatz mit fundierter operativer Integrität."
+      },
+      {
+        "name": "High-Tech Enterprise",
+        "desc": "Vom Wissenschafts- und Technologiebüro Foshan anerkannt (2019) für anhaltende F&E und Innovation."
+      }
     ]
   },
   "capabilities": {
@@ -43,10 +67,26 @@
     "title": "Leistungen, die Ihr Projekt vom Entwurf bis ins Regal tragen",
     "subtitle": "Vier eigene Teams beantworten die Fragen, die ernsthafte Käufer vor einer Anfrage klären.",
     "items": [
-      { "title": "Fertigung nach Zeichnung", "desc": "Senden Sie Tech-Pack, Skizze oder Muster — wir entwickeln daraus produktionsreife Werkzeuge.", "icon": "draw" },
-      { "title": "Design-Lösungen", "desc": "Unser Designteam macht aus Konzepten strickfertige Muster, Farbwelten und Verpackungen.", "icon": "design" },
-      { "title": "Prototyp-Entwicklung", "desc": "Schnelle Sampling-Schleife mit unserer F&E — Sie sehen und fühlen den Strumpf vor dem Auftrag.", "icon": "proto" },
-      { "title": "Eigene F&E", "desc": "Neue Garnmischung, Nadelung oder Funktion gewünscht? Unser F&E-Team entwickelt sie intern.", "icon": "rnd" }
+      {
+        "title": "Fertigung nach Zeichnung",
+        "desc": "Senden Sie Tech-Pack, Skizze oder Muster — wir entwickeln daraus produktionsreife Werkzeuge.",
+        "icon": "draw"
+      },
+      {
+        "title": "Design-Lösungen",
+        "desc": "Unser Designteam macht aus Konzepten strickfertige Muster, Farbwelten und Verpackungen.",
+        "icon": "design"
+      },
+      {
+        "title": "Prototyp-Entwicklung",
+        "desc": "Schnelle Sampling-Schleife mit unserer F&E — Sie sehen und fühlen den Strumpf vor dem Auftrag.",
+        "icon": "proto"
+      },
+      {
+        "title": "Eigene F&E",
+        "desc": "Neue Garnmischung, Nadelung oder Funktion gewünscht? Unser F&E-Team entwickelt sie intern.",
+        "icon": "rnd"
+      }
     ]
   },
   "partners": {
@@ -54,12 +94,30 @@
     "title": "Die Marken, die Maßstäbe setzen — von uns gefertigt",
     "subtitle": "Ein Portfolio aus Premium-Golf, Performance-Sportbekleidung und Heritage-Mode — produziert nach internationalem Markenstandard.",
     "logos": [
-      { "name": "Callaway" },
-      { "name": "Descente" },
-      { "name": "Bridgestone" },
-      { "name": "Munsingwear" },
-      { "name": "Le Coq Sportif" },
-      { "name": "Cutter & Buck" }
+      {
+        "name": "Callaway",
+        "color": "#1A1A1A"
+      },
+      {
+        "name": "Descente",
+        "color": "#C8102E"
+      },
+      {
+        "name": "Bridgestone",
+        "color": "#E60012"
+      },
+      {
+        "name": "Munsingwear",
+        "color": "#1B3A6B"
+      },
+      {
+        "name": "Le Coq Sportif",
+        "color": "#0033A0"
+      },
+      {
+        "name": "Cutter & Buck",
+        "color": "#14564B"
+      }
     ]
   },
   "factory": {
@@ -68,26 +126,59 @@
     "subtitle": "16.000 Quadratmeter standardisierte Produktionsfläche, 110 Spezialisten und Maschinen, denen internationale Marken vertrauen.",
     "videoLabel": "Produktionslinie — den kompletten Prozess ansehen",
     "stats": [
-      { "value": "16.000 m²", "label": "standardisierte Produktionsfläche" },
-      { "value": "110", "label": "Spezialisten in vier Teams" },
-      { "value": "84–200N", "label": "Nadelbereich, basic bis hochdicht" },
-      { "value": "6", "label": "hauseigene Veredelungsprozesse" }
+      {
+        "value": "16.000 m²",
+        "label": "standardisierte Produktionsfläche"
+      },
+      {
+        "value": "110",
+        "label": "Spezialisten in vier Teams"
+      },
+      {
+        "value": "84–200N",
+        "label": "Nadelbereich, basic bis hochdicht"
+      },
+      {
+        "value": "6",
+        "label": "hauseigene Veredelungsprozesse"
+      }
     ],
     "equipment": {
       "title": "Ausstattung & Fähigkeiten",
       "items": [
-        { "title": "Italienische Lonati-Strickmaschinen", "desc": "Ein- und doppelzylindrige Lonati-Strick- und Nämmaschinen — branchenführende Präzision." },
-        { "title": "Voller Nadelbereich 84N–200N", "desc": "Von Alltagsbasics bis zu hochdichter Feinmasche in einem Werk." },
-        { "title": "Tajima-Computerstickerei", "desc": "Hauseigene Stickerei sowie Transferdruck, Formgebung und automatisierte Verpackung — echte End-to-End-Produktion." }
+        {
+          "title": "Italienische Lonati-Strickmaschinen",
+          "desc": "Ein- und doppelzylindrige Lonati-Strick- und Nämmaschinen — branchenführende Präzision."
+        },
+        {
+          "title": "Voller Nadelbereich 84N–200N",
+          "desc": "Von Alltagsbasics bis zu hochdichter Feinmasche in einem Werk."
+        },
+        {
+          "title": "Tajima-Computerstickerei",
+          "desc": "Hauseigene Stickerei sowie Transferdruck, Formgebung und automatisierte Verpackung — echte End-to-End-Produktion."
+        }
       ]
     },
     "teams": {
       "title": "Vier spezialisierte Teams",
       "items": [
-        { "title": "Produktion", "desc": "Ein erfahrenes Werkstattteam, das täglich die Lonati-Linien bedient." },
-        { "title": "Qualitätskontrolle", "desc": "Eine dedizierte QC-Einheit, die jede Stufe prüft — nach japanischem Standard." },
-        { "title": "F&E & Prototyping", "desc": "Ein innovatives Team für Sampling und eigene Entwicklung." },
-        { "title": "Internationaler Handel", "desc": "Eine professionelle Serviceeinheit für weltweite Käufer und Export." }
+        {
+          "title": "Produktion",
+          "desc": "Ein erfahrenes Werkstattteam, das täglich die Lonati-Linien bedient."
+        },
+        {
+          "title": "Qualitätskontrolle",
+          "desc": "Eine dedizierte QC-Einheit, die jede Stufe prüft — nach japanischem Standard."
+        },
+        {
+          "title": "F&E & Prototyping",
+          "desc": "Ein innovatives Team für Sampling und eigene Entwicklung."
+        },
+        {
+          "title": "Internationaler Handel",
+          "desc": "Eine professionelle Serviceeinheit für weltweite Käufer und Export."
+        }
       ]
     }
   },
@@ -96,12 +187,30 @@
     "title": "Sechs Schritte, ein Dach",
     "subtitle": "Ein standardisierter Strickprozess, komplett hauseigen — vom Garn bis zur Logistik.",
     "steps": [
-      { "title": "Stricken", "desc": "Lonati Ein-/Doppelzylinder-Stricken und Nähen nach Spezifikation." },
-      { "title": "Formgebung", "desc": "Wärmeformung für Passform, Größe und sauberen Abschluss." },
-      { "title": "Verpackung", "desc": "Ausgereifte manuelle Linie mit begleitender Sichtprüfung." },
-      { "title": "Qualitätsprüfung", "desc": "Erstpass-Prüfung der Halbfertigprodukte, japanischer Standard." },
-      { "title": "Endaudit", "desc": "Manuelle plus instrumentelle Prüfung — Fehler, Maße, Farbe." },
-      { "title": "Lager & Logistik", "desc": "Strukturierte Lagerung und Partnerlogistik für pünktliche Lieferung." }
+      {
+        "title": "Stricken",
+        "desc": "Lonati Ein-/Doppelzylinder-Stricken und Nähen nach Spezifikation."
+      },
+      {
+        "title": "Formgebung",
+        "desc": "Wärmeformung für Passform, Größe und sauberen Abschluss."
+      },
+      {
+        "title": "Verpackung",
+        "desc": "Ausgereifte manuelle Linie mit begleitender Sichtprüfung."
+      },
+      {
+        "title": "Qualitätsprüfung",
+        "desc": "Erstpass-Prüfung der Halbfertigprodukte, japanischer Standard."
+      },
+      {
+        "title": "Endaudit",
+        "desc": "Manuelle plus instrumentelle Prüfung — Fehler, Maße, Farbe."
+      },
+      {
+        "title": "Lager & Logistik",
+        "desc": "Strukturierte Lagerung und Partnerlogistik für pünktliche Lieferung."
+      }
     ]
   },
   "quality": {
@@ -110,15 +219,36 @@
     "subtitle": "Seit unserem Joint Venture 2008 mit Japans HOLLYHOCK ziehen Lean Manufacturing und Kaizen durch jede Stufe.",
     "story": "Unsere Produktions- und Qualitätsmanagementsysteme sind an japanischen Prinzipien für Präzision und kontinuierliche Verbesserung ausgerichtet. Jedes Halbfertigprodukt wird geprüft; jede Charge unter 95 % Erstpassquote geht zur umfassenden Nacharbeitung — sodass nur Produkte, die unseren Anspruch erfüllen, in die Endmontage gelangen.",
     "metrics": [
-      { "value": "99,9%", "label": "endgültige Erstpass-Akzeptanzquote" },
-      { "value": ">96%", "label": "Erstpassquote Halbfertig" },
-      { "value": "<0,1%", "label": "Nacharbeitungsschwelle bei Audit" },
-      { "value": "2008", "label": "japanisches JV seit (HOLLYHOCK)" }
+      {
+        "value": "99,9%",
+        "label": "endgültige Erstpass-Akzeptanzquote"
+      },
+      {
+        "value": ">96%",
+        "label": "Erstpassquote Halbfertig"
+      },
+      {
+        "value": "<0,1%",
+        "label": "Nacharbeitungsschwelle bei Audit"
+      },
+      {
+        "value": "2008",
+        "label": "japanisches JV seit (HOLLYHOCK)"
+      }
     ],
     "methods": [
-      { "title": "Lean Manufacturing", "desc": "Verschwendungsfreie, flussoptimierte Disziplin aus der japanischen Partnerschaft." },
-      { "title": "Kontinuierliche Verbesserung (Kaizen)", "desc": "Jede Schicht speist kleine Verbesserungen in den Prozess zurück." },
-      { "title": "Doppelte Prüfung", "desc": "Manuelle Sichtprüfung plus instrumentelle Prüfung von Maßen und Farbgleichheit." }
+      {
+        "title": "Lean Manufacturing",
+        "desc": "Verschwendungsfreie, flussoptimierte Disziplin aus der japanischen Partnerschaft."
+      },
+      {
+        "title": "Kontinuierliche Verbesserung (Kaizen)",
+        "desc": "Jede Schicht speist kleine Verbesserungen in den Prozess zurück."
+      },
+      {
+        "title": "Doppelte Prüfung",
+        "desc": "Manuelle Sichtprüfung plus instrumentelle Prüfung von Maßen und Farbgleichheit."
+      }
     ]
   },
   "products": {
@@ -128,10 +258,30 @@
     "cta": "Vollständigen Katalog ansehen",
     "inquire": "Anfragen",
     "categories": [
-      { "key": "men", "name": "Herren", "desc": "Dress- und Casual-Strümpfe — feinmaschig, Alltags- und Premiumlinien.", "materials": "Gekämmte Baumwolle · Bio-Baumwolle · Mischungen" },
-      { "key": "women", "name": "Damen", "desc": "Baumwoll- und Modestrümpfe mit weicher Hand und sauberem Abschluss.", "materials": "Baumwolle · Bambus · recycelte Mischungen" },
-      { "key": "sports", "name": "Sport & Frottee", "desc": "Frottee-Sportstrümpfe für Dämpfung und Haltbarkeit.", "materials": "Performance-Garne · Merino · recycelt" },
-      { "key": "children", "name": "Kinder", "desc": "Weiche, sichere und strapazierfähige Strümpfe in Kindergrößen.", "materials": "Bio-Baumwolle · hautfreundliche Mischungen" }
+      {
+        "key": "men",
+        "name": "Herren",
+        "desc": "Dress- und Casual-Strümpfe — feinmaschig, Alltags- und Premiumlinien.",
+        "materials": "Gekämmte Baumwolle · Bio-Baumwolle · Mischungen"
+      },
+      {
+        "key": "women",
+        "name": "Damen",
+        "desc": "Baumwoll- und Modestrümpfe mit weicher Hand und sauberem Abschluss.",
+        "materials": "Baumwolle · Bambus · recycelte Mischungen"
+      },
+      {
+        "key": "sports",
+        "name": "Sport & Frottee",
+        "desc": "Frottee-Sportstrümpfe für Dämpfung und Haltbarkeit.",
+        "materials": "Performance-Garne · Merino · recycelt"
+      },
+      {
+        "key": "children",
+        "name": "Kinder",
+        "desc": "Weiche, sichere und strapazierfähige Strümpfe in Kindergrößen.",
+        "materials": "Bio-Baumwolle · hautfreundliche Mischungen"
+      }
     ]
   },
   "sustainability": {
@@ -140,10 +290,22 @@
     "subtitle": "Unser Umweltbekenntnis ist geprüft, keine Schlagzeile — und wir bauen Eco-Optionen auf Wunsch in Ihr Projekt ein.",
     "intro": "ISO 14001 bescheinigt, dass unser Umweltmanagementsystem auditiert und real ist. Über das Zertifikat hinaus bieten wir ökologische Materialbeschaffung und emissionsärmere Veredelung als Projektoptionen.",
     "items": [
-      { "title": "ISO 14001 zertifiziert", "desc": "Ein auditiertes Umweltmanagementsystem, das Ihre Nachhaltigkeitsberichterstattung zitieren kann." },
-      { "title": "Eco-Materialoptionen", "desc": "Bio-Baumwolle, recycelte Fasern (rPET) und Bambus — nach Ihrer Vorgabe spezifiziert." },
-      { "title": "Emissionsärmere Veredelung", "desc": "Ressourcenschonendes Färben und Ausrüsten als Projektwahl verfügbar." },
-      { "title": "Biologisch abbaubare Verpackung", "desc": "Recycelbare und biologisch abbaubare Verpackungsoptionen auf Anfrage." }
+      {
+        "title": "ISO 14001 zertifiziert",
+        "desc": "Ein auditiertes Umweltmanagementsystem, das Ihre Nachhaltigkeitsberichterstattung zitieren kann."
+      },
+      {
+        "title": "Eco-Materialoptionen",
+        "desc": "Bio-Baumwolle, recycelte Fasern (rPET) und Bambus — nach Ihrer Vorgabe spezifiziert."
+      },
+      {
+        "title": "Emissionsärmere Veredelung",
+        "desc": "Ressourcenschonendes Färben und Ausrüsten als Projektwahl verfügbar."
+      },
+      {
+        "title": "Biologisch abbaubare Verpackung",
+        "desc": "Recycelbare und biologisch abbaubare Verpackungsoptionen auf Anfrage."
+      }
     ],
     "note": "Zusatz-Zertifikate wie GOTS und OEKO-TEX können pro Projektanforderung erworben werden — fragen Sie unser Team."
   },
@@ -152,14 +314,38 @@
     "title": "Ihr gesicherter Wert in jedem Schritt",
     "subtitle": "Zwei Jahrzehnte Spezial-Erfahrung, geliefert nach internationalem Markenstandard.",
     "items": [
-      { "title": "Zwei Jahrzehnte Expertise", "desc": "2003 gegründet, jedes Jahr seitdem verfeinert." },
-      { "title": "Internationale Markenstandards", "desc": "Wir produzieren bereits für führende globale Marken." },
-      { "title": "Voll integrierte Lieferkette", "desc": "Design, F&E, Stricken, Veredelung und QC unter einem Dach." },
-      { "title": "Starke hauseigene F&E", "desc": "Eigene Entwicklung, wenn Sie etwas Neues brauchen." },
-      { "title": "Konstante Qualitätskonstanz", "desc": "99,9 % endgültiger Erstpass — japanische Disziplin." },
-      { "title": "Wettbewerbsfähige, faire Preise", "desc": "Fabrikdirekte Ökonomie, ohne Handelsspanne." },
-      { "title": "Garantierte pünktliche Lieferung", "desc": "Strukturierte Lagerung und Logistikpartnerschaften." },
-      { "title": "Flexible, reaktionsschnelle Betreuung", "desc": "Ein dediziertes Außenhandelsteam für globale Käufer." }
+      {
+        "title": "Zwei Jahrzehnte Expertise",
+        "desc": "2003 gegründet, jedes Jahr seitdem verfeinert."
+      },
+      {
+        "title": "Internationale Markenstandards",
+        "desc": "Wir produzieren bereits für führende globale Marken."
+      },
+      {
+        "title": "Voll integrierte Lieferkette",
+        "desc": "Design, F&E, Stricken, Veredelung und QC unter einem Dach."
+      },
+      {
+        "title": "Starke hauseigene F&E",
+        "desc": "Eigene Entwicklung, wenn Sie etwas Neues brauchen."
+      },
+      {
+        "title": "Konstante Qualitätskonstanz",
+        "desc": "99,9 % endgültiger Erstpass — japanische Disziplin."
+      },
+      {
+        "title": "Wettbewerbsfähige, faire Preise",
+        "desc": "Fabrikdirekte Ökonomie, ohne Handelsspanne."
+      },
+      {
+        "title": "Garantierte pünktliche Lieferung",
+        "desc": "Strukturierte Lagerung und Logistikpartnerschaften."
+      },
+      {
+        "title": "Flexible, reaktionsschnelle Betreuung",
+        "desc": "Ein dediziertes Außenhandelsteam für globale Käufer."
+      }
     ]
   },
   "inquiry": {

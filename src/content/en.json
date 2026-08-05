@@ -21,10 +21,22 @@
     "ctaSecondary": "Explore Products",
     "videoPosterAlt": "Huakui factory production line",
     "trust": [
-      { "value": "20+", "label": "years of manufacturing" },
-      { "value": "16,000㎡", "label": "factory floor" },
-      { "value": "ISO", "label": "9001 · 14001 · 45001" },
-      { "value": "99.9%", "label": "first-pass QC rate" }
+      {
+        "value": "20+",
+        "label": "years of manufacturing"
+      },
+      {
+        "value": "16,000㎡",
+        "label": "factory floor"
+      },
+      {
+        "value": "ISO",
+        "label": "9001 · 14001 · 45001"
+      },
+      {
+        "value": "99.9%",
+        "label": "first-pass QC rate"
+      }
     ]
   },
   "certifications": {
@@ -32,10 +44,22 @@
     "title": "Certifications that clear your due-diligence bar",
     "subtitle": "Before a buyer reads another line, these tell you Huakui is a supplier worth trusting.",
     "items": [
-      { "name": "ISO 9001", "desc": "Quality Management System — systematic control from design to delivery, so every order ships to a consistent standard." },
-      { "name": "ISO 14001", "desc": "Environmental Management System — a verified commitment to lower-impact, sustainable operations your supply-chain reporting can rely on." },
-      { "name": "ISO 45001", "desc": "Occupational Health & Safety — an ethical, audited workplace where operational integrity is foundational." },
-      { "name": "High-Tech Enterprise", "desc": "Recognised by the Foshan Science & Technology Bureau (2019) for sustained R&D and innovation." }
+      {
+        "name": "ISO 9001",
+        "desc": "Quality Management System — systematic control from design to delivery, so every order ships to a consistent standard."
+      },
+      {
+        "name": "ISO 14001",
+        "desc": "Environmental Management System — a verified commitment to lower-impact, sustainable operations your supply-chain reporting can rely on."
+      },
+      {
+        "name": "ISO 45001",
+        "desc": "Occupational Health & Safety — an ethical, audited workplace where operational integrity is foundational."
+      },
+      {
+        "name": "High-Tech Enterprise",
+        "desc": "Recognised by the Foshan Science & Technology Bureau (2019) for sustained R&D and innovation."
+      }
     ]
   },
   "capabilities": {
@@ -43,10 +67,26 @@
     "title": "Service capabilities that carry your project from sketch to shelf",
     "subtitle": "Four in-house teams answer the questions serious buyers ask before sending an inquiry.",
     "items": [
-      { "title": "Manufacture by Drawing", "desc": "Send a tech pack, sketch or sample — we engineer it into production-ready tooling.", "icon": "draw" },
-      { "title": "Design Solutions", "desc": "Our design team turns concepts into knit-ready patterns, colourways and packaging.", "icon": "design" },
-      { "title": "Prototype Development", "desc": "Fast sampling loop with our R&D unit, so you see and feel the sock before committing.", "icon": "proto" },
-      { "title": "Proprietary R&D", "desc": "Need a new yarn blend, gauge or function? Our R&D team develops it in-house.", "icon": "rnd" }
+      {
+        "title": "Manufacture by Drawing",
+        "desc": "Send a tech pack, sketch or sample — we engineer it into production-ready tooling.",
+        "icon": "draw"
+      },
+      {
+        "title": "Design Solutions",
+        "desc": "Our design team turns concepts into knit-ready patterns, colourways and packaging.",
+        "icon": "design"
+      },
+      {
+        "title": "Prototype Development",
+        "desc": "Fast sampling loop with our R&D unit, so you see and feel the sock before committing.",
+        "icon": "proto"
+      },
+      {
+        "title": "Proprietary R&D",
+        "desc": "Need a new yarn blend, gauge or function? Our R&D team develops it in-house.",
+        "icon": "rnd"
+      }
     ]
   },
   "partners": {
@@ -54,12 +94,30 @@
     "title": "The brands that set the standard, made by us",
     "subtitle": "A portfolio spanning premium golf, performance sportswear and heritage fashion — produced to international brand standards.",
     "logos": [
-      { "name": "Callaway" },
-      { "name": "Descente" },
-      { "name": "Bridgestone" },
-      { "name": "Munsingwear" },
-      { "name": "Le Coq Sportif" },
-      { "name": "Cutter & Buck" }
+      {
+        "name": "Callaway",
+        "color": "#1A1A1A"
+      },
+      {
+        "name": "Descente",
+        "color": "#C8102E"
+      },
+      {
+        "name": "Bridgestone",
+        "color": "#E60012"
+      },
+      {
+        "name": "Munsingwear",
+        "color": "#1B3A6B"
+      },
+      {
+        "name": "Le Coq Sportif",
+        "color": "#0033A0"
+      },
+      {
+        "name": "Cutter & Buck",
+        "color": "#14564B"
+      }
     ]
   },
   "factory": {
@@ -68,26 +126,59 @@
     "subtitle": "16,000 square metres of standardised production space, 110 specialists, and equipment trusted by international brands.",
     "videoLabel": "Factory production line — watch the full process",
     "stats": [
-      { "value": "16,000㎡", "label": "standardised factory floor" },
-      { "value": "110", "label": "specialists across four teams" },
-      { "value": "84–200N", "label": "needle range, basic to high-density" },
-      { "value": "6", "label": "in-house finishing processes" }
+      {
+        "value": "16,000㎡",
+        "label": "standardised factory floor"
+      },
+      {
+        "value": "110",
+        "label": "specialists across four teams"
+      },
+      {
+        "value": "84–200N",
+        "label": "needle range, basic to high-density"
+      },
+      {
+        "value": "6",
+        "label": "in-house finishing processes"
+      }
     ],
     "equipment": {
       "title": "Equipment & capability",
       "items": [
-        { "title": "Italian Lonati knitting", "desc": "Single- and double-cylinder Lonati knitting and seaming machines — industry-leading precision." },
-        { "title": "Full needle range 84N–200N", "desc": "From everyday basics to high-density, fine-gauge knitting in one facility." },
-        { "title": "Tajima computerised embroidery", "desc": "In-house embroidery, plus heat-transfer, boarding and automated packaging — true end-to-end production." }
+        {
+          "title": "Italian Lonati knitting",
+          "desc": "Single- and double-cylinder Lonati knitting and seaming machines — industry-leading precision."
+        },
+        {
+          "title": "Full needle range 84N–200N",
+          "desc": "From everyday basics to high-density, fine-gauge knitting in one facility."
+        },
+        {
+          "title": "Tajima computerised embroidery",
+          "desc": "In-house embroidery, plus heat-transfer, boarding and automated packaging — true end-to-end production."
+        }
       ]
     },
     "teams": {
       "title": "Four specialised teams",
       "items": [
-        { "title": "Production", "desc": "An experienced shop-floor team running Lonati lines daily." },
-        { "title": "Quality Control", "desc": "A dedicated QC unit inspecting at every stage, Japanese-standard." },
-        { "title": "R&D & Prototyping", "desc": "An innovative team for sampling and proprietary development." },
-        { "title": "International Trade", "desc": "A professional service unit for global buyers and export." }
+        {
+          "title": "Production",
+          "desc": "An experienced shop-floor team running Lonati lines daily."
+        },
+        {
+          "title": "Quality Control",
+          "desc": "A dedicated QC unit inspecting at every stage, Japanese-standard."
+        },
+        {
+          "title": "R&D & Prototyping",
+          "desc": "An innovative team for sampling and proprietary development."
+        },
+        {
+          "title": "International Trade",
+          "desc": "A professional service unit for global buyers and export."
+        }
       ]
     }
   },
@@ -96,12 +187,30 @@
     "title": "Six steps, one roof",
     "subtitle": "A standardised knitting process kept fully in-house — from yarn to logistics.",
     "steps": [
-      { "title": "Knitting", "desc": "Lonati single/double-cylinder knitting and seaming to spec." },
-      { "title": "Boarding", "desc": "Heat shaping for fit, size and a clean finish." },
-      { "title": "Packaging", "desc": "Mature manual line with concurrent visual inspection." },
-      { "title": "Quality Inspection", "desc": "Semi-finished first-pass inspection, Japanese-standard." },
-      { "title": "Final Audit", "desc": "Manual plus instrument testing — flaws, dimensions, colour." },
-      { "title": "Storage & Logistics", "desc": "Structured warehousing and partner logistics for on-time delivery." }
+      {
+        "title": "Knitting",
+        "desc": "Lonati single/double-cylinder knitting and seaming to spec."
+      },
+      {
+        "title": "Boarding",
+        "desc": "Heat shaping for fit, size and a clean finish."
+      },
+      {
+        "title": "Packaging",
+        "desc": "Mature manual line with concurrent visual inspection."
+      },
+      {
+        "title": "Quality Inspection",
+        "desc": "Semi-finished first-pass inspection, Japanese-standard."
+      },
+      {
+        "title": "Final Audit",
+        "desc": "Manual plus instrument testing — flaws, dimensions, colour."
+      },
+      {
+        "title": "Storage & Logistics",
+        "desc": "Structured warehousing and partner logistics for on-time delivery."
+      }
     ]
   },
   "quality": {
@@ -110,15 +219,36 @@
     "subtitle": "Since our 2008 joint venture with Japan's HOLLYHOCK, Lean Manufacturing and Kaizen run through every stage.",
     "story": "Our production and quality management systems are modelled on Japanese principles of precision and continuous improvement. Every semi-finished product is inspected; any batch below a 95% first-pass yield is routed for comprehensive rework — so only products meeting our exacting criteria reach final assembly.",
     "metrics": [
-      { "value": "99.9%", "label": "final first-pass acceptance rate" },
-      { "value": ">96%", "label": "semi-finished first-pass rate" },
-      { "value": "<0.1%", "label": "major-defect rework threshold on audit" },
-      { "value": "2008", "label": "Japanese JV since (HOLLYHOCK)" }
+      {
+        "value": "99.9%",
+        "label": "final first-pass acceptance rate"
+      },
+      {
+        "value": ">96%",
+        "label": "semi-finished first-pass rate"
+      },
+      {
+        "value": "<0.1%",
+        "label": "major-defect rework threshold on audit"
+      },
+      {
+        "value": "2008",
+        "label": "Japanese JV since (HOLLYHOCK)"
+      }
     ],
     "methods": [
-      { "title": "Lean Manufacturing", "desc": "Waste-out, flow-smooth production discipline inherited from our Japanese partnership." },
-      { "title": "Continuous Improvement (Kaizen)", "desc": "Every shift feeds small improvements back into the process." },
-      { "title": "Dual inspection", "desc": "Manual visual inspection plus instrument testing on dimensions and colour consistency." }
+      {
+        "title": "Lean Manufacturing",
+        "desc": "Waste-out, flow-smooth production discipline inherited from our Japanese partnership."
+      },
+      {
+        "title": "Continuous Improvement (Kaizen)",
+        "desc": "Every shift feeds small improvements back into the process."
+      },
+      {
+        "title": "Dual inspection",
+        "desc": "Manual visual inspection plus instrument testing on dimensions and colour consistency."
+      }
     ]
   },
   "products": {
@@ -128,10 +258,30 @@
     "cta": "View full catalog",
     "inquire": "Inquire",
     "categories": [
-      { "key": "men", "name": "Men's", "desc": "Dress and casual socks — fine-gauge, everyday and premium lines.", "materials": "Combed cotton · organic cotton · blends" },
-      { "key": "women", "name": "Women's", "desc": "Cotton and fashion socks with a soft hand and clean finish.", "materials": "Cotton · bamboo · recycled blends" },
-      { "key": "sports", "name": "Sports & Terry", "desc": "Terry sports socks engineered for cushioning and durability.", "materials": "Performance yarns · merino · recycled" },
-      { "key": "children", "name": "Children's", "desc": "Soft, safe and durable socks sized for kids.", "materials": "Organic cotton · skin-friendly blends" }
+      {
+        "key": "men",
+        "name": "Men's",
+        "desc": "Dress and casual socks — fine-gauge, everyday and premium lines.",
+        "materials": "Combed cotton · organic cotton · blends"
+      },
+      {
+        "key": "women",
+        "name": "Women's",
+        "desc": "Cotton and fashion socks with a soft hand and clean finish.",
+        "materials": "Cotton · bamboo · recycled blends"
+      },
+      {
+        "key": "sports",
+        "name": "Sports & Terry",
+        "desc": "Terry sports socks engineered for cushioning and durability.",
+        "materials": "Performance yarns · merino · recycled"
+      },
+      {
+        "key": "children",
+        "name": "Children's",
+        "desc": "Soft, safe and durable socks sized for kids.",
+        "materials": "Organic cotton · skin-friendly blends"
+      }
     ]
   },
   "sustainability": {
@@ -140,10 +290,22 @@
     "subtitle": "Our environmental commitment is verified, not a slogan — and we build eco options into your project on request.",
     "intro": "ISO 14001 certifies that our environmental management system is audited and real. Beyond the certificate, we offer eco material sourcing and lower-impact finishing as project options.",
     "items": [
-      { "title": "ISO 14001 certified", "desc": "An audited Environmental Management System your sustainability reporting can cite." },
-      { "title": "Eco material options", "desc": "Organic cotton, recycled fibres (rPET) and bamboo — specified to your brief." },
-      { "title": "Lower-impact finishing", "desc": "Resource-conscious dyeing and finishing available as a project choice." },
-      { "title": "Biodegradable packaging", "desc": "Recyclable and biodegradable packaging options on request." }
+      {
+        "title": "ISO 14001 certified",
+        "desc": "An audited Environmental Management System your sustainability reporting can cite."
+      },
+      {
+        "title": "Eco material options",
+        "desc": "Organic cotton, recycled fibres (rPET) and bamboo — specified to your brief."
+      },
+      {
+        "title": "Lower-impact finishing",
+        "desc": "Resource-conscious dyeing and finishing available as a project choice."
+      },
+      {
+        "title": "Biodegradable packaging",
+        "desc": "Recyclable and biodegradable packaging options on request."
+      }
     ],
     "note": "Additional certifications such as GOTS and OEKO-TEX can be obtained per project requirement — ask our team."
   },
@@ -152,14 +314,38 @@
     "title": "Your assured value, at every step",
     "subtitle": "Two decades of specialised expertise, delivered to international-brand standards.",
     "items": [
-      { "title": "Two decades of expertise", "desc": "Founded in 2003, refined every year since." },
-      { "title": "International-brand standards", "desc": "We already produce for leading global brands." },
-      { "title": "Fully integrated supply chain", "desc": "Design, R&D, knitting, finishing and QC under one roof." },
-      { "title": "Robust in-house R&D", "desc": "Proprietary development when you need something new." },
-      { "title": "Consistent quality adherence", "desc": "99.9% final first-pass — Japanese-standard discipline." },
-      { "title": "Competitive, fair pricing", "desc": "Factory-direct economics, no trading margin." },
-      { "title": "Guaranteed on-time delivery", "desc": "Structured warehousing and logistics partnerships." },
-      { "title": "Flexible, responsive service", "desc": "A dedicated international trade team for global buyers." }
+      {
+        "title": "Two decades of expertise",
+        "desc": "Founded in 2003, refined every year since."
+      },
+      {
+        "title": "International-brand standards",
+        "desc": "We already produce for leading global brands."
+      },
+      {
+        "title": "Fully integrated supply chain",
+        "desc": "Design, R&D, knitting, finishing and QC under one roof."
+      },
+      {
+        "title": "Robust in-house R&D",
+        "desc": "Proprietary development when you need something new."
+      },
+      {
+        "title": "Consistent quality adherence",
+        "desc": "99.9% final first-pass — Japanese-standard discipline."
+      },
+      {
+        "title": "Competitive, fair pricing",
+        "desc": "Factory-direct economics, no trading margin."
+      },
+      {
+        "title": "Guaranteed on-time delivery",
+        "desc": "Structured warehousing and logistics partnerships."
+      },
+      {
+        "title": "Flexible, responsive service",
+        "desc": "A dedicated international trade team for global buyers."
+      }
     ]
   },
   "inquiry": {

@@ -21,10 +21,22 @@
     "ctaSecondary": "Ver productos",
     "videoPosterAlt": "Línea de producción de la fábrica Huakui",
     "trust": [
-      { "value": "+20", "label": "años de fabricación" },
-      { "value": "16.000 m²", "label": "nave de producción" },
-      { "value": "ISO", "label": "9001 · 14001 · 45001" },
-      { "value": "99,9%", "label": "tasa de aprobación QC" }
+      {
+        "value": "+20",
+        "label": "años de fabricación"
+      },
+      {
+        "value": "16.000 m²",
+        "label": "nave de producción"
+      },
+      {
+        "value": "ISO",
+        "label": "9001 · 14001 · 45001"
+      },
+      {
+        "value": "99,9%",
+        "label": "tasa de aprobación QC"
+      }
     ]
   },
   "certifications": {
@@ -32,10 +44,22 @@
     "title": "Certificaciones que superan su debido diligence",
     "subtitle": "Antes de que un comprador siga leyendo, estas le dicen que Huakui es un proveedor digno de confianza.",
     "items": [
-      { "name": "ISO 9001", "desc": "Gestión de calidad — control sistemático del diseño a la entrega, para que cada pedido se envíe con un estándar consistente." },
-      { "name": "ISO 14001", "desc": "Gestión ambiental — un compromiso verificado con operaciones más sostenibles y de menor impacto, válido para sus informes de cadena de suministro." },
-      { "name": "ISO 45001", "desc": "Salud y seguridad ocupacional — un lugar de trabajo ético y auditado con integridad operacional." },
-      { "name": "High-Tech Enterprise", "desc": "Reconocido por la Oficina de Ciencia y Tecnología de Foshan (2019) por I+D e innovación sostenidas." }
+      {
+        "name": "ISO 9001",
+        "desc": "Gestión de calidad — control sistemático del diseño a la entrega, para que cada pedido se envíe con un estándar consistente."
+      },
+      {
+        "name": "ISO 14001",
+        "desc": "Gestión ambiental — un compromiso verificado con operaciones más sostenibles y de menor impacto, válido para sus informes de cadena de suministro."
+      },
+      {
+        "name": "ISO 45001",
+        "desc": "Salud y seguridad ocupacional — un lugar de trabajo ético y auditado con integridad operacional."
+      },
+      {
+        "name": "High-Tech Enterprise",
+        "desc": "Reconocido por la Oficina de Ciencia y Tecnología de Foshan (2019) por I+D e innovación sostenidas."
+      }
     ]
   },
   "capabilities": {
@@ -43,10 +67,26 @@
     "title": "Capacidades que llevan su proyecto del boceto al lineal",
     "subtitle": "Cuatro equipos internos responden las preguntas que los compradores serios hacen antes de enviar una consulta.",
     "items": [
-      { "title": "Fabricación por dibujo", "desc": "Envíe ficha técnica, boceto o muestra — lo convertimos en herramienta lista para producir.", "icon": "draw" },
-      { "title": "Soluciones de diseño", "desc": "Nuestro equipo convierte conceptos en patrones, gamas de color y embalaje listos para tejer.", "icon": "design" },
-      { "title": "Desarrollo de prototipos", "desc": "Ciclo rápido de muestreo con nuestro I+D, para que vea y sienta el calcetín antes de comprometerse.", "icon": "proto" },
-      { "title": "I+D propio", "desc": "¿Necesita una nueva mezcla de hilo, calibre o función? Nuestro I+D la desarrolla internamente.", "icon": "rnd" }
+      {
+        "title": "Fabricación por dibujo",
+        "desc": "Envíe ficha técnica, boceto o muestra — lo convertimos en herramienta lista para producir.",
+        "icon": "draw"
+      },
+      {
+        "title": "Soluciones de diseño",
+        "desc": "Nuestro equipo convierte conceptos en patrones, gamas de color y embalaje listos para tejer.",
+        "icon": "design"
+      },
+      {
+        "title": "Desarrollo de prototipos",
+        "desc": "Ciclo rápido de muestreo con nuestro I+D, para que vea y sienta el calcetín antes de comprometerse.",
+        "icon": "proto"
+      },
+      {
+        "title": "I+D propio",
+        "desc": "¿Necesita una nueva mezcla de hilo, calibre o función? Nuestro I+D la desarrolla internamente.",
+        "icon": "rnd"
+      }
     ]
   },
   "partners": {
@@ -54,12 +94,30 @@
     "title": "Las marcas que marcan el estándar, hechas por nosotros",
     "subtitle": "Una cartera de golf premium, ropa deportiva de alto rendimiento y moda con tradición — producida con estándares de marca internacional.",
     "logos": [
-      { "name": "Callaway" },
-      { "name": "Descente" },
-      { "name": "Bridgestone" },
-      { "name": "Munsingwear" },
-      { "name": "Le Coq Sportif" },
-      { "name": "Cutter & Buck" }
+      {
+        "name": "Callaway",
+        "color": "#1A1A1A"
+      },
+      {
+        "name": "Descente",
+        "color": "#C8102E"
+      },
+      {
+        "name": "Bridgestone",
+        "color": "#E60012"
+      },
+      {
+        "name": "Munsingwear",
+        "color": "#1B3A6B"
+      },
+      {
+        "name": "Le Coq Sportif",
+        "color": "#0033A0"
+      },
+      {
+        "name": "Cutter & Buck",
+        "color": "#14564B"
+      }
     ]
   },
   "factory": {
@@ -68,26 +126,59 @@
     "subtitle": "16.000 metros cuadrados de espacio de producción estandarizado, 110 especialistas y equipos en los que confían las marcas internacionales.",
     "videoLabel": "Línea de producción — vea el proceso completo",
     "stats": [
-      { "value": "16.000 m²", "label": "nave de producción estandarizada" },
-      { "value": "110", "label": "especialistas en cuatro equipos" },
-      { "value": "84–200N", "label": "rango de agujas, básico a alta densidad" },
-      { "value": "6", "label": "procesos de acabado internos" }
+      {
+        "value": "16.000 m²",
+        "label": "nave de producción estandarizada"
+      },
+      {
+        "value": "110",
+        "label": "especialistas en cuatro equipos"
+      },
+      {
+        "value": "84–200N",
+        "label": "rango de agujas, básico a alta densidad"
+      },
+      {
+        "value": "6",
+        "label": "procesos de acabado internos"
+      }
     ],
     "equipment": {
       "title": "Equipos y capacidades",
       "items": [
-        { "title": "Tejido Lonati italiano", "desc": "Máquinas de tejer y coser Lonati de cilindro simple y doble — precisión líder en el sector." },
-        { "title": "Rango completo de agujas 84N–200N", "desc": "Desde básicos de uso diario hasta tejido de alta densidad en una sola planta." },
-        { "title": "Bordado computarizado Tajima", "desc": "Bordado interno, además de transfer térmico, formado y embalaje automatizado — producción de principio a fin." }
+        {
+          "title": "Tejido Lonati italiano",
+          "desc": "Máquinas de tejer y coser Lonati de cilindro simple y doble — precisión líder en el sector."
+        },
+        {
+          "title": "Rango completo de agujas 84N–200N",
+          "desc": "Desde básicos de uso diario hasta tejido de alta densidad en una sola planta."
+        },
+        {
+          "title": "Bordado computarizado Tajima",
+          "desc": "Bordado interno, además de transfer térmico, formado y embalaje automatizado — producción de principio a fin."
+        }
       ]
     },
     "teams": {
       "title": "Cuatro equipos especializados",
       "items": [
-        { "title": "Producción", "desc": "Un equipo experimentado que opera las líneas Lonati a diario." },
-        { "title": "Control de calidad", "desc": "Una unidad de QC dedicada que inspecciona cada etapa, estándar japonés." },
-        { "title": "I+D y prototipos", "desc": "Un equipo innovador para muestreo y desarrollo propio." },
-        { "title": "Comercio internacional", "desc": "Un equipo profesional para compradores globales y exportación." }
+        {
+          "title": "Producción",
+          "desc": "Un equipo experimentado que opera las líneas Lonati a diario."
+        },
+        {
+          "title": "Control de calidad",
+          "desc": "Una unidad de QC dedicada que inspecciona cada etapa, estándar japonés."
+        },
+        {
+          "title": "I+D y prototipos",
+          "desc": "Un equipo innovador para muestreo y desarrollo propio."
+        },
+        {
+          "title": "Comercio internacional",
+          "desc": "Un equipo profesional para compradores globales y exportación."
+        }
       ]
     }
   },
@@ -96,12 +187,30 @@
     "title": "Seis pasos, un mismo techo",
     "subtitle": "Un proceso de tejido estandarizado, totalmente interno — del hilo a la logística.",
     "steps": [
-      { "title": "Tejido", "desc": "Tejido y cosido Lonati de cilindro simple/doble según especificación." },
-      { "title": "Formado", "desc": "Conformado térmico para ajuste, talla y acabado limpio." },
-      { "title": "Embalaje", "desc": "Línea manual madura con inspección visual simultánea." },
-      { "title": "Inspección de calidad", "desc": "Inspección de primera pasada de semiterminados, estándar japonés." },
-      { "title": "Auditoría final", "desc": "Inspección manual e instrumental — defectos, dimensiones, color." },
-      { "title": "Almacén y logística", "desc": "Almacenamiento estructurado y logística de socios para entrega puntual." }
+      {
+        "title": "Tejido",
+        "desc": "Tejido y cosido Lonati de cilindro simple/doble según especificación."
+      },
+      {
+        "title": "Formado",
+        "desc": "Conformado térmico para ajuste, talla y acabado limpio."
+      },
+      {
+        "title": "Embalaje",
+        "desc": "Línea manual madura con inspección visual simultánea."
+      },
+      {
+        "title": "Inspección de calidad",
+        "desc": "Inspección de primera pasada de semiterminados, estándar japonés."
+      },
+      {
+        "title": "Auditoría final",
+        "desc": "Inspección manual e instrumental — defectos, dimensiones, color."
+      },
+      {
+        "title": "Almacén y logística",
+        "desc": "Almacenamiento estructurado y logística de socios para entrega puntual."
+      }
     ]
   },
   "quality": {
@@ -110,15 +219,36 @@
     "subtitle": "Desde nuestro joint venture de 2008 con HOLLYHOCK de Japón, Lean Manufacturing y Kaizen recorren cada etapa.",
     "story": "Nuestros sistemas de producción y gestión de calidad se modelan sobre los principios japoneses de precisión y mejora continua. Cada producto semiterminado se inspecciona; cualquier lote por debajo del 95% de primera pasada se reenvía a retrabajo integral — de modo que solo los productos que cumplen nuestro exigente criterio llegan al ensamblaje final.",
     "metrics": [
-      { "value": "99,9%", "label": "tasa final de aprobación primera pasada" },
-      { "value": ">96%", "label": "tasa primera pasada semiterminados" },
-      { "value": "<0,1%", "label": "umbral de retrabajo por auditoría" },
-      { "value": "2008", "label": "joint venture japonés desde (HOLLYHOCK)" }
+      {
+        "value": "99,9%",
+        "label": "tasa final de aprobación primera pasada"
+      },
+      {
+        "value": ">96%",
+        "label": "tasa primera pasada semiterminados"
+      },
+      {
+        "value": "<0,1%",
+        "label": "umbral de retrabajo por auditoría"
+      },
+      {
+        "value": "2008",
+        "label": "joint venture japonés desde (HOLLYHOCK)"
+      }
     ],
     "methods": [
-      { "title": "Lean Manufacturing", "desc": "Disciplina de producción sin desperdicios heredada de la sociedad japonesa." },
-      { "title": "Mejora continua (Kaizen)", "desc": "Cada turno devuelve pequeñas mejoras al proceso." },
-      { "title": "Doble inspección", "desc": "Inspección visual manual más pruebas instrumentales de dimensiones y color." }
+      {
+        "title": "Lean Manufacturing",
+        "desc": "Disciplina de producción sin desperdicios heredada de la sociedad japonesa."
+      },
+      {
+        "title": "Mejora continua (Kaizen)",
+        "desc": "Cada turno devuelve pequeñas mejoras al proceso."
+      },
+      {
+        "title": "Doble inspección",
+        "desc": "Inspección visual manual más pruebas instrumentales de dimensiones y color."
+      }
     ]
   },
   "products": {
@@ -128,10 +258,30 @@
     "cta": "Ver catálogo completo",
     "inquire": "Consultar",
     "categories": [
-      { "key": "men", "name": "Caballero", "desc": "Calcetines de vestir y casuales — de malla fina, líneas diarias y premium.", "materials": "Algodón peinado · algodón orgánico · mezclas" },
-      { "key": "women", "name": "Dama", "desc": "Calcetines de algodón y moda con tacto suave y acabado limpio.", "materials": "Algodón · bambú · mezclas recicladas" },
-      { "key": "sports", "name": "Deporte y rizo", "desc": "Calcetines de rizo diseñados para amortiguación y durabilidad.", "materials": "Hilos de rendimiento · merino · reciclado" },
-      { "key": "children", "name": "Infantil", "desc": "Calcetines suaves, seguros y duraderos en tallas infantiles.", "materials": "Algodón orgánico · mezclas aptas para la piel" }
+      {
+        "key": "men",
+        "name": "Caballero",
+        "desc": "Calcetines de vestir y casuales — de malla fina, líneas diarias y premium.",
+        "materials": "Algodón peinado · algodón orgánico · mezclas"
+      },
+      {
+        "key": "women",
+        "name": "Dama",
+        "desc": "Calcetines de algodón y moda con tacto suave y acabado limpio.",
+        "materials": "Algodón · bambú · mezclas recicladas"
+      },
+      {
+        "key": "sports",
+        "name": "Deporte y rizo",
+        "desc": "Calcetines de rizo diseñados para amortiguación y durabilidad.",
+        "materials": "Hilos de rendimiento · merino · reciclado"
+      },
+      {
+        "key": "children",
+        "name": "Infantil",
+        "desc": "Calcetines suaves, seguros y duraderos en tallas infantiles.",
+        "materials": "Algodón orgánico · mezclas aptas para la piel"
+      }
     ]
   },
   "sustainability": {
@@ -140,10 +290,22 @@
     "subtitle": "Nuestro compromiso ambiental está verificado, no es un lema — e integramos opciones ecológicas en su proyecto bajo demanda.",
     "intro": "ISO 14001 certifica que nuestro sistema de gestión ambiental está auditado y es real. Más allá del certificado, ofrecemos selección de materiales ecológicos y acabados de menor impacto como opciones de proyecto.",
     "items": [
-      { "title": "Certificado ISO 14001", "desc": "Un sistema de gestión ambiental auditado que sus informes de sostenibilidad pueden citar." },
-      { "title": "Opciones de materiales eco", "desc": "Algodón orgánico, fibras recicladas (rPET) y bambú — según sus especificaciones." },
-      { "title": "Acabado de menor impacto", "desc": "Teñido y acabado respetuosos con los recursos disponibles como opción de proyecto." },
-      { "title": "Embalaje biodegradable", "desc": "Opciones de embalaje reciclable y biodegradable bajo demanda." }
+      {
+        "title": "Certificado ISO 14001",
+        "desc": "Un sistema de gestión ambiental auditado que sus informes de sostenibilidad pueden citar."
+      },
+      {
+        "title": "Opciones de materiales eco",
+        "desc": "Algodón orgánico, fibras recicladas (rPET) y bambú — según sus especificaciones."
+      },
+      {
+        "title": "Acabado de menor impacto",
+        "desc": "Teñido y acabado respetuosos con los recursos disponibles como opción de proyecto."
+      },
+      {
+        "title": "Embalaje biodegradable",
+        "desc": "Opciones de embalaje reciclable y biodegradable bajo demanda."
+      }
     ],
     "note": "Certificaciones adicionales como GOTS y OEKO-TEX pueden obtenerse según los requisitos del proyecto — consúlte a nuestro equipo."
   },
@@ -152,14 +314,38 @@
     "title": "Valor asegurado en cada paso",
     "subtitle": "Dos décadas de experiencia especializada, entregada con estándares de marca internacional.",
     "items": [
-      { "title": "Dos décadas de experiencia", "desc": "Fundada en 2003, perfeccionada cada año desde entonces." },
-      { "title": "Estándares de marca internacional", "desc": "Ya producimos para marcas globales líderes." },
-      { "title": "Cadena de suministro totalmente integrada", "desc": "Diseño, I+D, tejido, acabado y QC bajo un mismo techo." },
-      { "title": "Sólido I+D interno", "desc": "Desarrollo propio cuando necesita algo nuevo." },
-      { "title": "Adherencia de calidad consistente", "desc": "99,9% de primera pasada final — disciplina japonesa." },
-      { "title": "Precios competitivos y justos", "desc": "Economía directa de fábrica, sin margen comercial." },
-      { "title": "Entrega puntual garantizada", "desc": "Almacenamiento estructurado y socios logísticos." },
-      { "title": "Servicio flexible y receptivo", "desc": "Un equipo de comercio exterior dedicado a compradores globales." }
+      {
+        "title": "Dos décadas de experiencia",
+        "desc": "Fundada en 2003, perfeccionada cada año desde entonces."
+      },
+      {
+        "title": "Estándares de marca internacional",
+        "desc": "Ya producimos para marcas globales líderes."
+      },
+      {
+        "title": "Cadena de suministro totalmente integrada",
+        "desc": "Diseño, I+D, tejido, acabado y QC bajo un mismo techo."
+      },
+      {
+        "title": "Sólido I+D interno",
+        "desc": "Desarrollo propio cuando necesita algo nuevo."
+      },
+      {
+        "title": "Adherencia de calidad consistente",
+        "desc": "99,9% de primera pasada final — disciplina japonesa."
+      },
+      {
+        "title": "Precios competitivos y justos",
+        "desc": "Economía directa de fábrica, sin margen comercial."
+      },
+      {
+        "title": "Entrega puntual garantizada",
+        "desc": "Almacenamiento estructurado y socios logísticos."
+      },
+      {
+        "title": "Servicio flexible y receptivo",
+        "desc": "Un equipo de comercio exterior dedicado a compradores globales."
+      }
     ]
   },
   "inquiry": {
