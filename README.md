@@ -1,6 +1,6 @@
 # Huakui Knitting — B2B overseas website
 
-Static, multi-language (EN / DE / ES / FR) marketing site for
+Static, multi-language (EN / ZH / DE / ES / FR) marketing site for
 **Foshan Huakui Knitting Co., Ltd.** Built with plain HTML/CSS/JS and a
 zero-dependency Node build script. Deploys to Vercel.
 
@@ -19,7 +19,7 @@ Requires Node 18+ (no npm install needed — `build.js` uses only built-ins).
 
 ```
 src/
-  content/{en,de,es,fr}.json   # all copy, single source of truth
+  content/{en,zh,de,es,fr}.json   # all copy, single source of truth
   templates/index.html          # home page template
   templates/products.html      # catalog page template
   templates/partials/*.html     # reusable section blocks
@@ -41,9 +41,9 @@ for the keys below and swap in real data:
 
 | Key | Replace with |
 |---|---|
-| `inquiry.formEndpoint` | `https://formsubmit.co/<your-real-email>` |
-| `footer.email` | real sales email |
-| `footer.whatsapp` | real WhatsApp number |
+| `inquiry.formEndpoint` | currently routes to Ann's Outlook inbox |
+| `footer.email` | `ann.huakuisocks@outlook.com` |
+| `footer.whatsapp` | `+86 188 2318 2690` |
 | `hero` stats / `factory.stats` | confirm real numbers |
 
 ## Deploy to Vercel (non-technical, step by step)
@@ -57,7 +57,7 @@ for the keys below and swap in real data:
    - Output Directory: `docs`
 5. Click **Deploy**. Vercel builds and gives you a
    `https://hongbao-socks-<random>.vercel.app` URL with HTTPS + global CDN.
-6. (Optional) **Settings → Domains** → add `huakuiknitting.com`, point DNS at
+6. (Optional) **Settings → Domains** → add `huakuisocks.com`, point DNS at
    Vercel → free Let's Encrypt SSL.
 
 Every later `git push` re-deploys automatically.
@@ -73,6 +73,7 @@ triggers an activation email** — click the link to start receiving inquiries.
 | Code | Name |
 |---|---|
 | en | English (default) |
+| zh | 中文 |
 | de | Deutsch |
 | es | Español |
 | fr | Français |

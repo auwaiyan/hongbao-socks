@@ -96,27 +96,27 @@
     "logos": [
       {
         "name": "Callaway",
-        "color": "#1A1A1A"
+        "image": "brands/callaway.png"
       },
       {
         "name": "Descente",
-        "color": "#C8102E"
+        "image": "brands/descente.png"
       },
       {
         "name": "Bridgestone",
-        "color": "#E60012"
+        "image": "brands/bridgestone.svg"
       },
       {
         "name": "Munsingwear",
-        "color": "#1B3A6B"
+        "image": "brands/munsingwear.jpg"
       },
       {
         "name": "Le Coq Sportif",
-        "color": "#0033A0"
+        "image": "brands/le-coq-sportif.png"
       },
       {
         "name": "Cutter & Buck",
-        "color": "#14564B"
+        "image": "brands/cutter-and-buck.png"
       }
     ]
   },
@@ -254,33 +254,51 @@
   "products": {
     "eyebrow": "Productos",
     "title": "Un catálogo organizado como buscan los compradores",
-    "subtitle": "Ordenado por usuario y uso — no por material — para que encuentre rápido la línea de su mercado.",
+    "subtitle": "Seis líneas listas para compradores: básicos de volumen, rendimiento y programas personalizados de mayor valor.",
     "cta": "Ver catálogo completo",
     "inquire": "Consultar",
     "categories": [
       {
-        "key": "men",
-        "name": "Caballero",
-        "desc": "Calcetines de vestir y casuales — de malla fina, líneas diarias y premium.",
-        "materials": "Algodón peinado · algodón orgánico · mezclas"
+        "key": "everyday",
+        "name": "Básicos diarios y acanalados",
+        "desc": "Estilos comerciales para pedidos repetidos, tallas fiables y amplio atractivo minorista.",
+        "materials": "Algodón peinado · mezclas de algodón · gama completa de colores",
+        "image": "products/mens-socks.png"
       },
       {
         "key": "women",
-        "name": "Dama",
-        "desc": "Calcetines de algodón y moda con tacto suave y acabado limpio.",
-        "materials": "Algodón · bambú · mezclas recicladas"
+        "name": "Mujer y lifestyle",
+        "desc": "Programas suaves de uso diario y moda con acabado limpio y desarrollo flexible de color.",
+        "materials": "Algodón · bambú · mezclas recicladas",
+        "image": "products/womens-socks.png"
       },
       {
         "key": "sports",
-        "name": "Deporte y rizo",
-        "desc": "Calcetines de rizo diseñados para amortiguación y durabilidad.",
-        "materials": "Hilos de rendimiento · merino · reciclado"
+        "name": "Deporte de rendimiento",
+        "desc": "Calcetines técnicos para ciclismo, running, golf y deportes de equipo, centrados en ajuste y durabilidad.",
+        "materials": "Hilos técnicos · amortiguación · ventilación",
+        "image": "products/sport-socks.png"
       },
       {
-        "key": "children",
-        "name": "Infantil",
-        "desc": "Calcetines suaves, seguros y duraderos en tallas infantiles.",
-        "materials": "Algodón orgánico · mezclas aptas para la piel"
+        "key": "business",
+        "name": "Negocio y vestir",
+        "desc": "Calcetines de vestir de galga fina con textura refinada, elasticidad controlada y tacto premium.",
+        "materials": "Algodón mercerizado · algodón peinado · mezclas finas",
+        "image": "products/business-socks.png"
+      },
+      {
+        "key": "outdoor",
+        "name": "Merino y outdoor",
+        "desc": "Calcetines de senderismo y outdoor de mayor valor para humedad, abrigo y soporte localizado.",
+        "materials": "Lana merino · nylon técnico · zonas reforzadas",
+        "image": "products/wool-socks.png"
+      },
+      {
+        "key": "private-label",
+        "name": "Marca privada personalizada",
+        "desc": "Ruta OEM/ODM completa desde diseño y muestra hasta embalaje de marca y producción a granel.",
+        "materials": "Hilo personalizado · logo jacquard · embalaje listo para retail",
+        "image": "products/oem-socks.png"
       }
     ]
   },
@@ -352,7 +370,7 @@
     "eyebrow": "Contacto",
     "title": "Hagamos sus calcetines",
     "subtitle": "Díganos materiales, cantidad y plazo. Nuestro equipo responde en 24 horas.",
-    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
+    "formEndpoint": "https://formsubmit.co/ann.huakuisocks@outlook.com",
     "fields": {
       "name": "Su nombre",
       "email": "Correo",
@@ -372,9 +390,9 @@
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "Correo",
-    "email": "sales@huakuiknitting.com",
+    "email": "ann.huakuisocks@outlook.com",
     "whatsappLabel": "WhatsApp",
-    "whatsapp": "+86 1XX XXXX XXXX",
+    "whatsapp": "+86 188 2318 2690",
     "tagline": "Innovación. Excelencia. Liderazgo. Visión.",
     "copyright": "© Huakui Knitting. Todos los derechos reservados.",
     "privacy": "Política de privacidad",

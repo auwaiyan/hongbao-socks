@@ -96,27 +96,27 @@
     "logos": [
       {
         "name": "Callaway",
-        "color": "#1A1A1A"
+        "image": "brands/callaway.png"
       },
       {
         "name": "Descente",
-        "color": "#C8102E"
+        "image": "brands/descente.png"
       },
       {
         "name": "Bridgestone",
-        "color": "#E60012"
+        "image": "brands/bridgestone.svg"
       },
       {
         "name": "Munsingwear",
-        "color": "#1B3A6B"
+        "image": "brands/munsingwear.jpg"
       },
       {
         "name": "Le Coq Sportif",
-        "color": "#0033A0"
+        "image": "brands/le-coq-sportif.png"
       },
       {
         "name": "Cutter & Buck",
-        "color": "#14564B"
+        "image": "brands/cutter-and-buck.png"
       }
     ]
   },
@@ -254,33 +254,51 @@
   "products": {
     "eyebrow": "Products",
     "title": "A catalog organised the way buyers search",
-    "subtitle": "Sorted by wearer and use — not by material — so you find the line that matches your market fast.",
+    "subtitle": "Six buyer-ready product directions covering volume basics, performance and higher-value custom programmes.",
     "cta": "View full catalog",
     "inquire": "Inquire",
     "categories": [
       {
-        "key": "men",
-        "name": "Men's",
-        "desc": "Dress and casual socks — fine-gauge, everyday and premium lines.",
-        "materials": "Combed cotton · organic cotton · blends"
+        "key": "everyday",
+        "name": "Everyday & Ribbed Basics",
+        "desc": "Commercial core styles built for repeat orders, reliable sizing and broad retail appeal.",
+        "materials": "Combed cotton · cotton blends · full colour range",
+        "image": "products/mens-socks.png"
       },
       {
         "key": "women",
-        "name": "Women's",
-        "desc": "Cotton and fashion socks with a soft hand and clean finish.",
-        "materials": "Cotton · bamboo · recycled blends"
+        "name": "Women's & Lifestyle",
+        "desc": "Soft everyday and fashion-led programmes with clean finishing and flexible colour development.",
+        "materials": "Cotton · bamboo · recycled blends",
+        "image": "products/womens-socks.png"
       },
       {
         "key": "sports",
-        "name": "Sports & Terry",
-        "desc": "Terry sports socks engineered for cushioning and durability.",
-        "materials": "Performance yarns · merino · recycled"
+        "name": "Performance Sports",
+        "desc": "Technical socks for cycling, running, golf and team sports, engineered around fit and durability.",
+        "materials": "Performance yarns · cushioning · ventilation",
+        "image": "products/sport-socks.png"
       },
       {
-        "key": "children",
-        "name": "Children's",
-        "desc": "Soft, safe and durable socks sized for kids.",
-        "materials": "Organic cotton · skin-friendly blends"
+        "key": "business",
+        "name": "Business & Dress",
+        "desc": "Fine-gauge dress socks with refined texture, controlled stretch and a premium hand feel.",
+        "materials": "Mercerised cotton · combed cotton · fine blends",
+        "image": "products/business-socks.png"
+      },
+      {
+        "key": "outdoor",
+        "name": "Merino & Outdoor",
+        "desc": "Higher-value hiking and outdoor socks developed for moisture control, warmth and targeted support.",
+        "materials": "Merino wool · technical nylon · reinforced zones",
+        "image": "products/wool-socks.png"
+      },
+      {
+        "key": "private-label",
+        "name": "Custom Private Label",
+        "desc": "A complete OEM/ODM route from artwork and sampling to branded packaging and bulk production.",
+        "materials": "Custom yarn · jacquard logo · retail-ready packaging",
+        "image": "products/oem-socks.png"
       }
     ]
   },
@@ -352,7 +370,7 @@
     "eyebrow": "Contact",
     "title": "Let's make your socks",
     "subtitle": "Tell us your materials, quantity and deadline. Our trade team replies within 24 hours.",
-    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
+    "formEndpoint": "https://formsubmit.co/ann.huakuisocks@outlook.com",
     "fields": {
       "name": "Your name",
       "email": "Email",
@@ -372,9 +390,9 @@
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "Email",
-    "email": "sales@huakuiknitting.com",
+    "email": "ann.huakuisocks@outlook.com",
     "whatsappLabel": "WhatsApp",
-    "whatsapp": "+86 1XX XXXX XXXX",
+    "whatsapp": "+86 188 2318 2690",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
     "copyright": "© Huakui Knitting. All rights reserved.",
     "privacy": "Privacy Policy",

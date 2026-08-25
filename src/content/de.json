@@ -96,27 +96,27 @@
     "logos": [
       {
         "name": "Callaway",
-        "color": "#1A1A1A"
+        "image": "brands/callaway.png"
       },
       {
         "name": "Descente",
-        "color": "#C8102E"
+        "image": "brands/descente.png"
       },
       {
         "name": "Bridgestone",
-        "color": "#E60012"
+        "image": "brands/bridgestone.svg"
       },
       {
         "name": "Munsingwear",
-        "color": "#1B3A6B"
+        "image": "brands/munsingwear.jpg"
       },
       {
         "name": "Le Coq Sportif",
-        "color": "#0033A0"
+        "image": "brands/le-coq-sportif.png"
       },
       {
         "name": "Cutter & Buck",
-        "color": "#14564B"
+        "image": "brands/cutter-and-buck.png"
       }
     ]
   },
@@ -254,33 +254,51 @@
   "products": {
     "eyebrow": "Produkte",
     "title": "Ein Katalog, sortiert wie Käufer suchen",
-    "subtitle": "Geordnet nach Träger und Verwendung — nicht nach Material — damit Sie die passende Linie für Ihren Markt schnell finden.",
+    "subtitle": "Sechs einkaufsfertige Produktlinien für Volumen-Basics, Performance und höherwertige kundenspezifische Programme.",
     "cta": "Vollständigen Katalog ansehen",
     "inquire": "Anfragen",
     "categories": [
       {
-        "key": "men",
-        "name": "Herren",
-        "desc": "Dress- und Casual-Strümpfe — feinmaschig, Alltags- und Premiumlinien.",
-        "materials": "Gekämmte Baumwolle · Bio-Baumwolle · Mischungen"
+        "key": "everyday",
+        "name": "Alltag & Ripp-Basics",
+        "desc": "Kommerzielle Kernmodelle für Wiederholungsaufträge, verlässliche Größen und breite Handelsakzeptanz.",
+        "materials": "Gekämmte Baumwolle · Baumwollmischungen · volle Farbpalette",
+        "image": "products/mens-socks.png"
       },
       {
         "key": "women",
-        "name": "Damen",
-        "desc": "Baumwoll- und Modestrümpfe mit weicher Hand und sauberem Abschluss.",
-        "materials": "Baumwolle · Bambus · recycelte Mischungen"
+        "name": "Damen & Lifestyle",
+        "desc": "Weiche Alltags- und modische Programme mit sauberer Verarbeitung und flexibler Farbentwicklung.",
+        "materials": "Baumwolle · Bambus · recycelte Mischungen",
+        "image": "products/womens-socks.png"
       },
       {
         "key": "sports",
-        "name": "Sport & Frottee",
-        "desc": "Frottee-Sportstrümpfe für Dämpfung und Haltbarkeit.",
-        "materials": "Performance-Garne · Merino · recycelt"
+        "name": "Performance Sport",
+        "desc": "Technische Socken für Radfahren, Laufen, Golf und Teamsport mit Fokus auf Passform und Haltbarkeit.",
+        "materials": "Performance-Garne · Dämpfung · Belüftung",
+        "image": "products/sport-socks.png"
       },
       {
-        "key": "children",
-        "name": "Kinder",
-        "desc": "Weiche, sichere und strapazierfähige Strümpfe in Kindergrößen.",
-        "materials": "Bio-Baumwolle · hautfreundliche Mischungen"
+        "key": "business",
+        "name": "Business & Dress",
+        "desc": "Feinmaschige Business-Socken mit edler Struktur, kontrolliertem Stretch und hochwertigem Griff.",
+        "materials": "Mercerisierte Baumwolle · gekämmte Baumwolle · feine Mischungen",
+        "image": "products/business-socks.png"
+      },
+      {
+        "key": "outdoor",
+        "name": "Merino & Outdoor",
+        "desc": "Höherwertige Wander- und Outdoor-Socken für Feuchtigkeitsmanagement, Wärme und gezielte Unterstützung.",
+        "materials": "Merinowolle · technisches Nylon · verstärkte Zonen",
+        "image": "products/wool-socks.png"
+      },
+      {
+        "key": "private-label",
+        "name": "Individuelle Eigenmarke",
+        "desc": "Kompletter OEM/ODM-Weg von Design und Muster bis zu Markenverpackung und Serienproduktion.",
+        "materials": "Individuelles Garn · Jacquard-Logo · handelsfertige Verpackung",
+        "image": "products/oem-socks.png"
       }
     ]
   },
@@ -352,7 +370,7 @@
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns Ihre Strümpfe machen",
     "subtitle": "Sagen Sie uns Material, Menge und Deadline. Unser Handelsteam antwortet innerhalb von 24 Stunden.",
-    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
+    "formEndpoint": "https://formsubmit.co/ann.huakuisocks@outlook.com",
     "fields": {
       "name": "Ihr Name",
       "email": "E-Mail",
@@ -372,9 +390,9 @@
     "address": "Foshan, Guangdong, China",
     "region": "GMT+8",
     "emailLabel": "E-Mail",
-    "email": "sales@huakuiknitting.com",
+    "email": "ann.huakuisocks@outlook.com",
     "whatsappLabel": "WhatsApp",
-    "whatsapp": "+86 1XX XXXX XXXX",
+    "whatsapp": "+86 188 2318 2690",
     "tagline": "Innovation. Exzellenz. Führung. Vision.",
     "copyright": "© Huakui Knitting. Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",

@@ -96,27 +96,27 @@
     "logos": [
       {
         "name": "Callaway",
-        "color": "#1A1A1A"
+        "image": "brands/callaway.png"
       },
       {
         "name": "Descente",
-        "color": "#C8102E"
+        "image": "brands/descente.png"
       },
       {
         "name": "Bridgestone",
-        "color": "#E60012"
+        "image": "brands/bridgestone.svg"
       },
       {
         "name": "Munsingwear",
-        "color": "#1B3A6B"
+        "image": "brands/munsingwear.jpg"
       },
       {
         "name": "Le Coq Sportif",
-        "color": "#0033A0"
+        "image": "brands/le-coq-sportif.png"
       },
       {
         "name": "Cutter & Buck",
-        "color": "#14564B"
+        "image": "brands/cutter-and-buck.png"
       }
     ]
   },
@@ -254,33 +254,51 @@
   "products": {
     "eyebrow": "Produits",
     "title": "Un catalogue organisé comme cherchent les acheteurs",
-    "subtitle": "Trié par porteur et usage — non par matière — pour trouver vite la ligne adaptée à votre marché.",
+    "subtitle": "Six orientations prêtes pour les acheteurs : basiques volume, performance et programmes personnalisés à plus forte valeur.",
     "cta": "Voir le catalogue complet",
     "inquire": "Demander",
     "categories": [
       {
-        "key": "men",
-        "name": "Homme",
-        "desc": "Chaussettes de ville et casual — maille fine, lignes du quotidien et premium.",
-        "materials": "Coton peigné · coton bio · mélanges"
+        "key": "everyday",
+        "name": "Basiques quotidiens et côtelés",
+        "desc": "Styles commerciaux conçus pour les réassorts, des tailles fiables et une large attractivité retail.",
+        "materials": "Coton peigné · mélanges coton · gamme complète de couleurs",
+        "image": "products/mens-socks.png"
       },
       {
         "key": "women",
-        "name": "Femme",
-        "desc": "Chaussettes coton et mode, main douce et finition nette.",
-        "materials": "Coton · bambou · mélanges recyclés"
+        "name": "Femme & lifestyle",
+        "desc": "Programmes doux du quotidien et mode, avec finition nette et développement couleur flexible.",
+        "materials": "Coton · bambou · mélanges recyclés",
+        "image": "products/womens-socks.png"
       },
       {
         "key": "sports",
-        "name": "Sport et éponge",
-        "desc": "Chaussettes de sport épongées conçues pour amorti et durabilité.",
-        "materials": "Fils techniques · mérinos · recyclé"
+        "name": "Sport performance",
+        "desc": "Chaussettes techniques pour cyclisme, running, golf et sports collectifs, axées sur le maintien et la durabilité.",
+        "materials": "Fils techniques · amorti · ventilation",
+        "image": "products/sport-socks.png"
       },
       {
-        "key": "children",
-        "name": "Enfant",
-        "desc": "Chaussettes douces, sûres et durables en tailles enfant.",
-        "materials": "Coton bio · mélanges peaux sensibles"
+        "key": "business",
+        "name": "Business & ville",
+        "desc": "Chaussettes fines à texture raffinée, élasticité maîtrisée et toucher premium.",
+        "materials": "Coton mercerisé · coton peigné · mélanges fins",
+        "image": "products/business-socks.png"
+      },
+      {
+        "key": "outdoor",
+        "name": "Mérinos & outdoor",
+        "desc": "Chaussettes randonnée et outdoor à plus forte valeur pour humidité, chaleur et soutien ciblé.",
+        "materials": "Laine mérinos · nylon technique · zones renforcées",
+        "image": "products/wool-socks.png"
+      },
+      {
+        "key": "private-label",
+        "name": "Marque privée sur mesure",
+        "desc": "Parcours OEM/ODM complet du dessin et prototype jusqu'au packaging de marque et à la série.",
+        "materials": "Fil sur mesure · logo jacquard · emballage prêt retail",
+        "image": "products/oem-socks.png"
       }
     ]
   },
@@ -352,7 +370,7 @@
     "eyebrow": "Contact",
     "title": "Fabriquons vos chaussettes",
     "subtitle": "Dites-nous matières, quantité et délai. Notre équipe répond sous 24 heures.",
-    "formEndpoint": "https://formsubmit.co/sales@huakuiknitting.com",
+    "formEndpoint": "https://formsubmit.co/ann.huakuisocks@outlook.com",
     "fields": {
       "name": "Votre nom",
       "email": "E-mail",
@@ -372,9 +390,9 @@
     "address": "Foshan, Guangdong, Chine",
     "region": "GMT+8",
     "emailLabel": "E-mail",
-    "email": "sales@huakuiknitting.com",
+    "email": "ann.huakuisocks@outlook.com",
     "whatsappLabel": "WhatsApp",
-    "whatsapp": "+86 1XX XXXX XXXX",
+    "whatsapp": "+86 188 2318 2690",
     "tagline": "Innovation. Excellence. Leadership. Vision.",
     "copyright": "© Huakui Knitting. Tous droits réservés.",
     "privacy": "Politique de confidentialité",

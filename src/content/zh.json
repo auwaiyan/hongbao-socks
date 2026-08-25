@@ -1,0 +1,199 @@
+{
+  "brand": {
+    "name": "华葵织造",
+    "legalName": "佛山市华葵织造有限公司",
+    "tagline": "创新 · 卓越 · 引领 · 远见",
+    "since": "2003"
+  },
+  "nav": {
+    "products": "产品中心",
+    "factory": "工厂实力",
+    "sustainability": "可持续发展",
+    "contact": "联系我们",
+    "quote": "获取报价",
+    "langLabel": "语言"
+  },
+  "hero": {
+    "eyebrow": "定制袜批发制造商 · 始于2003年",
+    "title": "源头工厂，专注可持续袜品制造。",
+    "subtitle": "华葵集设计、研发与生产于一体，并非贸易公司。从日式质量管理到环保材料采购，我们为全球品牌提供值得信赖的袜品制造服务。",
+    "ctaPrimary": "获取报价",
+    "ctaSecondary": "浏览产品",
+    "videoPosterAlt": "华葵工厂生产线",
+    "trust": [
+      { "value": "20+", "label": "年制造经验" },
+      { "value": "16,000㎡", "label": "标准化厂房" },
+      { "value": "ISO", "label": "9001 · 14001 · 45001" },
+      { "value": "99.9%", "label": "成品一次检验合格率" }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "信任为先",
+    "title": "让采购尽调更高效的资质认证",
+    "subtitle": "这些认证帮助采购商快速判断：华葵是一家值得进一步合作的供应商。",
+    "items": [
+      { "name": "ISO 9001", "desc": "质量管理体系——从设计到交付进行系统化管控，确保每批订单保持稳定标准。" },
+      { "name": "ISO 14001", "desc": "环境管理体系——经验证的可持续运营承诺，为客户供应链报告提供可靠依据。" },
+      { "name": "ISO 45001", "desc": "职业健康安全管理体系——以规范、负责的工作环境保障运营稳定。" },
+      { "name": "高新技术企业", "desc": "2019年获佛山市科学技术局认定，体现持续研发与创新能力。" }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "OEM / ODM",
+    "title": "从设计草图到产品上架的一站式服务",
+    "subtitle": "四支内部专业团队，系统解决采购商在询盘前最关心的问题。",
+    "items": [
+      { "title": "来图生产", "desc": "提供技术包、草图或样品，我们将其转化为可量产的工艺方案。", "icon": "draw" },
+      { "title": "设计解决方案", "desc": "设计团队把概念转化为可织造的花型、配色及包装方案。", "icon": "design" },
+      { "title": "打样开发", "desc": "研发团队快速打样，让您在量产前确认产品外观与穿着体验。", "icon": "proto" },
+      { "title": "自主研发", "desc": "针对新纱线组合、针数或功能需求，由内部研发团队完成开发。", "icon": "rnd" }
+    ]
+  },
+  "partners": {
+    "eyebrow": "合作品牌",
+    "title": "为高标准品牌制造",
+    "subtitle": "合作领域涵盖高端高尔夫、专业运动及经典时装，并按国际品牌标准生产。",
+    "logos": [
+      { "name": "Callaway", "image": "brands/callaway.png" },
+      { "name": "Descente", "image": "brands/descente.png" },
+      { "name": "Bridgestone", "image": "brands/bridgestone.svg" },
+      { "name": "Munsingwear", "image": "brands/munsingwear.jpg" },
+      { "name": "Le Coq Sportif", "image": "brands/le-coq-sportif.png" },
+      { "name": "Cutter & Buck", "image": "brands/cutter-and-buck.png" }
+    ]
+  },
+  "factory": {
+    "eyebrow": "源头工厂",
+    "title": "走进华葵工厂",
+    "subtitle": "16,000平方米标准化生产空间、110名专业人员，以及获得国际品牌认可的生产设备。",
+    "videoLabel": "工厂生产线——查看完整制造流程",
+    "stats": [
+      { "value": "16,000㎡", "label": "标准化厂房" },
+      { "value": "110", "label": "四支团队专业人员" },
+      { "value": "84–200N", "label": "基础至高密针数范围" },
+      { "value": "6", "label": "内部后整理工序" }
+    ],
+    "equipment": {
+      "title": "设备与产能",
+      "items": [
+        { "title": "意大利 Lonati 织袜设备", "desc": "Lonati 单针筒、双针筒织袜及缝头设备，提供行业领先的制造精度。" },
+        { "title": "84N–200N 全针数覆盖", "desc": "同一工厂可完成日常基础袜至高密细针产品的生产。" },
+        { "title": "田岛电脑刺绣", "desc": "内部完成刺绣、热转印、定型及自动包装，实现端到端生产。" }
+      ]
+    },
+    "teams": {
+      "title": "四支专业团队",
+      "items": [
+        { "title": "生产团队", "desc": "经验丰富的一线团队，日常负责 Lonati 生产线运营。" },
+        { "title": "质量控制", "desc": "独立质检团队按日式标准把控每一道工序。" },
+        { "title": "研发与打样", "desc": "专注快速打样与自主产品开发的创新团队。" },
+        { "title": "国际贸易", "desc": "为全球采购商提供专业出口与项目服务。" }
+      ]
+    }
+  },
+  "process": {
+    "eyebrow": "全流程生产",
+    "title": "六个步骤，同一工厂完成",
+    "subtitle": "从纱线到物流，全流程标准化织造均在内部完成。",
+    "steps": [
+      { "title": "织造", "desc": "使用 Lonati 单/双针筒设备，按规格织造并缝头。" },
+      { "title": "定型", "desc": "通过热定型确保版型、尺寸及整洁外观。" },
+      { "title": "包装", "desc": "成熟人工包装线同步完成外观检查。" },
+      { "title": "质量检验", "desc": "按日式标准进行半成品首轮检验。" },
+      { "title": "最终审核", "desc": "人工与仪器结合，检查瑕疵、尺寸及色差。" },
+      { "title": "仓储与物流", "desc": "规范仓储与合作物流体系保障准时交付。" }
+    ]
+  },
+  "quality": {
+    "eyebrow": "品质管理",
+    "title": "用数据体现日式品质标准",
+    "subtitle": "自2008年与日本 HOLLYHOCK 成立合资公司以来，精益生产与持续改善贯穿每道工序。",
+    "story": "我们的生产与质量管理体系以日式精密管理和持续改善为基础。每件半成品均须检验；任何一次合格率低于95%的批次都会进入全面返工，只有符合严格标准的产品才能进入最终组装。",
+    "metrics": [
+      { "value": "99.9%", "label": "成品一次检验合格率" },
+      { "value": ">96%", "label": "半成品一次检验合格率" },
+      { "value": "<0.1%", "label": "终检重大缺陷返工阈值" },
+      { "value": "2008", "label": "与日本 HOLLYHOCK 合资至今" }
+    ],
+    "methods": [
+      { "title": "精益生产", "desc": "源于日本合作体系的减少浪费、优化流程生产纪律。" },
+      { "title": "持续改善（Kaizen）", "desc": "每个班次都将细微改进反馈到生产流程。" },
+      { "title": "双重检验", "desc": "人工外观检查结合仪器检测，控制尺寸与颜色一致性。" }
+    ]
+  },
+  "products": {
+    "eyebrow": "产品中心",
+    "title": "按采购商搜索习惯组织的产品目录",
+    "subtitle": "六大产品方向，覆盖大货基础款、功能运动袜及高附加值定制项目。",
+    "cta": "查看完整目录",
+    "inquire": "立即询价",
+    "categories": [
+      { "key": "everyday", "name": "日常基础与罗纹袜", "desc": "面向重复订单的核心商业款，尺码稳定，适合广泛零售渠道。", "materials": "精梳棉 · 棉混纺 · 全色系", "image": "products/mens-socks.png" },
+      { "key": "women", "name": "女袜与生活方式", "desc": "柔软日常款与时尚系列，做工整洁，支持灵活配色开发。", "materials": "棉 · 竹纤维 · 再生混纺", "image": "products/womens-socks.png" },
+      { "key": "sports", "name": "专业运动袜", "desc": "适用于骑行、跑步、高尔夫及团队运动，围绕贴合度与耐用性进行设计。", "materials": "功能纱线 · 缓震 · 透气结构", "image": "products/sport-socks.png" },
+      { "key": "business", "name": "商务与正装袜", "desc": "细针正装袜，纹理精致、弹力稳定，拥有高端柔滑手感。", "materials": "丝光棉 · 精梳棉 · 精细混纺", "image": "products/business-socks.png" },
+      { "key": "outdoor", "name": "美利奴羊毛与户外袜", "desc": "面向徒步与户外场景的高附加值产品，兼顾排湿、保暖与局部支撑。", "materials": "美利奴羊毛 · 功能尼龙 · 加固区域", "image": "products/wool-socks.png" },
+      { "key": "private-label", "name": "定制自有品牌", "desc": "从图稿、打样到品牌包装及大货生产的一站式 OEM/ODM 服务。", "materials": "定制纱线 · 提花标识 · 零售包装", "image": "products/oem-socks.png" }
+    ]
+  },
+  "sustainability": {
+    "eyebrow": "可持续发展",
+    "title": "从材料选择与管理体系降低环境影响",
+    "subtitle": "我们的环保承诺有认证依据，并可按项目需求提供环保选项。",
+    "intro": "ISO 14001 证明我们的环境管理体系经过审核并持续运行。在认证之外，我们还可为项目提供环保材料采购与低环境影响后整理方案。",
+    "items": [
+      { "title": "ISO 14001 认证", "desc": "经审核的环境管理体系，可作为客户可持续发展报告的依据。" },
+      { "title": "环保材料选项", "desc": "可按需求选用有机棉、再生纤维（rPET）及竹纤维。" },
+      { "title": "低环境影响后整理", "desc": "项目可选择更节约资源的染色及后整理方式。" },
+      { "title": "可降解包装", "desc": "可按需提供可回收及可生物降解包装方案。" }
+    ],
+    "note": "GOTS、OEKO-TEX 等其他认证可根据项目要求取得，欢迎咨询我们的团队。"
+  },
+  "whyUs": {
+    "eyebrow": "选择华葵",
+    "title": "每一步都有保障的合作价值",
+    "subtitle": "二十余年专业积累，按国际品牌标准交付。",
+    "items": [
+      { "title": "二十余年专业经验", "desc": "始创于2003年，并持续精进至今。" },
+      { "title": "国际品牌标准", "desc": "拥有服务全球知名品牌的实际生产经验。" },
+      { "title": "完整一体化供应链", "desc": "设计、研发、织造、后整理及质检均在内部完成。" },
+      { "title": "扎实的内部研发能力", "desc": "针对创新需求提供自主产品开发。" },
+      { "title": "稳定的品质执行", "desc": "99.9%成品一次检验合格率，贯彻日式管理标准。" },
+      { "title": "有竞争力的合理价格", "desc": "工厂直供，不含贸易商加价。" },
+      { "title": "准时交付保障", "desc": "规范仓储与物流合作体系支持按期出货。" },
+      { "title": "灵活及时的服务", "desc": "国际贸易团队为全球采购商提供专属支持。" }
+    ]
+  },
+  "inquiry": {
+    "eyebrow": "联系我们",
+    "title": "一起做出您的袜子",
+    "subtitle": "请告诉我们所需材料、数量和交期，外贸团队将在24小时内回复。",
+    "formEndpoint": "https://formsubmit.co/ann.huakuisocks@outlook.com",
+    "fields": {
+      "name": "您的姓名",
+      "email": "电子邮箱",
+      "company": "公司名称",
+      "country": "国家或地区",
+      "product": "产品类型",
+      "productPlaceholder": "例如：男士有机棉袜",
+      "message": "项目详情",
+      "messagePlaceholder": "材料、数量、目标交期……",
+      "submit": "发送询盘",
+      "success": "感谢您的咨询，我们已收到询盘，并将在24小时内回复。",
+      "privacy": "提交即表示您同意我们就本次询盘与您联系，详情请参阅隐私政策。"
+    }
+  },
+  "footer": {
+    "legalName": "佛山市华葵织造有限公司",
+    "address": "中国广东佛山",
+    "region": "GMT+8",
+    "emailLabel": "邮箱",
+    "email": "ann.huakuisocks@outlook.com",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "+86 188 2318 2690",
+    "tagline": "创新 · 卓越 · 引领 · 远见",
+    "copyright": "© 华葵织造。保留所有权利。",
+    "privacy": "隐私政策",
+    "certs": "ISO 9001 · ISO 14001 · ISO 45001 · 高新技术企业"
+  }
+}
