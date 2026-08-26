@@ -170,7 +170,7 @@ function build() {
     console.log(`[ok] rendered ${locale}`);
   }
 
-  // root redirect (browser-language detection)
+  // Root always opens the English site. Visitors can switch languages in the header.
   const redirectHtml = `<!doctype html><html lang="${DEFAULT_LOCALE}"><head><meta charset="utf-8">
 <title>Huakui Knitting — Sustainable Socks Manufacturer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -180,11 +180,8 @@ function build() {
 </head><body>
 <script>
 (function(){
-  var lang=(navigator.language||navigator.userLanguage||'${DEFAULT_LOCALE}').slice(0,2).toLowerCase();
-  var langs=['en','zh','de','es','fr'];
-  var target=langs.indexOf(lang)>-1?lang:'${DEFAULT_LOCALE}';
   var base=${JSON.stringify(BASE)};
-  location.replace(base+'/'+target+'/');
+  location.replace(base+'/${DEFAULT_LOCALE}/');
 })();
 </script>
 <p>Redirecting… <a href="${BASE}/${DEFAULT_LOCALE}/">Continue</a></p>
