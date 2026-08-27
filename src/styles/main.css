@@ -146,7 +146,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero-bg { position: absolute; inset: 0; background: linear-gradient(118deg, #fff 0%, #fff 48%, #e9f4fb 48%, #d8eaf5 100%); }
 .hero-bg::after { content: ""; position: absolute; width: 420px; height: 420px; border: 1px solid rgba(8,120,201,.15); border-radius: 50%; right: -180px; top: -210px; }
 .hero-bg-tint { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 0 47%, rgba(8,120,201,.045) 47% 100%); }
-.hero-inner { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(2.5rem,6vw,6rem); align-items: center; padding-bottom: 3rem; }
+.hero-inner { position: relative; display: grid; grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr); gap: clamp(2rem,3.5vw,4rem); align-items: center; max-width: 1380px; padding-bottom: 4rem; }
 .hero-title { margin: .22em 0 .42em; max-width: 12ch; }
 .hero-sub { color: var(--muted); font-size: 1.1rem; max-width: 36em; }
 .hero-cta { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.4rem; }
@@ -155,7 +155,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero-video-frame { position: relative; width: 100%; overflow: hidden; background: #0b2638; border: 8px solid #fff; border-radius: 2px; box-shadow: 22px 24px 0 #0878C9, var(--shadow); }
 .hero-video-frame::before { content: "FACTORY / FOSHAN"; position: absolute; z-index: 2; top: 16px; left: 16px; padding: .42rem .6rem; background: rgba(7,32,49,.78); color: #fff; font-size: .68rem; font-weight: 700; letter-spacing: .12em; }
 .hero-video video { display: block; width: 100%; height: auto; border-radius: 0; background: #0b2638; }
-.hero-video-label { display: block; text-align: center; font-size: .82rem; color: var(--muted); margin-top: .6rem; }
+.hero-video-label { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; gap: .55rem; width: max-content; max-width: calc(100% - 32px); margin: 2.35rem auto 0; padding: .5rem .9rem; text-align: center; font-size: .8rem; font-weight: 600; line-height: 1.35; letter-spacing: .015em; color: var(--forest); background: rgba(255,255,255,.92); border: 1px solid rgba(8,120,201,.22); border-radius: 999px; box-shadow: 0 8px 24px rgba(11,62,98,.10); }
+.hero-video-label::before { content: "▶"; flex: 0 0 auto; color: var(--green); font-size: .68rem; }
 .trust-strip {
   position: relative;
   display: grid;
