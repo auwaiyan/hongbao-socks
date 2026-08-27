@@ -151,9 +151,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero-sub { color: var(--muted); font-size: 1.1rem; max-width: 36em; }
 .hero-cta { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.4rem; }
 .hero-media { position: relative; }
-.hero-video { position: relative; background: #0b2638; border: 8px solid #fff; border-radius: 2px; padding: 0; box-shadow: 22px 24px 0 #0878C9, var(--shadow); }
-.hero-video::before { content: "FACTORY / FOSHAN"; position: absolute; z-index: 2; top: 16px; left: 16px; padding: .42rem .6rem; background: rgba(7,32,49,.78); color: #fff; font-size: .68rem; font-weight: 700; letter-spacing: .12em; }
-.hero-video video { width: 100%; border-radius: 0; aspect-ratio: 4 / 3; object-fit: cover; background: #0b2638; }
+.hero-video { position: relative; }
+.hero-video-frame { position: relative; width: 100%; overflow: hidden; background: #0b2638; border: 8px solid #fff; border-radius: 2px; box-shadow: 22px 24px 0 #0878C9, var(--shadow); }
+.hero-video-frame::before { content: "FACTORY / FOSHAN"; position: absolute; z-index: 2; top: 16px; left: 16px; padding: .42rem .6rem; background: rgba(7,32,49,.78); color: #fff; font-size: .68rem; font-weight: 700; letter-spacing: .12em; }
+.hero-video video { display: block; width: 100%; height: auto; border-radius: 0; background: #0b2638; }
 .hero-video-label { display: block; text-align: center; font-size: .82rem; color: var(--muted); margin-top: .6rem; }
 .trust-strip {
   position: relative;
