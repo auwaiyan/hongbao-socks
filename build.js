@@ -6,7 +6,7 @@
  * loops {{#each list}}...{{/each}}, conditionals {{#if key}}...{{/if}}.
  *
  * Usage:  node build.js
- * Env:    BASE_PATH (default "/"), SITE_URL (default https://huakuisocks.com)
+ * Env:    BASE_PATH (default "/"), SITE_URL (default https://www.huakuisocks.com)
  */
 const fs = require('fs');
 const path = require('path');
@@ -14,10 +14,38 @@ const path = require('path');
 const LOCALES = ['en', 'zh', 'de', 'es', 'fr'];
 const DEFAULT_LOCALE = 'en';
 const LOCALE_NAMES = { en: 'English', zh: '中文', de: 'Deutsch', es: 'Español', fr: 'Français' };
+const SEO_META = {
+  en: {
+    home: {
+      title: 'Custom Socks Manufacturer in China | OEM & Private Label | Huakui',
+      description: 'OEM and private-label sock manufacturer in Foshan, China. Custom sports, dress and lifestyle socks with in-house design, sampling, quality control and export support.'
+    },
+    products: {
+      title: 'Custom Socks & Private Label Collections | Huakui Manufacturer',
+      description: 'Explore custom sports, dress, lifestyle, outdoor and OEM sock collections. Work directly with a China sock factory for sampling, private label and repeat production.'
+    }
+  },
+  zh: {
+    home: { title: '华葵织造｜定制袜 OEM / ODM 源头工厂', description: '佛山华葵织造，专注运动袜、商务袜、生活袜及定制袜 OEM / ODM，提供设计、打样、生产、质检与出口服务。' },
+    products: { title: '定制袜产品中心｜华葵织造 OEM / ODM', description: '浏览运动袜、商务袜、生活袜、户外袜与定制袜系列。源头工厂提供打样、贴牌与稳定量产服务。' }
+  },
+  de: {
+    home: { title: 'Sockenhersteller in China | OEM & Private Label | Huakui', description: 'OEM- und Private-Label-Sockenhersteller in Foshan, China. Design, Muster, Qualitätskontrolle und Export direkt aus einer integrierten Fabrik.' },
+    products: { title: 'Individuelle Socken & Private Label | Huakui', description: 'Sport-, Business-, Lifestyle- und Outdoor-Socken direkt vom Hersteller. Für Muster, Eigenmarke und Serienproduktion.' }
+  },
+  es: {
+    home: { title: 'Fabricante de calcetines en China | OEM y marca privada | Huakui', description: 'Fabricante integrado de calcetines OEM y marca privada en Foshan, China. Diseño, muestras, control de calidad y exportación.' },
+    products: { title: 'Calcetines personalizados y marca privada | Huakui', description: 'Calcetines deportivos, de vestir, lifestyle y outdoor fabricados directamente para muestras, marca privada y producción recurrente.' }
+  },
+  fr: {
+    home: { title: 'Fabricant de chaussettes en Chine | OEM et marque blanche | Huakui', description: 'Fabricant intégré de chaussettes OEM et marque blanche à Foshan, Chine. Conception, échantillons, contrôle qualité et export.' },
+    products: { title: 'Chaussettes personnalisées et marque blanche | Huakui', description: 'Chaussettes de sport, ville, lifestyle et outdoor fabriquées directement pour échantillons, marque blanche et production série.' }
+  }
+};
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
-const SITE_URL = (process.env.SITE_URL || 'https://huakuisocks.com').replace(/\/$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://www.huakuisocks.com').replace(/\/$/, '');
 
 /* ---------- tiny template engine ---------- */
 function get(ctx, key) {
@@ -155,6 +183,8 @@ function build() {
     ensureDir(localeDir);
 
     // index page
+    content.__canonical = `${SITE_URL}${BASE}/${locale}/`;
+    content.meta = SEO_META[locale].home;
     let html = render(templates.index, content, partials);
     html = html.replace('<html>', `<html lang="${locale}">`);
     html = html.replace('<!--HREFLANG-->', hreflangTags(''));
@@ -162,6 +192,8 @@ function build() {
 
     // products page
     if (templates.products) {
+      content.__canonical = `${SITE_URL}${BASE}/${locale}/products.html`;
+      content.meta = SEO_META[locale].products;
       let phtml = render(templates.products, content, partials);
       phtml = phtml.replace('<html>', `<html lang="${locale}">`);
       phtml = phtml.replace('<!--HREFLANG-->', hreflangTags('products.html'));
