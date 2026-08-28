@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main>
+  <article class="band guide-article">
+    <div class="container guide-container">
+      <a class="back-link" href="{{__base}}/en/guides.html">← Back to sourcing guides</a>
+      <p class="eyebrow">Buyer resources</p>
+      <h1>{{guide.title}}</h1>
+      <p class="guide-intro">{{guide.intro}}</p>
+      {{#each guide.sections}}
+      <section class="guide-section">
+        <h2>{{heading}}</h2>
+        <p>{{text}}</p>
+      </section>
+      {{/each}}
+      <aside class="guide-cta">
+        <h2>Ready to discuss your sock programme?</h2>
+        <p>Send us your brief, reference sample or product idea. Our export team will help you identify the next practical step.</p>
+        <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Request a Quote</a>
+      </aside>
+    </div>
+  </article>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>
