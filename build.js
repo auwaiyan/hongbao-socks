@@ -42,6 +42,7 @@ const SEO_META = {
     products: { title: 'Chaussettes personnalisées et marque blanche | Huakui', description: 'Chaussettes de sport, ville, lifestyle et outdoor fabriquées directement pour échantillons, marque blanche et production série.' }
   }
 };
+const GUIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'guides-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
@@ -164,6 +165,10 @@ function build() {
     index: fs.readFileSync(path.join(SRC, 'templates', 'index.html'), 'utf8'),
     products: fs.existsSync(path.join(SRC, 'templates', 'products.html'))
       ? fs.readFileSync(path.join(SRC, 'templates', 'products.html'), 'utf8') : null,
+    guides: fs.existsSync(path.join(SRC, 'templates', 'guides.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'guides.html'), 'utf8') : null,
+    guide: fs.existsSync(path.join(SRC, 'templates', 'guide.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'guide.html'), 'utf8') : null,
   };
 
   for (const locale of LOCALES) {
@@ -198,6 +203,28 @@ function build() {
       phtml = phtml.replace('<html>', `<html lang="${locale}">`);
       phtml = phtml.replace('<!--HREFLANG-->', hreflangTags('products.html'));
       fs.writeFileSync(path.join(localeDir, 'products.html'), phtml);
+    }
+
+    if (locale === 'en' && templates.guides && templates.guide) {
+      content.__canonical = `${SITE_URL}${BASE}/en/guides.html`;
+      content.meta = { title: 'Sock Sourcing Guides for Brands & Buyers | Huakui', description: 'Practical guides for buyers sourcing custom, OEM and private-label socks from China.' };
+      content.guides = GUIDES;
+      let guidesHtml = render(templates.guides, content, partials);
+      guidesHtml = guidesHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+      fs.writeFileSync(path.join(localeDir, 'guides.html'), guidesHtml);
+
+      const guideDir = path.join(localeDir, 'guides');
+      ensureDir(guideDir);
+      for (const guide of GUIDES) {
+        const guideContext = Object.assign({}, content, {
+          guide,
+          __canonical: `${SITE_URL}${BASE}/en/guides/${guide.slug}.html`,
+          meta: { title: `${guide.title} | Huakui`, description: guide.description }
+        });
+        let guideHtml = render(templates.guide, guideContext, partials);
+        guideHtml = guideHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        fs.writeFileSync(path.join(guideDir, `${guide.slug}.html`), guideHtml);
+      }
     }
     console.log(`[ok] rendered ${locale}`);
   }
@@ -242,6 +269,8 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
     }
     sitemap += `  </url>\n`;
   }
+  for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
+  sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides.html</loc>\n  </url>\n`;
   sitemap += `</urlset>\n`;
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap);
 
