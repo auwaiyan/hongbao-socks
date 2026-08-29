@@ -135,7 +135,7 @@
         "label": "Spezialisten in vier Teams"
       },
       {
-        "value": "84–200N",
+        "value": "48–200N",
         "label": "Nadelbereich, basic bis hochdicht"
       },
       {
@@ -151,7 +151,7 @@
           "desc": "Ein- und doppelzylindrige Lonati-Strick- und Nämmaschinen — branchenführende Präzision."
         },
         {
-          "title": "Voller Nadelbereich 84N–200N",
+          "title": "Voller Nadelbereich 48N–200N",
           "desc": "Von Alltagsbasics bis zu hochdichter Feinmasche in einem Werk."
         },
         {
@@ -184,32 +184,48 @@
   },
   "process": {
     "eyebrow": "End-to-End",
-    "title": "Sechs Schritte, ein Dach",
-    "subtitle": "Ein standardisierter Strickprozess, komplett hauseigen — vom Garn bis zur Logistik.",
+    "title": "Acht Schritte unter einem Dach",
+    "subtitle": "Ein geschlossener, standardisierter Prozess im eigenen Werk — vom Stricken bis zur Lieferung.",
     "steps": [
       {
         "title": "Stricken",
-        "desc": "Lonati Ein-/Doppelzylinder-Stricken und Nähen nach Spezifikation."
+        "desc": "Lonati Ein- und Doppelzylindermaschinen fertigen nach Auftragsspezifikation.",
+        "icon": "knit"
+      },
+      {
+        "title": "FQC-Prüfung",
+        "desc": "Jede halbfertige Socke wird erstmals vollständig manuell geprüft.",
+        "icon": "inspect"
+      },
+      {
+        "title": "Stickerei",
+        "desc": "Computergesteuerte Stickerei für präzise Markenmotive im eigenen Werk.",
+        "icon": "embroider"
       },
       {
         "title": "Formgebung",
-        "desc": "Wärmeformung für Passform, Größe und sauberen Abschluss."
+        "desc": "Wärmeformung stabilisiert Größe, Passform und Erscheinungsbild.",
+        "icon": "board"
+      },
+      {
+        "title": "Paarung",
+        "desc": "Socken werden nach Größe, Farbe und Erscheinungsbild gepaart und geprüft.",
+        "icon": "pair"
       },
       {
         "title": "Verpackung",
-        "desc": "Ausgereifte manuelle Linie mit begleitender Sichtprüfung."
+        "desc": "Etikettierung und Verpackung erfolgen auf einer kontrollierten internen Linie.",
+        "icon": "pack"
       },
       {
-        "title": "Qualitätsprüfung",
-        "desc": "Erstpass-Prüfung der Halbfertigprodukte, japanischer Standard."
-      },
-      {
-        "title": "Endaudit",
-        "desc": "Manuelle plus instrumentelle Prüfung — Fehler, Maße, Farbe."
+        "title": "Versandkontrolle",
+        "desc": "Stichproben bestätigen die Qualität vor jeder Auslieferung.",
+        "icon": "audit"
       },
       {
         "title": "Lager & Logistik",
-        "desc": "Strukturierte Lagerung und Partnerlogistik für pünktliche Lieferung."
+        "desc": "Strukturierte Lagerung und Logistik sichern die pünktliche Lieferung.",
+        "icon": "logistics"
       }
     ]
   },
