@@ -217,7 +217,20 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   transition: transform .15s ease;
 }
 .logo-tile:hover { transform: translateY(-2px); }
-.logo-tile img { width: 72%; height: 72px; object-fit: contain; mix-blend-mode: multiply; }
+.logo-tile img {
+  width: 68%;
+  height: 58px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+/* Source files contain different amounts of built-in white space. These
+   corrections equalise the visible marks, not merely the image canvases. */
+.logo-tile img[alt^="Callaway"] { height: 108px; }
+.logo-tile img[alt^="Munsingwear"] { height: 98px; }
+.logo-tile img[alt^="Le Coq Sportif"] { height: 62px; }
+.logo-tile img[alt^="Descente"] { height: 56px; }
+.logo-tile img[alt^="Bridgestone"] { height: 54px; }
+.logo-tile img[alt^="Cutter & Buck"] { height: 56px; }
 
 /* ---------- factory ---------- */
 .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2.5rem; }
@@ -231,12 +244,13 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .bullet-list strong { color: var(--forest); }
 
 /* ---------- process ---------- */
-.step-flow { display: grid; grid-template-columns: repeat(6, 1fr); gap: .8rem; counter-reset: step; }
+.step-flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; counter-reset: step; }
 .step { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.3rem 1rem; }
+.step-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: .8rem; }
+.step-icon { display: block; width: 52px; height: 52px; color: #557187; }
 .step-num {
   display: inline-flex; width: 30px; height: 30px; align-items: center; justify-content: center;
   background: var(--green); color: #fff; border-radius: 2px; font-family: var(--sans); font-weight: 700; font-size: .9rem;
-  margin-bottom: .6rem;
 }
 .step h3 { font-size: 1rem; margin-bottom: .3em; }
 .step p { font-size: .85rem; color: var(--muted); margin: 0; }
@@ -358,6 +372,21 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .guide-cta { background: var(--green-50); border-left: 4px solid var(--green); padding: 2rem; margin-top: 2rem; }
 .guide-cta h2 { font-family: var(--serif); margin-top: 0; }
 @media (max-width: 720px) { .guide-grid { grid-template-columns: 1fr; } .guides-hero { padding: 3.7rem 0; } }
+
+/* ---------- product SEO pages ---------- */
+.product-seo-container { max-width: 1120px; }
+.product-seo-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: 3.5rem; align-items: center; }
+.product-seo h1 { font-family: var(--serif); font-size: clamp(2.3rem, 5vw, 4.3rem); line-height: 1.08; margin: .25rem 0 .8rem; max-width: 13ch; }
+.product-seo-intro { color: var(--muted); font-size: 1.12rem; line-height: 1.7; max-width: 58ch; margin: 0 0 1.8rem; }
+.product-seo-image { margin: 0; aspect-ratio: 1 / 1; overflow: hidden; background: var(--green-50); border-radius: var(--radius-lg); }
+.product-seo-image img { width: 100%; height: 100%; object-fit: cover; }
+.product-seo-details { margin: 4.5rem 0 0; }
+.product-seo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-top: 1rem; }
+.product-seo-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1.55rem; }
+.product-seo-card h2 { font-family: var(--serif); font-size: 1.3rem; margin: 0 0 .55rem; }
+.product-seo-card p { color: var(--muted); margin: 0; }
+.product-seo .guide-cta { margin-top: 3rem; }
+@media (max-width: 800px) { .product-seo-hero { grid-template-columns: 1fr; gap: 2rem; } .product-seo-image { max-width: 560px; } .product-seo-grid { grid-template-columns: 1fr; } }
 
 /* ---------- reveal animation ---------- */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
