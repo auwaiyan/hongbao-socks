@@ -8,7 +8,10 @@
     <ol class="step-flow reveal">
       {{#each process.steps}}
       <li class="step">
-        <span class="step-num">{{__i}}</span>
+        <div class="step-top">
+          <svg class="step-icon" aria-hidden="true"><use href="{{__base}}/assets/images/process-icons.svg#{{icon}}"></use></svg>
+          <span class="step-num">{{__i}}</span>
+        </div>
         <h3>{{title}}</h3>
         <p>{{desc}}</p>
       </li>
