@@ -135,7 +135,7 @@
         "label": "especialistas en cuatro equipos"
       },
       {
-        "value": "84–200N",
+        "value": "48–200N",
         "label": "rango de agujas, básico a alta densidad"
       },
       {
@@ -151,7 +151,7 @@
           "desc": "Máquinas de tejer y coser Lonati de cilindro simple y doble — precisión líder en el sector."
         },
         {
-          "title": "Rango completo de agujas 84N–200N",
+          "title": "Rango completo de agujas 48N–200N",
           "desc": "Desde básicos de uso diario hasta tejido de alta densidad en una sola planta."
         },
         {
@@ -184,32 +184,48 @@
   },
   "process": {
     "eyebrow": "De principio a fin",
-    "title": "Seis pasos, un mismo techo",
-    "subtitle": "Un proceso de tejido estandarizado, totalmente interno — del hilo a la logística.",
+    "title": "Ocho pasos, una sola fábrica",
+    "subtitle": "Un proceso estandarizado y de circuito cerrado, totalmente interno — del tejido a la entrega.",
     "steps": [
       {
         "title": "Tejido",
-        "desc": "Tejido y cosido Lonati de cilindro simple/doble según especificación."
+        "desc": "Máquinas Lonati de cilindro simple y doble tejen según las especificaciones del pedido.",
+        "icon": "knit"
+      },
+      {
+        "title": "Inspección FQC",
+        "desc": "Cada calcetín semiterminado recibe una primera inspección manual completa.",
+        "icon": "inspect"
+      },
+      {
+        "title": "Bordado",
+        "desc": "Bordado computarizado interno para reproducir la marca con precisión.",
+        "icon": "embroider"
       },
       {
         "title": "Formado",
-        "desc": "Conformado térmico para ajuste, talla y acabado limpio."
+        "desc": "El conformado térmico estabiliza la talla, el ajuste y el acabado.",
+        "icon": "board"
+      },
+      {
+        "title": "Emparejado",
+        "desc": "Los calcetines se emparejan y revisan por talla, color y apariencia.",
+        "icon": "pair"
       },
       {
         "title": "Embalaje",
-        "desc": "Línea manual madura con inspección visual simultánea."
+        "desc": "Etiquetado y embalaje en una línea interna controlada.",
+        "icon": "pack"
       },
       {
-        "title": "Inspección de calidad",
-        "desc": "Inspección de primera pasada de semiterminados, estándar japonés."
-      },
-      {
-        "title": "Auditoría final",
-        "desc": "Inspección manual e instrumental — defectos, dimensiones, color."
+        "title": "Inspección preembarque",
+        "desc": "Un muestreo aleatorio verifica la calidad antes de cada envío.",
+        "icon": "audit"
       },
       {
         "title": "Almacén y logística",
-        "desc": "Almacenamiento estructurado y logística de socios para entrega puntual."
+        "desc": "El almacenamiento y la logística estructurados aseguran entregas puntuales.",
+        "icon": "logistics"
       }
     ]
   },
