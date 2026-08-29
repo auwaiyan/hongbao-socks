@@ -135,7 +135,7 @@
         "label": "spécialistes en quatre équipes"
       },
       {
-        "value": "84–200N",
+        "value": "48–200N",
         "label": "gamme d'aiguilles, basic à haute densité"
       },
       {
@@ -151,7 +151,7 @@
           "desc": "Machines Lonati mono- et double-cylindre, tricot et couture — précision leader du secteur."
         },
         {
-          "title": "Gamme d'aiguilles 84N–200N",
+          "title": "Gamme d'aiguilles 48N–200N",
           "desc": "Du basique du quotidien au tricot haute densité, fin calibre dans une seule usine."
         },
         {
@@ -184,32 +184,48 @@
   },
   "process": {
     "eyebrow": "De bout en bout",
-    "title": "Six étapes, un même toit",
-    "subtitle": "Un processus de tricot standardisé, entièrement interne — du fil à la logistique.",
+    "title": "Huit étapes sous un même toit",
+    "subtitle": "Un processus standardisé en circuit fermé, entièrement interne — du tricot à la livraison.",
     "steps": [
       {
         "title": "Tricot",
-        "desc": "Tricot et couture Lonati mono/double-cylindre selon spec."
+        "desc": "Les machines Lonati mono- et double-cylindre tricotent selon les spécifications.",
+        "icon": "knit"
+      },
+      {
+        "title": "Inspection FQC",
+        "desc": "Chaque chaussette semi-finie fait l'objet d'un premier contrôle manuel complet.",
+        "icon": "inspect"
+      },
+      {
+        "title": "Broderie",
+        "desc": "Broderie informatisée en interne pour une reproduction précise de la marque.",
+        "icon": "embroider"
       },
       {
         "title": "Formage",
-        "desc": "Mise en forme thermique pour ajustement, taille et finition propre."
+        "desc": "La mise en forme thermique stabilise taille, ajustement et apparence.",
+        "icon": "board"
+      },
+      {
+        "title": "Appairage",
+        "desc": "Les chaussettes sont appairées et contrôlées par taille, couleur et aspect.",
+        "icon": "pair"
       },
       {
         "title": "Emballage",
-        "desc": "Ligne manuelle mature avec inspection visuelle concomitante."
+        "desc": "Étiquetage et emballage sur une ligne interne contrôlée.",
+        "icon": "pack"
       },
       {
-        "title": "Inspection qualité",
-        "desc": "Inspection de première passe des semi-finis, standard japonais."
-      },
-      {
-        "title": "Audit final",
-        "desc": "Inspection manuelle et instrumentale — défauts, dimensions, couleur."
+        "title": "Contrôle avant expédition",
+        "desc": "Un échantillonnage aléatoire valide la qualité avant chaque expédition.",
+        "icon": "audit"
       },
       {
         "title": "Stockage et logistique",
-        "desc": "Entreposage structuré et logistique partenaire pour une livraison ponctuelle."
+        "desc": "Un stockage et une logistique structurés assurent une livraison ponctuelle.",
+        "icon": "logistics"
       }
     ]
   },
