@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.p{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <symbol id="knit" viewBox="0 0 64 64">
+    <path class="p" d="M13 23h38v28H13zM18 27h28v14H18zM20 41v8m24-8v8M17 51v5m30-5v5M19 18h26M20 18l4-7m4 7 2-8m6 8 2-8m2 8 4-7"/>
+    <path class="p" d="M21 29c4 3 5 7 5 11m5-11c-2 4-2 8 0 12m6-12c3 4 3 8 1 12m5-12c-3 3-4 7-4 11"/>
+  </symbol>
+  <symbol id="inspect" viewBox="0 0 64 64">
+    <circle class="p" cx="28" cy="29" r="17"/><path class="p" d="M40 42l12 12M24 20v7c0 3-5 6-5 11 5 3 10 2 14-1-3-5-3-11-2-17z"/>
+    <circle cx="47" cy="17" r="11" fill="white" stroke="currentColor" stroke-width="2"/><path class="p" d="m41 17 4 4 8-9"/>
+  </symbol>
+  <symbol id="embroider" viewBox="0 0 64 64">
+    <path class="p" d="M12 22h40M25 22v-8h14v8m-17 0v13h20V22M32 25v16m-4 0h8M18 50c7-8 21-8 28 0M14 54h36"/>
+    <path class="p" d="M32 43c-5-5-10 1-5 4-1 6 6 7 8 2 6 1 8-6 3-9-2-5-8-3-8 2"/>
+  </symbol>
+  <symbol id="board" viewBox="0 0 64 64">
+    <path class="p" d="M15 47h34M21 47l-4 8m26-8 4 8M21 39h27c3 0 5-2 5-5H31c-2 0-3-1-3-3 0-7 7-13 16-13l5 16"/>
+    <path class="p" d="M37 23h8m-21-7c-4 3 1 6-3 9m10-13c-4 3 1 6-3 9"/>
+  </symbol>
+  <symbol id="pair" viewBox="0 0 64 64">
+    <path class="p" d="M17 11h13v18c0 6 7 7 7 13 0 8-10 12-20 8-4-2-5-7-1-10l5-4c2-2 1-5-4-7zM34 11h13v17c0 5 5 7 5 13 0 7-7 11-14 10"/>
+    <path class="p" d="M12 20h9m13 0h13M23 44c4 2 8 1 11-2"/>
+  </symbol>
+  <symbol id="pack" viewBox="0 0 64 64">
+    <path class="p" d="m12 23 20-11 20 11-20 12zM12 23v25l20 11 20-11V23M32 35v24M21 18l20 11M43 17l-20 12"/>
+    <path class="p" d="M19 39c5 0 7 3 7 7m0 0-4-3m4 3-4 3"/>
+  </symbol>
+  <symbol id="audit" viewBox="0 0 64 64">
+    <path class="p" d="M10 35h22v19H10zM16 35l7-6 7 6m2 7 8-4m0 0 5 6 7-6-5-6zM38 11h16v26M42 11v-3h8v3"/>
+    <circle class="p" cx="45" cy="24" r="6"/><path class="p" d="m49 29 6 6"/>
+  </symbol>
+  <symbol id="logistics" viewBox="0 0 64 64">
+    <path class="p" d="M8 20 31 9l24 11v31H8zM8 20h47M16 20v31m31-31v31M23 31h17v20H23zM25 26h13"/>
+    <path class="p" d="M42 43h13l5 5v6H42zM48 43v5h12M47 55a3 3 0 1 0 0 .1m9-.1a3 3 0 1 0 0 .1"/>
+  </symbol>
+</svg>
