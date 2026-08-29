@@ -135,7 +135,7 @@
         "label": "specialists across four teams"
       },
       {
-        "value": "84–200N",
+        "value": "48–200N",
         "label": "needle range, basic to high-density"
       },
       {
@@ -151,7 +151,7 @@
           "desc": "Single- and double-cylinder Lonati knitting and seaming machines — industry-leading precision."
         },
         {
-          "title": "Full needle range 84N–200N",
+          "title": "Full needle range 48N–200N",
           "desc": "From everyday basics to high-density, fine-gauge knitting in one facility."
         },
         {
@@ -184,32 +184,48 @@
   },
   "process": {
     "eyebrow": "End-to-end",
-    "title": "Six steps, one roof",
-    "subtitle": "A standardised knitting process kept fully in-house — from yarn to logistics.",
+    "title": "Eight steps, one roof",
+    "subtitle": "A closed-loop, standardised process managed fully in-house — from knitting to delivery.",
     "steps": [
       {
         "title": "Knitting",
-        "desc": "Lonati single/double-cylinder knitting and seaming to spec."
+        "desc": "Lonati single- and double-cylinder machines knit each order to specification.",
+        "icon": "knit"
+      },
+      {
+        "title": "FQC Inspection",
+        "desc": "Every semi-finished sock receives a first full manual inspection.",
+        "icon": "inspect"
+      },
+      {
+        "title": "Embroidery",
+        "desc": "Computerised embroidery is completed in-house for precise branding.",
+        "icon": "embroider"
       },
       {
         "title": "Boarding",
-        "desc": "Heat shaping for fit, size and a clean finish."
+        "desc": "Heat shaping stabilises size, fit and finished appearance.",
+        "icon": "board"
+      },
+      {
+        "title": "Pairing",
+        "desc": "Socks are matched and checked for size, colour and appearance.",
+        "icon": "pair"
       },
       {
         "title": "Packaging",
-        "desc": "Mature manual line with concurrent visual inspection."
+        "desc": "Products are labelled and packed on a controlled in-house line.",
+        "icon": "pack"
       },
       {
-        "title": "Quality Inspection",
-        "desc": "Semi-finished first-pass inspection, Japanese-standard."
+        "title": "Pre-shipment Inspection",
+        "desc": "Random sampling verifies quality before every shipment.",
+        "icon": "audit"
       },
       {
-        "title": "Final Audit",
-        "desc": "Manual plus instrument testing — flaws, dimensions, colour."
-      },
-      {
-        "title": "Storage & Logistics",
-        "desc": "Structured warehousing and partner logistics for on-time delivery."
+        "title": "Warehousing & Logistics",
+        "desc": "Structured warehousing and logistics support reliable on-time delivery.",
+        "icon": "logistics"
       }
     ]
   },
