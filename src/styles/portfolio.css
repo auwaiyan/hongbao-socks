@@ -14,6 +14,7 @@
 .portfolio-line strong{font-size:.95rem;line-height:1.3}
 .portfolio-line.active{color:#17212d;box-shadow:inset 0 -4px #1683ce}
 .portfolio-collection{padding:6rem 0 7rem}
+.portfolio-collection-alt{background:#f4f7fa}
 .portfolio-collection-head{display:grid;grid-template-columns:1.2fr .8fr;gap:5rem;align-items:end;margin-bottom:3.5rem}
 .portfolio-collection-head h2{max-width:750px;margin:.7rem 0 0;font-size:clamp(2.6rem,5vw,4.7rem);line-height:1;letter-spacing:-.045em}
 .portfolio-collection-head>p{margin:0;color:#687585;line-height:1.75;font-size:1.08rem}
@@ -25,6 +26,7 @@
 .portfolio-card:hover .portfolio-photo img{transform:scale(1.015)}
 .portfolio-next{padding:6rem 0;background:#18212d;color:#fff}
 .portfolio-next-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#46515d}
+.portfolio-next-grid:has(>article:only-child){grid-template-columns:1fr}
 .portfolio-next article{min-height:390px;padding:3.3rem;background:#18212d;display:flex;flex-direction:column}
 .portfolio-next span{color:#54b4ef;font-weight:700}
 .portfolio-next h2{max-width:520px;margin:auto 0 1.25rem;font-size:clamp(2.1rem,3.7vw,3.8rem);line-height:1.02;letter-spacing:-.04em}
