@@ -1,36 +1,65 @@
 <!doctype html>
 <html>
-<head>
-{{> head}}
-</head>
-<body>
+<head>{{> head}}<link rel="stylesheet" href="{{__base}}/assets/css/portfolio.css"></head>
+<body class="portfolio-page">
 {{> header}}
 <main>
-  <section class="band catalog" id="products">
+  <section class="portfolio-hero">
     <div class="container">
-      <header class="section-head reveal">
-        <p class="eyebrow">{{products.eyebrow}}</p>
-        <h1>{{products.title}}</h1>
-        <p class="section-sub">{{products.subtitle}}</p>
-      </header>
-      <div class="catalog-list">
-      {{#each products.categories}}
-        <article class="cat-block reveal" id="{{key}}">
-          <div class="cat-thumb"><img src="{{__base}}/assets/images/{{image}}" alt="{{name}} — Huakui OEM sock manufacturing"></div>
-          <div class="cat-body">
-            <p class="cat-materials">{{materials}}</p>
-            <h2>{{name}}</h2>
-            <p class="cat-desc">{{desc}}</p>
-            <a class="btn btn-primary" href="{{__base}}/{{__locale}}/#inquiry">{{products.inquire}} →</a>
-          </div>
-        </article>
-      {{/each}}
-      </div>
-      <div class="reveal" style="text-align:center;margin-top:3rem">
-        <a class="btn btn-ghost btn-lg" href="{{__base}}/{{__locale}}/#inquiry">{{inquiry.title}} →</a>
+      <p class="portfolio-breadcrumb"><a href="{{__base}}/{{__locale}}/">Home</a><span>/</span>Products<span>/</span>Portfolio</p>
+      <div class="portfolio-hero-copy">
+        <p class="eyebrow">OEM / ODM SOCK PORTFOLIO</p>
+        <h1>Made for brands, programmes and everyday demand.</h1>
+        <p>Explore three buyer-friendly product lines. Every style can be customised in logo, colour, pattern, material, size and packaging.</p>
       </div>
     </div>
   </section>
+  <nav class="portfolio-lines" aria-label="Product lines">
+    <div class="container portfolio-line-grid">
+      <a class="portfolio-line active" href="#corporate"><span>01</span><strong>Corporate, Promotional<br>&amp; Event Socks</strong></a>
+      <a class="portfolio-line" href="#lifestyle"><span>02</span><strong>Jacquard, Novelty<br>&amp; Lifestyle Socks</strong></a>
+      <a class="portfolio-line" href="#sport"><span>03</span><strong>Sport, Team<br>&amp; Everyday Essentials</strong></a>
+    </div>
+  </nav>
+  <section class="portfolio-collection" id="corporate">
+    <div class="container">
+      <header class="portfolio-collection-head">
+        <div><p class="eyebrow">PRODUCT LINE 01</p><h2>Corporate, Promotional &amp; Event Socks</h2></div>
+        <p>Custom corporate gifts, branded merchandise, business socks, logo socks, and socks for employee or event programmes.</p>
+      </header>
+      <div class="portfolio-toolbar"><span>21 product directions</span><span>OEM · ODM · PRIVATE LABEL</span></div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/1.webp" alt="Corporate promotional sock design 1"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/2.webp" alt="Corporate promotional sock design 2"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/3.webp" alt="Corporate promotional sock design 3"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/4.webp" alt="Corporate promotional sock design 4"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/5.webp" alt="Corporate promotional sock design 5"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/6.webp" alt="Corporate promotional sock design 6"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/7.webp" alt="Corporate promotional sock design 7"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/8.webp" alt="Corporate promotional sock design 8"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/9.webp" alt="Corporate promotional sock design 9"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/10.webp" alt="Corporate promotional sock design 10"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/11.webp" alt="Corporate promotional sock design 11"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/12.webp" alt="Corporate promotional sock design 12"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/13.webp" alt="Corporate promotional sock design 13"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/14.webp" alt="Corporate promotional sock design 14"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/15.webp" alt="Corporate promotional sock design 15"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/16.webp" alt="Corporate promotional sock design 16"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/17.webp" alt="Corporate promotional sock design 17"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/18.webp" alt="Corporate promotional sock design 18"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/19.webp" alt="Corporate promotional sock design 19"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/20.webp" alt="Corporate promotional sock design 20"></div></article>
+        <article class="portfolio-card"><div class="portfolio-photo"><img src="{{__base}}/assets/images/product-line-1-web/21.webp" alt="Corporate promotional sock design 21"></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio-next" aria-label="Other product lines">
+    <div class="container portfolio-next-grid">
+      <article id="lifestyle"><span>02</span><h2>Jacquard, Novelty &amp; Lifestyle Socks</h2><p>All-over patterns, character-led designs and retail lifestyle collections.</p><em>Portfolio imagery next</em></article>
+      <article id="sport"><span>03</span><h2>Sport, Team &amp; Everyday Essentials</h2><p>Performance, team, tennis, varsity and everyday ribbed essentials.</p><em>Portfolio imagery next</em></article>
+    </div>
+  </section>
+  <section class="portfolio-cta"><div class="container"><p class="eyebrow">START A CUSTOM PROGRAMME</p><h2>Have a reference sock or a product brief?</h2><a class="btn btn-primary btn-lg" href="{{__base}}/{{__locale}}/#inquiry">Request a Quote →</a></div></section>
 </main>
 {{> footer}}
 <script src="{{__base}}/assets/js/main.js" defer></script>
