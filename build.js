@@ -17,8 +17,8 @@ const LOCALE_NAMES = { en: 'English', zh: '中文', de: 'Deutsch', es: 'Español
 const SEO_META = {
   en: {
     home: {
-      title: 'Custom Socks Manufacturer in China | OEM & Private Label | Huakui',
-      description: 'OEM and private-label sock manufacturer in Foshan, China. Custom sports, dress and lifestyle socks with in-house design, sampling, quality control and export support.'
+      title: 'Custom Socks Manufacturer in China | OEM, Private Label & Logo Socks | Huakui',
+      description: 'Direct custom socks manufacturer in Foshan, China. OEM, private-label and custom logo socks for brands, corporate promotions, events and teams.'
     },
     products: {
       title: 'Custom Socks & Private Label Collections | Huakui Manufacturer',
@@ -43,6 +43,7 @@ const SEO_META = {
   }
 };
 const GUIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'guides-en.json'), 'utf8'));
+const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
@@ -169,6 +170,8 @@ function build() {
       ? fs.readFileSync(path.join(SRC, 'templates', 'guides.html'), 'utf8') : null,
     guide: fs.existsSync(path.join(SRC, 'templates', 'guide.html'))
       ? fs.readFileSync(path.join(SRC, 'templates', 'guide.html'), 'utf8') : null,
+    privateLabel: fs.existsSync(path.join(SRC, 'templates', 'private-label.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'private-label.html'), 'utf8') : null,
   };
 
   for (const locale of LOCALES) {
@@ -226,6 +229,17 @@ function build() {
         fs.writeFileSync(path.join(guideDir, `${guide.slug}.html`), guideHtml);
       }
     }
+
+    if (locale === 'en' && templates.privateLabel) {
+      const privateLabelContext = Object.assign({}, content, {
+        privateLabel: PRIVATE_LABEL,
+        __canonical: `${SITE_URL}${BASE}/en/private-label.html`,
+        meta: { title: 'Private Label Socks Manufacturer | OEM & Custom Packaging | Huakui', description: PRIVATE_LABEL.description }
+      });
+      let privateLabelHtml = render(templates.privateLabel, privateLabelContext, partials);
+      privateLabelHtml = privateLabelHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+      fs.writeFileSync(path.join(localeDir, 'private-label.html'), privateLabelHtml);
+    }
     console.log(`[ok] rendered ${locale}`);
   }
 
@@ -270,6 +284,7 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
     sitemap += `  </url>\n`;
   }
   for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
+  sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/private-label.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides.html</loc>\n  </url>\n`;
   sitemap += `</urlset>\n`;
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap);
