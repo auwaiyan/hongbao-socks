@@ -448,6 +448,27 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .inquiry-form { grid-template-columns: 1fr; padding: 1.4rem; }
   .inquiry-form .form-row { grid-column: 1 / -1; display: block; }
 }
+
+/* ---------- private label page ---------- */
+.private-label-container { max-width: 1120px; }
+.private-label-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: 3.5rem; align-items: center; }
+.private-label-page h1 { font-family: var(--serif); font-size: clamp(2.3rem, 5vw, 4.3rem); line-height: 1.08; max-width: 13ch; margin: .25rem 0 .8rem; }
+.private-label-intro { color: var(--muted); font-size: 1.12rem; line-height: 1.7; max-width: 58ch; margin: 0 0 1.8rem; }
+.private-label-image { margin: 0; aspect-ratio: 1 / 1; overflow: hidden; background: var(--green-50); border-radius: var(--radius-lg); }
+.private-label-image img { width: 100%; height: 100%; object-fit: cover; }
+.private-label-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.15rem; }
+.private-label-section { margin-top: 4.5rem; }
+.private-label-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 1rem; }
+.private-label-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1.6rem; }
+.private-label-card h2, .private-label-step h2 { font-family: var(--serif); font-size: 1.3rem; margin: 0 0 .55rem; }
+.private-label-card p, .private-label-step p { color: var(--muted); margin: 0; }
+.private-label-process { background: var(--green-50); padding: 2.4rem; border-radius: var(--radius-lg); }
+.private-label-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1rem; }
+.private-label-step { border-top: 3px solid var(--green); padding-top: 1rem; }
+.private-label-step span { display: block; color: var(--green); font-weight: 700; letter-spacing: .08em; margin-bottom: .55rem; }
+.private-label-page .guide-cta { margin-top: 3rem; }
+@media (max-width: 800px) { .private-label-hero { grid-template-columns: 1fr; gap: 2rem; } .private-label-image { max-width: 560px; } .private-label-steps { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .private-label-grid, .private-label-steps { grid-template-columns: 1fr; } .private-label-process { padding: 1.5rem; } }
 /* Portfolio second level — local preview */
 .portfolio-page{background:#fff;color:#17212d}
 .portfolio-page .site-header{position:relative}
