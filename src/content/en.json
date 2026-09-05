@@ -269,52 +269,37 @@
   },
   "products": {
     "eyebrow": "Products",
-    "title": "A catalog organised the way buyers search",
-    "subtitle": "Six buyer-ready product directions covering volume basics, performance and higher-value custom programmes.",
-    "cta": "View full catalog",
-    "inquire": "Inquire",
+    "title": "OEM / ODM Custom Sock Manufacturing",
+    "subtitle": "Custom logo, colours, patterns, materials, sizes and packaging available.",
+    "cta": "Explore the three product lines",
+    "inquire": "View Portfolio",
     "categories": [
       {
-        "key": "everyday",
-        "name": "Everyday & Ribbed Basics",
-        "desc": "Commercial core styles built for repeat orders, reliable sizing and broad retail appeal.",
-        "materials": "Combed cotton · cotton blends · full colour range",
-        "image": "products/mens-socks.png"
+        "key": "corporate",
+        "name": "Corporate & Promotional Socks",
+        "desc": "Custom corporate gifts, branded merchandise, business socks, logo socks, and socks for employee or event programmes.",
+        "materials": "Corporate gifts · branded merchandise · employee kits · events",
+        "audience": "For companies, promotional agencies, institutions and event programmes",
+        "image": "product-line-1-web/2.webp",
+        "imageSecondary": "products/oem-socks.png"
       },
       {
-        "key": "women",
-        "name": "Women's & Lifestyle",
-        "desc": "Soft everyday and fashion-led programmes with clean finishing and flexible colour development.",
-        "materials": "Cotton · bamboo · recycled blends",
-        "image": "products/womens-socks.png"
+        "key": "lifestyle",
+        "name": "Jacquard & Lifestyle Socks",
+        "desc": "Jacquard socks, all-over patterns, character or brand-led designs, and lifestyle collections for retail.",
+        "materials": "All-over jacquard · characters · brand motifs · retail collections",
+        "audience": "For lifestyle brands, character IP, retailers and seasonal collections",
+        "image": "product-line-2-web/15.webp",
+        "imageSecondary": "products/oem-socks.png"
       },
       {
-        "key": "sports",
-        "name": "Performance Sports",
-        "desc": "Technical socks for cycling, running, golf and team sports, engineered around fit and durability.",
-        "materials": "Performance yarns · cushioning · ventilation",
-        "image": "products/sport-socks.png"
-      },
-      {
-        "key": "business",
-        "name": "Business & Dress",
-        "desc": "Fine-gauge dress socks with refined texture, controlled stretch and a premium hand feel.",
-        "materials": "Mercerised cotton · combed cotton · fine blends",
-        "image": "products/business-socks.png"
-      },
-      {
-        "key": "outdoor",
-        "name": "Merino & Outdoor",
-        "desc": "Higher-value hiking and outdoor socks developed for moisture control, warmth and targeted support.",
-        "materials": "Merino wool · technical nylon · reinforced zones",
-        "image": "products/wool-socks.png"
-      },
-      {
-        "key": "private-label",
-        "name": "Custom Private Label",
-        "desc": "A complete OEM/ODM route from artwork and sampling to branded packaging and bulk production.",
-        "materials": "Custom yarn · jacquard logo · retail-ready packaging",
-        "image": "products/oem-socks.png"
+        "key": "sport",
+        "name": "Team, Sport & Everyday Socks",
+        "desc": "Team socks, sports socks, tennis and varsity-inspired styles, event socks, and everyday ribbed essentials.",
+        "materials": "Teamwear · sport · tennis & varsity · ribbed essentials",
+        "audience": "For clubs, schools, teams, events and repeat everyday programmes",
+        "image": "product-line-3-web/16.webp",
+        "imageSecondary": "products/mens-socks.png"
       }
     ]
   },
