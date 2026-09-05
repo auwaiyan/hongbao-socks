@@ -1,26 +1,24 @@
 <section class="band products-preview" id="products">
-  <div class="container">
-    <header class="section-head reveal">
+  <div class="container products-showcase">
+    <header class="products-showcase-intro reveal">
       <p class="eyebrow">{{products.eyebrow}}</p>
       <h2>{{products.title}}</h2>
       <p class="section-sub">{{products.subtitle}}</p>
+      <a class="btn btn-primary btn-lg" href="{{__base}}/{{__locale}}/products.html">{{products.cta}} →</a>
     </header>
     <ul class="product-grid reveal">
       {{#each products.categories}}
       <li class="product-card" data-category="{{key}}">
         <a href="{{__base}}/{{__locale}}/products.html#{{key}}" class="product-card-link">
-          <span class="product-thumb"><img src="{{__base}}/assets/images/{{image}}" alt="{{name}} — Huakui OEM sock manufacturing"></span>
+          <span class="product-index">0{{__i}}</span>
+          <span class="product-thumb"><img src="{{__base}}/assets/images/{{image}}" alt="{{name}} — Huakui OEM sock manufacturing" loading="lazy"></span>
           <div class="product-body">
             <h3>{{name}}</h3>
-            <p>{{desc}}</p>
-            <p class="product-materials">{{materials}}</p>
+            <span class="product-view">{{products.inquire}} →</span>
           </div>
         </a>
       </li>
       {{/each}}
     </ul>
-    <div class="reveal" style="text-align:center;margin-top:2.5rem">
-      <a class="btn btn-ghost btn-lg" href="{{__base}}/{{__locale}}/products.html">{{products.cta}} →</a>
-    </div>
   </div>
 </section>
