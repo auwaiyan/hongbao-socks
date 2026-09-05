@@ -1,0 +1,19 @@
+{
+  "eyebrow": "Private label socks, made direct",
+  "title": "Your sock idea, developed into a retail-ready programme.",
+  "description": "Work directly with a China private-label socks manufacturer. Huakui supports custom development, sampling, branding, packaging and repeat production for overseas brands.",
+  "intro": "Whether you have a finished tech pack, a reference sock or only an early idea, we help turn the brief into clear decisions for sampling and production. You work with a factory team from development through packing—not a trading middleman.",
+  "image": "products/oem-socks.png",
+  "features": [
+    { "heading": "Start with what you have", "text": "A reference sock, artwork, mood board or product brief is enough to begin. We discuss the use case, target customer, material direction, size range and the details that matter to your brand." },
+    { "heading": "Approve a sample before bulk production", "text": "The sample stage is where fit, hand feel, colour, logo and construction are confirmed. It gives both sides one clear product standard before an order moves into bulk production." },
+    { "heading": "Build your branding into the programme", "text": "Develop logo details, colours, patterns, labels and retail-ready packaging as part of the same project, rather than treating the sock and its presentation as separate jobs." },
+    { "heading": "Make repeat orders easier", "text": "Keep approved specifications, artwork and packing files together, so future seasonal orders or replenishment programmes start from an agreed reference." }
+  ],
+  "steps": [
+    { "number": "01", "title": "Share your brief", "text": "Send a sample, image, tech pack or idea, along with your market and expected order needs." },
+    { "number": "02", "title": "Confirm the direction", "text": "Align materials, construction, branding, packaging and the practical sampling plan." },
+    { "number": "03", "title": "Review the sample", "text": "Check the product and record the approved details before proceeding." },
+    { "number": "04", "title": "Produce and ship", "text": "Move into managed production, inspection, packing and export coordination." }
+  ]
+}
