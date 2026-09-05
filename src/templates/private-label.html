@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main>
+  <article class="band private-label-page">
+    <div class="container private-label-container">
+      <a class="back-link" href="{{__base}}/en/">← Back to home</a>
+      <section class="private-label-hero">
+        <div>
+          <p class="eyebrow">{{privateLabel.eyebrow}}</p>
+          <h1>{{privateLabel.title}}</h1>
+          <p class="private-label-intro">{{privateLabel.intro}}</p>
+          <div class="private-label-actions">
+            <a class="btn btn-primary btn-lg" href="{{__base}}/en/#inquiry">Start Your Project</a>
+            <a class="text-link" href="{{__base}}/en/products.html">View Product Lines →</a>
+          </div>
+        </div>
+        <figure class="private-label-image"><img src="{{__base}}/assets/images/{{privateLabel.image}}" alt="Private label socks made by Huakui Knitting"></figure>
+      </section>
+      <section class="private-label-section">
+        <p class="eyebrow">How private label works with Huakui</p>
+        <div class="private-label-grid">
+        {{#each privateLabel.features}}
+          <section class="private-label-card"><h2>{{heading}}</h2><p>{{text}}</p></section>
+        {{/each}}
+        </div>
+      </section>
+      <section class="private-label-section private-label-process">
+        <p class="eyebrow">A clear path from idea to shipment</p>
+        <div class="private-label-steps">
+        {{#each privateLabel.steps}}
+          <section class="private-label-step"><span>{{number}}</span><h2>{{title}}</h2><p>{{text}}</p></section>
+        {{/each}}
+        </div>
+      </section>
+      <aside class="guide-cta">
+        <h2>Ready to discuss your private-label sock programme?</h2>
+        <p>Send your reference, artwork or product idea. We will help you identify the most practical next step.</p>
+        <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Request a Quote</a>
+      </aside>
+    </div>
+  </article>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>
