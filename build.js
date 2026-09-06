@@ -202,7 +202,7 @@ function build() {
       const translated = PRODUCT_LINES_I18N[locale];
       const currentLines = translated ? translated.lines : PRODUCT_LINES;
       const privateLabel = translated ? translated.privateLabel : {
-        name: 'Private Label Socks', image: 'products/private-label-logo-socks.png', link: '/en/private-label.html'
+        name: 'Private Label Socks', image: 'products/private-label-logo-socks.jpg', link: '/en/private-label.html'
       };
       content.products = Object.assign({}, content.products, translated ? translated.products : {}, {
         categories: currentLines.map((line, index) => ({
