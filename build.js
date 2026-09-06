@@ -43,7 +43,11 @@ const SEO_META = {
   }
 };
 const GUIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'guides-en.json'), 'utf8'));
-const PRODUCT_PAGES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-pages-en.json'), 'utf8'));
+// Legacy SEO product pages are optional. Product-line pages below are the current catalogue routes.
+const PRODUCT_PAGES_PATH = path.join(__dirname, 'src', 'content', 'product-pages-en.json');
+const PRODUCT_PAGES = fs.existsSync(PRODUCT_PAGES_PATH)
+  ? JSON.parse(fs.readFileSync(PRODUCT_PAGES_PATH, 'utf8'))
+  : [];
 const PRODUCT_LINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-en.json'), 'utf8'));
 const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
