@@ -1,4 +1,326 @@
-YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éíçÍ{N‹Z–‹­¦ëeŠw¬Ô¼¨¨(€¨!Õ…­Õ¤-¹¥ÑÑ¥¹œƒŠPÍÑ…Ñ¥ŒÍ¥Ñ”‰Õ¥±ÍÉ¥ÁÐ€¡é•É¼‘•Á•¹‘•¹¥•Ì¤(€¨(€¨I•…‘Ì½¹Ñ•¹Ð)M=8€¬!Q50Ñ•µÁ±…Ñ•Ì°É•¹‘•ÉÌ€Ô±…¹Õ…”™½±‘•ÉÌ¥¹Ñ¼€½‘½Ì¸(€¨5¥¹¤Ñ•µÁ±…Ñ”•¹¥¹”èÁ…ÉÑ¥…±Ìíìø¹…µ•õô°Ù…É¥…‰±•Ìíí„¹ˆ¹õô°(€¨±½½ÁÌíì•… ±¥ÍÑõô¸¸¹íì½•…¡õô°½¹‘¥Ñ¥½¹…±Ìíì¥˜­•åõô¸¸¹íì½¥™õô¸(€¨(€¨UÍ…”è€¹½‘”‰Õ¥±¹©Ì(€¨¹Øè€€€	M}AQ €¡‘•™…Õ±Ð€ˆ¼ˆ¤°M%Q}UI0€¡‘•™…Õ±Ð¡ÑÑÁÌè¼½ÝÝÜ¹¡Õ…­Õ¥Í½­Ì¹½´¤(€¨¼)½¹ÍÐ™Ì€ôÉ•ÅÕ¥É” ™Ìœ¤ì)½¹ÍÐÁ…Ñ €ôÉ•ÅÕ¥É” Á…Ñ œ¤ì()½¹ÍÐ1=1L€ôl•¸œ°€é œ°€‘”œ°€•Ìœ°€™Ètì)½¹ÍÐU1Q}1=1€ô€•¸œì)½¹ÍÐ1=1}95L€ôì•¸è€¹±¥Í œ°é è€Ÿ’â·šZœ°‘”è€•ÕÑÍ œ°•Ìè€ÍÁ‡Å½°œ°™Èè€É…»…¥Ìœôì)½¹ÍÐM=}5Q€ôì(€•¸èì(€€€¡½µ”èì(€€€€€Ñ¥Ñ±”è€ÕÍÑ½´M½­Ì5…¹Õ™…ÑÕÉ•È¥¸¡¥¹„ð=4°AÉ¥Ù…Ñ”1…‰•°€˜1½¼M½­Ìð!Õ…­Õ¤œ°(€€€€€‘•ÍÉ¥ÁÑ¥½¸è€¥É•ÐÕÍÑ½´Í½­Ìµ…¹Õ™…ÑÕÉ•È¥¸½Í¡…¸°¡¥¹„¸=4°ÁÉ¥Ù…Ñ”µ±…‰•°…¹ÕÍÑ½´±½¼Í½­Ì™½È‰É…¹‘Ì°½ÉÁ½É…Ñ”ÁÉ½µ½Ñ¥½¹Ì°•Ù•¹ÑÌ…¹Ñ•…µÌ¸œ(€€€ô°(€€€ÁÉ½‘ÕÑÌèì(€€€€€Ñ¥Ñ±”è€ÕÍÑ½´M½­Ì€˜AÉ¥Ù…Ñ”1…‰•°½±±•Ñ¥½¹Ìð!Õ…­Õ¤5…¹Õ™…ÑÕÉ•Èœ°(€€€€€‘•ÍÉ¥ÁÑ¥½¸è€áÁ±½É”ÕÍÑ½´ÍÁ½ÉÑÌ°‘É•ÍÌ°±¥™•ÍÑå±”°½ÕÑ‘½½È…¹=4Í½¬½±±•Ñ¥½¹Ì¸]½É¬‘¥É•Ñ±äÝ¥Ñ „¡¥¹„Í½¬™…Ñ½Éä™½ÈÍ…µÁ±¥¹œ°ÁÉ¥Ù…Ñ”±…‰•°…¹É•Á•…ÐÁÉ½‘ÕÑ¥½¸¸œ(€€€ô(€ô°(€é èì(€€€¡½µ”èìÑ¥Ñ±”è€Ÿ–6;¢F×žî¦ƒ¾ös–ºk–"Û¢Šp=4€¼=4ƒšêC–’Ó–Þ—–:œ°‘•ÍÉ¥ÁÑ¥½¸è€Ÿ’öo–ÆÇ–6;¢F×žî¦ƒ¾ò3’âOšÎ£¢þC–*£¢ŠsŽ–V–*‡¢ŠsŽžRšÒï¢Šs–>+–ºk–"Û¢Šp=4€¼=7¾ò3š>C’úo¢ºû¢º‡Žš&Oš‚ßŽžR’êŸŽ¢Ò£šŽ’â;–ë–>šr7–*‡Žœô°(€€€ÁÉ½‘ÕÑÌèìÑ§5îÚ$z{-®éÜj×ts.txt
+/**
+ * Huakui Knitting â€” static site build script (zero dependencies)
+ *
+ * Reads content JSON + HTML templates, renders 5 language folders into /docs.
+ * Mini template engine: partials {{> name}}, variables {{a.b.c}},
+ * loops {{#each list}}...{{/each}}, conditionals {{#if key}}...{{/if}}.
+ *
+ * Usage:  node build.js
+ * Env:    BASE_PATH (default "/"), SITE_URL (default https://www.huakuisocks.com)
+ */
+const fs = require('fs');
+const path = require('path');
+
+const LOCALES = ['en', 'zh', 'de', 'es', 'fr'];
+const DEFAULT_LOCALE = 'en';
+const LOCALE_NAMES = { en: 'English', zh: 'ä¸­æ–‡', de: 'Deutsch', es: 'EspaÃ±ol', fr: 'FranÃ§ais' };
+const SEO_META = {
+  en: {
+    home: {
+      title: 'Custom Socks Manufacturer in China | OEM, Private Label & Logo Socks | Huakui',
+      description: 'Direct custom socks manufacturer in Foshan, China. OEM, private-label and custom logo socks for brands, corporate promotions, events and teams.'
+    },
+    products: {
+      title: 'Custom Socks & Private Label Collections | Huakui Manufacturer',
+      description: 'Explore custom sports, dress, lifestyle, outdoor and OEM sock collections. Work directly with a China sock factory for sampling, private label and repeat production.'
+    }
+  },
+  zh: {
+    home: { title: 'åŽè‘µç»‡é€ ï½œå®šåˆ¶è¢œ OEM / ODM æºå¤´å·¥åŽ‚', description: 'ä½›å±±åŽè‘µç»‡é€ ï¼Œä¸“æ³¨è¿åŠ¨è¢œã€å•†åŠ¡è¢œã€ç”Ÿæ´»è¢œåŠå®šåˆ¶è¢œ OEM / ODMï¼Œæä¾›è®¾è®¡ã€æ‰“æ ·ã€ç”Ÿäº§ã€è´¨æ£€ä¸Žå‡ºå£æœåŠ¡ã€‚' },
+    products: { title: 'å®šåˆ¶è¢œäº§å“ä¸­å¿ƒï½œåŽè‘µç»‡é€  OEM / ODM', description: 'æµè§ˆè¿åŠ¨è¢œã€å•†åŠ¡è¢œã€ç”Ÿæ´»è¢œã€æˆ·å¤–è¢œä¸Žå®šåˆ¶è¢œç³»åˆ—ã€‚æºå¤´å·¥åŽ‚æä¾›æ‰“æ ·ã€è´´ç‰Œä¸Žç¨³å®šé‡äº§æœåŠ¡ã€‚' }
+  },
+  de: {
+    home: { title: 'Sockenhersteller in China | OEM & Private Label | Huakui', description: 'OEM- und Private-Label-Sockenhersteller in Foshan, China. Design, Muster, QualitÃ¤tskontrolle und Export direkt aus einer integrierten Fabrik.' },
+    products: { title: 'Individuelle Socken & Private Label | Huakui', description: 'Sport-, Business-, Lifestyle- und Outdoor-Socken direkt vom Hersteller. FÃ¼r Muster, Eigenmarke und Serienproduktion.' }
+  },
+  es: {
+    home: { title: 'Fabricante de calcetines en China | OEM y marca privada | Huakui', description: 'Fabricante integrado de calcetines OEM y marca privada en Foshan, China. DiseÃ±o, muestras, control de calidad y exportaciÃ³n.' },
+    products: { title: 'Calcetines personalizados y marca privada | Huakui', description: 'Calcetines deportivos, de vestir, lifestyle y outdoor fabricados directamente para muestras, marca privada y producciÃ³n recurrente.' }
+  },
+  fr: {
+    home: { title: 'Fabricant de chaussettes en Chine | OEM et marque blanche | Huakui', description: 'Fabricant intÃ©grÃ© de chaussettes OEM et marque blanche Ã  Foshan, Chine. Conception, Ã©chantillons, contrÃ´le qualitÃ© et export.' },
+    products: { title: 'Chaussettes personnalisÃ©es et marque blanche | Huakui', description: 'Chaussettes de sport, ville, lifestyle et outdoor fabriquÃ©es directement pour Ã©chantillons, marque blanche et production sÃ©rie.' }
+  }
+};
+const GUIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'guides-en.json'), 'utf8'));
+const PRODUCT_PAGES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-pages-en.json'), 'utf8'));
+const PRODUCT_LINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-en.json'), 'utf8'));
+const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
+const SRC = path.join(__dirname, 'src');
+const OUT = path.join(__dirname, 'docs');
+const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
+const SITE_URL = (process.env.SITE_URL || 'https://www.huakuisocks.com').replace(/\/$/, '');
+
+/* ---------- tiny template engine ---------- */
+function get(ctx, key) {
+  if (key === '.' || key === 'this') return typeof ctx === 'string' ? ctx : '';
+  const parts = key.split('.');
+  let v = ctx;
+  for (const p of parts) {
+    if (v == null) return '';
+    v = v[p];
+  }
+  if (v == null) return '';
+  return typeof v === 'object' ? JSON.stringify(v) : String(v);
+}
+
+function renderVars(tpl, ctx) {
+  return tpl.replace(/\{\{\s*([\w.]+)\s*\}\}/g, (_, k) => escapeHtml(get(ctx, k)));
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// innermost-first block processing (supports single-level nesting realistically used here)
+function processBlocks(tpl, ctx) {
+  let prev;
+  let safety = 0;
+  while (tpl !== prev && safety++ < 200) {
+    prev = tpl;
+    // each
+    tpl = tpl.replace(/\{\{#each\s+([\w.]+)\s*\}\}([\s\S]*?)\{\{\/each\}\}/g, (_, key, inner) => {
+      const list = get(ctx, key);
+      let arr;
+      try { arr = JSON.parse(list); } catch { arr = []; }
+      if (!Array.isArray(arr)) return '';
+      return arr.map((item, idx) => {
+        const base = Object.assign({}, ctx, { __i: String(idx + 1) });
+        const itemCtx = typeof item === 'object' && item !== null
+          ? Object.assign(base, item, { __item: item })
+          : Object.assign(base, { '.': item, this: item });
+        let out = processBlocks(inner, itemCtx);
+        out = renderVars(out, itemCtx);
+        return out;
+      }).join('');
+    });
+    // if (truthy)
+    tpl = tpl.replace(/\{\{#if\s+([\w.]+)\s*\}\}([\s\S]*?)\{\{\/if\}\}/g, (_, key, inner) => {
+      const val = get(ctx, key);
+      const truthy = val !== '' && val !== '0' && val !== 'false' && val !== 'null';
+      return truthy ? inner : '';
+    });
+  }
+  return tpl;
+}
+
+function loadPartials(dir) {
+  const partials = {};
+  if (!fs.existsSync(dir)) return partials;
+  for (const f of fs.readdirSync(dir)) {
+    if (f.endsWith('.html')) partials[f.slice(0, -5)] = fs.readFileSync(path.join(dir, f), 'utf8');
+  }
+  return partials;
+}
+
+function injectPartials(tpl, partials) {
+  let prev, safety = 0;
+  do {
+    prev = tpl;
+    tpl = tpl.replace(/\{\{>\s*([\w-]+)\s*\}\}/g, (_, n) => partials[n] != null ? partials[n] : `<!-- missing partial: ${n} -->`);
+  } while (tpl !== prev && safety++ < 50);
+  return tpl;
+}
+
+function render(tpl, ctx, partials) {
+  tpl = injectPartials(tpl, partials);
+  tpl = processBlocks(tpl, ctx);
+  tpl = renderVars(tpl, ctx);
+  return tpl;
+}
+
+/* ---------- helpers ---------- */
+function ensureDir(p) { fs.mkdirSync(p, { recursive: true }); }
+
+function copyDir(src, dest) {
+  if (!fs.existsSync(src)) return;
+  ensureDir(dest);
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    const s = path.join(src, entry.name);
+    const d = path.join(dest, entry.name);
+    if (entry.isDirectory()) copyDir(s, d);
+    else fs.copyFileSync(s, d);
+  }
+}
+
+function prefixBase(p) {
+  return p.startsWith('/') ? BASE + p : p;
+}
+
+function hreflangTags(page) {
+  return LOCALES.map(l => `  <link rel="alternate" hreflang="${l}" href="${SITE_URL}${BASE}/${l}/${page}" />`).join('\n') +
+    `\n  <link rel="alternate" hreflang="x-default" href="${SITE_URL}${BASE}/${DEFAULT_LOCALE}/${page}" />`;
+}
+
+/* ---------- build ---------- */
+function build() {
+  // ensure docs exists (overwrite in place; avoids sandbox trash-delete issues)
+  ensureDir(OUT);
+
+  // copy static assets
+  copyDir(path.join(SRC, 'styles'), path.join(OUT, 'assets', 'css'));
+  copyDir(path.join(SRC, 'scripts'), path.join(OUT, 'assets', 'js'));
+  copyDir(path.join(SRC, 'assets', 'images'), path.join(OUT, 'assets', 'images'));
+  copyDir(path.join(SRC, 'assets', 'video'), path.join(OUT, 'assets', 'video'));
+
+  const partials = loadPartials(path.join(SRC, 'templates', 'partials'));
+  const templates = {
+    index: fs.readFileSync(path.join(SRC, 'templates', 'index.html'), 'utf8'),
+    products: fs.existsSync(path.join(SRC, 'templates', 'products.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'products.html'), 'utf8') : null,
+    guides: fs.existsSync(path.join(SRC, 'templates', 'guides.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'guides.html'), 'utf8') : null,
+    guide: fs.existsSync(path.join(SRC, 'templates', 'guide.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'guide.html'), 'utf8') : null,
+    privateLabel: fs.existsSync(path.join(SRC, 'templates', 'private-label.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'private-label.html'), 'utf8') : null,
+    productSeo: fs.existsSync(path.join(SRC, 'templates', 'product-seo.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'product-seo.html'), 'utf8') : null,
+    productLine: fs.existsSync(path.join(SRC, 'templates', 'product-line.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'product-line.html'), 'utf8') : null,
+  };
+
+  for (const locale of LOCALES) {
+    const contentPath = path.join(SRC, 'content', `${locale}.json`);
+    if (!fs.existsSync(contentPath)) {
+      console.warn(`[skip] no content for ${locale}`);
+      continue;
+    }
+    const content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
+    // add runtime meta
+    content.__locale = locale;
+    content.__locales = LOCALES.map(l => ({ code: l, name: LOCALE_NAMES[l], current: l === locale }));
+    content.__base = BASE;
+    content.__siteUrl = SITE_URL;
+    // Each portfolio card leads directly to its relevant landing page in English.
+    // Other language versions continue to use their own collection anchors.
+    if (content.products && Array.isArray(content.products.categories)) {
+      content.products.categories = content.products.categories.map((category, index) => {
+        const line = locale === 'en' ? PRODUCT_LINES[index] : null;
+        const privateLabel = locale === 'en' && category.key === 'private-label';
+        return Object.assign({}, category, {
+          link: line ? `/en/products/${line.slug}.html` : privateLabel ? '/en/private-label.html' : `/${locale}/products.html#${category.key}`
+        });
+      });
+    }
+
+    const localeDir = path.join(OUT, locale);
+    ensureDir(localeDir);
+
+    // index page
+    content.__canonical = `${SITE_URL}${BASE}/${locale}/`;
+    content.meta = SEO_META[locale].home;
+    let html = render(templates.index, content, partials);
+    html = html.replace('<html>', `<html lang="${locale}">`);
+    html = html.replace('<!--HREFLANG-->', hreflangTags(''));
+    fs.writeFileSync(path.join(localeDir, 'index.html'), html);
+
+    // products page
+    if (templates.products) {
+      content.__canonical = `${SITE_URL}${BASE}/${locale}/products.html`;
+      content.meta = SEO_META[locale].products;
+      let phtml = render(templates.products, content, partials);
+      phtml = phtml.replace('<html>', `<html lang="${locale}">`);
+      phtml = phtml.replace('<!--HREFLANG-->', hreflangTags('products.html'));
+      fs.writeFileSync(path.join(localeDir, 'products.html'), phtml);
+    }
+
+    if (locale === 'en' && templates.guides && templates.guide) {
+      content.__canonical = `${SITE_URL}${BASE}/en/guides.html`;
+      content.meta = { title: 'Sock Sourcing Guides for Brands & Buyers | Huakui', description: 'Practical guides for buyers sourcing custom, OEM and private-label socks from China.' };
+      content.guides = GUIDES;
+      let guidesHtml = render(templates.guides, content, partials);
+      guidesHtml = guidesHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+      fs.writeFileSync(path.join(localeDir, 'guides.html'), guidesHtml);
+
+      const guideDir = path.join(localeDir, 'guides');
+      ensureDir(guideDir);
+      for (const guide of GUIDES) {
+        const guideContext = Object.assign({}, content, {
+          guide,
+          __canonical: `${SITE_URL}${BASE}/en/guides/${guide.slug}.html`,
+          meta: { title: `${guide.title} | Huakui`, description: guide.description }
+        });
+        let guideHtml = render(templates.guide, guideContext, partials);
+        guideHtml = guideHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        fs.writeFileSync(path.join(guideDir, `${guide.slug}.html`), guideHtml);
+      }
+    }
+
+    if (locale === 'en' && templates.productSeo) {
+      const productDir = path.join(localeDir, 'products');
+      ensureDir(productDir);
+      for (const product of PRODUCT_PAGES) {
+        const productContext = Object.assign({}, content, {
+          product,
+          __canonical: `${SITE_URL}${BASE}/en/products/${product.slug}.html`,
+          meta: { title: `${product.title} | Huakui`, description: product.description }
+        });
+        let productHtml = render(templates.productSeo, productContext, partials);
+        productHtml = productHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        fs.writeFileSync(path.join(productDir, `${product.slug}.html`), productHtml);
+      }
+    }
+
+    if (locale === 'en' && templates.productLine) {
+      const productDir = path.join(localeDir, 'products');
+      ensureDir(productDir);
+      for (const line of PRODUCT_LINES) {
+        const gallery = Array.from({ length: line.galleryCount || 0 }, (_, index) => ({
+          image: `${line.galleryDir}/${index + 1}.webp`,
+          alt: `${line.galleryLabel} ${index + 1}`
+        }));
+        const lineContext = Object.assign({}, content, {
+          line: Object.assign({}, line, { gallery }),
+          __canonical: `${SITE_URL}${BASE}/en/products/${line.slug}.html`,
+          meta: { title: `${line.title} | Huakui`, description: line.description }
+        });
+        let lineHtml = render(templates.productLine, lineContext, partials);
+        lineHtml = lineHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        fs.writeFileSync(path.join(productDir, `${line.slug}.html`), lineHtml);
+      }
+    }
+
+    if (locale === 'en' && templates.privateLabel) {
+      const privateLabelContext = Object.assign({}, content, {
+        privateLabel: PRIVATE_LABEL,
+        __canonical: `${SITE_URL}${BASE}/en/private-label.html`,
+        meta: { title: 'Private Label Socks Manufacturer | OEM & Custom Packaging | Huakui', description: PRIVATE_LABEL.description }
+      });
+      let privateLabelHtml = render(templates.privateLabel, privateLabelContext, partials);
+      privateLabelHtml = privateLabelHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+      fs.writeFileSync(path.join(localeDir, 'private-label.html'), privateLabelHtml);
+    }
+    console.log(`[ok] rendered ${locale}`);
+  }
+
+  // Root always opens the English site. Visitors can switch languages in the header.
+  const redirectHtml = `<!doctype html><html lang="${DEFAULT_LOCALE}"><head><meta charset="utf-8">
+<title>Huakui Knitting â€” Sustainable Socks Manufacturer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="${SITE_URL}${BASE}/${DEFAULT_LOCALE}/" />
+<!--HREFLANG-->
+<meta http-equiv="refresh" content="0; url=${BASE}/${DEFAULT_LOCALE}/">
+</head><body>
+<script>
+(function(){
+  var base=${JSON.stringify(BASE)};
+  location.replace(base+'/${DEFAULT_LOCALE}/');
+})();
+</script>
+<p>Redirectingâ€¦ <a href="${BASE}/${DEFAULT_LOCALE}/">Continue</a></p>
+</body></html>`;
+  fs.writeFileSync(path.join(OUT, 'index.html'), redirectHtml.replace('<!--HREFLANG-->', hreflangTags('')));
+
+  // 404
+  const notFound = `<!doctype html><html lang="${DEFAULT_LOCALE}"><head><meta charset="utf-8">
+<title>404 â€” Huakui Knitting</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{margin:0;font-family:system-ui,sans-serif;background:#F5F8FA;color:#17212B;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}
+a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;color:#0878C9">404</h1>
+<p>This page wandered off the production line.</p><p><a href="${BASE}/${DEFAULT_LOCALE}/">Back to home â†’</a></p></div></body></html>`;
+  fs.writeFileSync(path.join(OUT, '404.html'), notFound);
+
+  // robots.txt
   fs.writeFileSync(path.join(OUT, 'robots.txt'),
     `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}${BASE}/sitemap.xml\n`);
 
