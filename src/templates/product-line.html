@@ -28,6 +28,19 @@
         </div>
       </section>
 
+      <section class="product-line-gallery-section">
+        <header class="product-line-gallery-head">
+          <p class="eyebrow">Portfolio examples</p>
+          <h2>Explore product directions in this line.</h2>
+          <p>These examples show the range of designs and constructions we can develop within this product category.</p>
+        </header>
+        <div class="product-line-gallery">
+        {{#each line.gallery}}
+          <figure><img src="{{__base}}/assets/images/{{image}}" alt="{{alt}}" loading="lazy"></figure>
+        {{/each}}
+        </div>
+      </section>
+
       {{#if line.customisation}}
       <section class="product-line-customisation">
         <div class="product-line-customisation-copy">
