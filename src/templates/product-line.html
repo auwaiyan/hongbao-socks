@@ -8,19 +8,19 @@
 <main>
   <article class="band product-line-page">
     <div class="container product-line-container">
-      <a class="back-link" href="{{__base}}/en/products.html">← Back to product lines</a>
+      <a class="back-link" href="{{__base}}/{{__locale}}/products.html">{{line.ui.back}}</a>
       <section class="product-line-hero">
         <div>
           <p class="eyebrow">{{line.eyebrow}}</p>
           <h1>{{line.title}}</h1>
           <p class="product-line-intro">{{line.intro}}</p>
-          <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Request a Quote</a>
+          <a class="btn btn-primary" href="{{__base}}/{{__locale}}/#inquiry">{{line.ui.quote}}</a>
         </div>
         <figure class="product-line-image"><img src="{{__base}}/assets/images/{{line.image}}" alt="{{line.title}}"></figure>
       </section>
 
       <section class="product-line-section">
-        <p class="eyebrow">How we support your programme</p>
+        <p class="eyebrow">{{line.ui.support}}</p>
         <div class="product-line-grid">
         {{#each line.highlights}}
           <section class="product-line-card"><h2>{{heading}}</h2><p>{{text}}</p></section>
@@ -30,9 +30,9 @@
 
       <section class="product-line-gallery-section">
         <header class="product-line-gallery-head">
-          <p class="eyebrow">Portfolio examples</p>
-          <h2>Explore product directions in this line.</h2>
-          <p>These examples show the range of designs and constructions we can develop within this product category.</p>
+          <p class="eyebrow">{{line.ui.portfolio}}</p>
+          <h2>{{line.ui.portfolioTitle}}</h2>
+          <p>{{line.ui.portfolioText}}</p>
         </header>
         <div class="product-line-gallery">
         {{#each line.gallery}}
@@ -54,9 +54,9 @@
       {{/if}}
 
       <aside class="guide-cta">
-        <h2>Start with a product brief or reference sample</h2>
-        <p>Tell us the intended use, target market, materials, branding and packaging requirements. We will help identify the next practical step for your programme.</p>
-        <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Discuss Your Project</a>
+        <h2>{{line.ui.ctaTitle}}</h2>
+        <p>{{line.ui.ctaText}}</p>
+        <a class="btn btn-primary" href="{{__base}}/{{__locale}}/#inquiry">{{line.ui.cta}}</a>
       </aside>
     </div>
   </article>

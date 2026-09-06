@@ -49,6 +49,7 @@ const PRODUCT_PAGES = fs.existsSync(PRODUCT_PAGES_PATH)
   ? JSON.parse(fs.readFileSync(PRODUCT_PAGES_PATH, 'utf8'))
   : [];
 const PRODUCT_LINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-en.json'), 'utf8'));
+const PRODUCT_LINES_I18N = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-i18n.json'), 'utf8'));
 const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
@@ -196,15 +197,18 @@ function build() {
     content.__locales = LOCALES.map(l => ({ code: l, name: LOCALE_NAMES[l], current: l === locale }));
     content.__base = BASE;
     content.__siteUrl = SITE_URL;
-    // Each portfolio card leads directly to its relevant landing page in English.
-    // Other language versions continue to use their own collection anchors.
+    // Keep every language on the same four current product lines.
     if (content.products && Array.isArray(content.products.categories)) {
-      content.products.categories = content.products.categories.map((category, index) => {
-        const line = locale === 'en' ? PRODUCT_LINES[index] : null;
-        const privateLabel = locale === 'en' && category.key === 'private-label';
-        return Object.assign({}, category, {
-          link: line ? `/en/products/${line.slug}.html` : privateLabel ? '/en/private-label.html' : `/${locale}/products.html#${category.key}`
-        });
+      const translated = PRODUCT_LINES_I18N[locale];
+      const currentLines = translated ? translated.lines : PRODUCT_LINES;
+      const privateLabel = translated ? translated.privateLabel : {
+        name: 'Private Label Socks', image: 'products/private-label-logo-socks.png', link: '/en/private-label.html'
+      };
+      content.products = Object.assign({}, content.products, translated ? translated.products : {}, {
+        categories: currentLines.map((line, index) => ({
+          key: ['corporate', 'lifestyle', 'sport'][index], name: line.cardName || ['Corporate & Promotional Socks', 'Jacquard & Lifestyle Socks', 'Team, Sport & Everyday Socks'][index],
+          image: line.image, link: `/${locale}/products/${line.slug}.html`
+        })).concat([{ key: 'private-label', name: privateLabel.name, image: privateLabel.image, link: privateLabel.link }])
       });
     }
 
@@ -266,21 +270,25 @@ function build() {
       }
     }
 
-    if (locale === 'en' && templates.productLine) {
+    if (templates.productLine) {
       const productDir = path.join(localeDir, 'products');
       ensureDir(productDir);
-      for (const line of PRODUCT_LINES) {
+      const translated = PRODUCT_LINES_I18N[locale];
+      const currentLines = translated ? translated.lines : PRODUCT_LINES;
+      for (const line of currentLines) {
         const gallery = Array.from({ length: line.galleryCount || 0 }, (_, index) => ({
           image: `${line.galleryDir}/${index + 1}.webp`,
           alt: `${line.galleryLabel} ${index + 1}`
         }));
         const lineContext = Object.assign({}, content, {
-          line: Object.assign({}, line, { gallery }),
-          __canonical: `${SITE_URL}${BASE}/en/products/${line.slug}.html`,
+          line: Object.assign({}, line, { gallery, ui: translated ? translated.ui : {
+            back: '← Back to product lines', support: 'How we support your programme', portfolio: 'Portfolio examples', portfolioTitle: 'Explore product directions in this line.', portfolioText: 'These examples show the range of designs and constructions we can develop within this product category.', quote: 'Request a Quote', ctaTitle: 'Start with a product brief or reference sample', ctaText: 'Tell us the intended use, target market, materials, branding and packaging requirements. We will help identify the next practical step for your programme.', cta: 'Discuss Your Project'
+          } }),
+          __canonical: `${SITE_URL}${BASE}/${locale}/products/${line.slug}.html`,
           meta: { title: `${line.title} | Huakui`, description: line.description }
         });
         let lineHtml = render(templates.productLine, lineContext, partials);
-        lineHtml = lineHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        lineHtml = lineHtml.replace('<html>', `<html lang="${locale}">`).replace('<!--HREFLANG-->', '');
         fs.writeFileSync(path.join(productDir, `${line.slug}.html`), lineHtml);
       }
     }
@@ -341,7 +349,10 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
   for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/private-label.html</loc>\n  </url>\n`;
   for (const product of PRODUCT_PAGES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/products/${product.slug}.html</loc>\n  </url>\n`;
-  for (const line of PRODUCT_LINES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/products/${line.slug}.html</loc>\n  </url>\n`;
+  for (const locale of LOCALES) {
+    const lines = PRODUCT_LINES_I18N[locale] ? PRODUCT_LINES_I18N[locale].lines : PRODUCT_LINES;
+    for (const line of lines) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/${locale}/products/${line.slug}.html</loc>\n  </url>\n`;
+  }
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides.html</loc>\n  </url>\n`;
   sitemap += `</urlset>\n`;
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap);
