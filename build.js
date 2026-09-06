@@ -44,6 +44,7 @@ const SEO_META = {
 };
 const GUIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'guides-en.json'), 'utf8'));
 const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
+const PRODUCT_LINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
@@ -172,6 +173,8 @@ function build() {
       ? fs.readFileSync(path.join(SRC, 'templates', 'guide.html'), 'utf8') : null,
     privateLabel: fs.existsSync(path.join(SRC, 'templates', 'private-label.html'))
       ? fs.readFileSync(path.join(SRC, 'templates', 'private-label.html'), 'utf8') : null,
+    productLine: fs.existsSync(path.join(SRC, 'templates', 'product-line.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'product-line.html'), 'utf8') : null,
   };
 
   for (const locale of LOCALES) {
@@ -186,6 +189,13 @@ function build() {
     content.__locales = LOCALES.map(l => ({ code: l, name: LOCALE_NAMES[l], current: l === locale }));
     content.__base = BASE;
     content.__siteUrl = SITE_URL;
+    if (content.products && Array.isArray(content.products.categories)) {
+      content.products.categories = content.products.categories.map((category, index) => {
+        const line = locale === 'en' ? PRODUCT_LINES[index] : null;
+        const privateLabel = locale === 'en' && category.key === 'private-label';
+        return Object.assign({}, category, { link: line ? `/en/products/${line.slug}.html` : privateLabel ? '/en/private-label.html' : `/${locale}/products.html#${category.key}` });
+      });
+    }
 
     const localeDir = path.join(OUT, locale);
     ensureDir(localeDir);
@@ -227,6 +237,21 @@ function build() {
         let guideHtml = render(templates.guide, guideContext, partials);
         guideHtml = guideHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
         fs.writeFileSync(path.join(guideDir, `${guide.slug}.html`), guideHtml);
+      }
+    }
+
+    if (locale === 'en' && templates.productLine) {
+      const productDir = path.join(localeDir, 'products');
+      ensureDir(productDir);
+      for (const line of PRODUCT_LINES) {
+        const lineContext = Object.assign({}, content, {
+          line,
+          __canonical: `${SITE_URL}${BASE}/en/products/${line.slug}.html`,
+          meta: { title: `${line.title} | Huakui`, description: line.description }
+        });
+        let lineHtml = render(templates.productLine, lineContext, partials);
+        lineHtml = lineHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+        fs.writeFileSync(path.join(productDir, `${line.slug}.html`), lineHtml);
       }
     }
 
@@ -285,6 +310,7 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
   }
   for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/private-label.html</loc>\n  </url>\n`;
+  for (const line of PRODUCT_LINES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/products/${line.slug}.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides.html</loc>\n  </url>\n`;
   sitemap += `</urlset>\n`;
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap);

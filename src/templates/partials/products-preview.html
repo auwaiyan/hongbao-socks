@@ -4,12 +4,11 @@
       <p class="eyebrow">{{products.eyebrow}}</p>
       <h2>{{products.title}}</h2>
       <p class="section-sub">{{products.subtitle}}</p>
-      <a class="btn btn-primary btn-lg" href="{{__base}}/{{__locale}}/products.html">{{products.cta}} →</a>
     </header>
     <ul class="product-grid reveal">
       {{#each products.categories}}
       <li class="product-card" data-category="{{key}}">
-        <a href="{{__base}}/{{__locale}}/products.html#{{key}}" class="product-card-link">
+        <a href="{{__base}}{{link}}" class="product-card-link">
           <span class="product-index">0{{__i}}</span>
           <span class="product-thumb"><img src="{{__base}}/assets/images/{{image}}" alt="{{name}} — Huakui OEM sock manufacturing" loading="lazy"></span>
           <div class="product-body">

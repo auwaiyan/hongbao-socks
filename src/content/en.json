@@ -271,7 +271,6 @@
     "eyebrow": "Products",
     "title": "OEM / ODM Custom Sock Manufacturing",
     "subtitle": "Custom logo, colours, patterns, materials, sizes and packaging available.",
-    "cta": "Explore the three product lines",
     "inquire": "View Portfolio",
     "categories": [
       {
@@ -300,6 +299,15 @@
         "audience": "For clubs, schools, teams, events and repeat everyday programmes",
         "image": "product-line-3-web/16.webp",
         "imageSecondary": "products/mens-socks.png"
+      },
+      {
+        "key": "private-label",
+        "name": "Private Label Socks",
+        "desc": "A practical route from reference sock or idea to sampling, branding, packaging and repeat production.",
+        "materials": "Development · sampling · branding · packaging · repeat production",
+        "audience": "For emerging and established brands building their own sock programme",
+        "image": "products/private-label-logo-socks.jpg",
+        "imageSecondary": "products/private-label-logo-socks.jpg"
       }
     ]
   },

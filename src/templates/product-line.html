@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main>
+  <article class="band product-line-page">
+    <div class="container product-line-container">
+      <a class="back-link" href="{{__base}}/en/products.html">← Back to product lines</a>
+      <section class="product-line-hero">
+        <div>
+          <p class="eyebrow">{{line.eyebrow}}</p>
+          <h1>{{line.title}}</h1>
+          <p class="product-line-intro">{{line.intro}}</p>
+          <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Request a Quote</a>
+        </div>
+        <figure class="product-line-image"><img src="{{__base}}/assets/images/{{line.image}}" alt="{{line.title}}"></figure>
+      </section>
+
+      <section class="product-line-section">
+        <p class="eyebrow">How we support your programme</p>
+        <div class="product-line-grid">
+        {{#each line.highlights}}
+          <section class="product-line-card"><h2>{{heading}}</h2><p>{{text}}</p></section>
+        {{/each}}
+        </div>
+      </section>
+
+      {{#if line.customisation}}
+      <section class="product-line-customisation">
+        <div class="product-line-customisation-copy">
+          <p class="eyebrow">{{line.customisation.eyebrow}}</p>
+          <h2>{{line.customisation.title}}</h2>
+          <p>{{line.customisation.text}}</p>
+          <a class="text-link" href="{{__base}}/en/#inquiry">Send us your brief or reference sample →</a>
+        </div>
+        <figure><img src="{{__base}}/assets/images/{{line.customisation.image}}" alt="{{line.customisation.alt}}"></figure>
+      </section>
+      {{/if}}
+
+      <aside class="guide-cta">
+        <h2>Start with a product brief or reference sample</h2>
+        <p>Tell us the intended use, target market, materials, branding and packaging requirements. We will help identify the next practical step for your programme.</p>
+        <a class="btn btn-primary" href="{{__base}}/en/#inquiry">Discuss Your Project</a>
+      </aside>
+    </div>
+  </article>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>
