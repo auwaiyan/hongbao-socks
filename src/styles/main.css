@@ -445,6 +445,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- product-line landing pages ---------- */
 .product-line-container { max-width: 1120px; }
+.product-line-page { padding-top: clamp(2.25rem, 4vw, 3.75rem); }
+.product-line-page .back-link { margin-bottom: 1.35rem; }
 .product-line-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(2.25rem, 5vw, 4.5rem); align-items: center; }
 .product-line-page h1 { max-width: 12ch; margin: .25rem 0 .75rem; font-size: clamp(2.35rem, 5vw, 4.35rem); line-height: 1.08; }
 .product-line-intro { max-width: 58ch; margin: 0 0 1.8rem; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
