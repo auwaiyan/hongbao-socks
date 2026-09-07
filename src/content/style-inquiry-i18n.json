@@ -1,0 +1,47 @@
+{
+  "en": {
+    "quote": "Enquire", "reference": "Style reference", "noReference": "No reference / my own design", "selected": "Selected style", "quantity": "Estimated quantity (pairs)", "delivery": "Requested delivery date", "optional": "Optional", "termsTitle": "Before You Request a Quote",
+    "terms": [
+      ["Your design and quantities", "Use the reference number to identify a design direction. Share quantities by style, colour and size, plus any changes to materials, logos or packaging."],
+      ["Minimum order quantity", "MOQ is confirmed for the agreed design, yarns, colours and size range. A gallery reference does not indicate available stock or a fixed minimum."],
+      ["Samples and production", "Confirm sample cost, timing and the approval process with our team. Production lead time and delivery arrangements are confirmed for each order."],
+      ["Your quotation", "Pricing depends on the final specification, quantity, packaging and delivery terms. The date you provide is a request; availability must be confirmed."]
+    ]
+  },
+  "zh": {
+    "quote": "款式询价", "reference": "款式参考编号", "noReference": "暂不选款 / 自有设计", "selected": "已选款式", "quantity": "预计数量（双）", "delivery": "期望交货日期", "optional": "选填", "termsTitle": "询价前请了解",
+    "terms": [
+      ["款式与数量", "参考编号用于确认设计方向。请提供各款式、颜色和尺码的数量，以及材料、标识或包装的定制要求。"],
+      ["最低起订量", "起订量根据确认后的设计、纱线、颜色和尺码范围核定。图库编号不代表现货，也不代表固定起订量。"],
+      ["打样与生产", "样品费用、时间和确认流程需与工厂沟通。生产交期及交付安排按每笔订单确认。"],
+      ["报价条件", "报价取决于最终规格、数量、包装和交付条款。所填写的交货日期为期望日期，需经工厂确认。"]
+    ]
+  },
+  "de": {
+    "quote": "Anfragen", "reference": "Modellreferenz", "noReference": "Keine Referenz / eigenes Design", "selected": "Ausgewähltes Modell", "quantity": "Geplante Menge (Paar)", "delivery": "Gewünschter Liefertermin", "optional": "Optional", "termsTitle": "Vor Ihrer Angebotsanfrage",
+    "terms": [
+      ["Design und Mengen", "Die Referenz kennzeichnet eine Designidee. Nennen Sie Mengen je Modell, Farbe und Größe sowie Wünsche zu Material, Logo und Verpackung."],
+      ["Mindestbestellmenge", "Die MOQ wird anhand von Design, Garn, Farben und Größen bestätigt. Eine Galeriereferenz bedeutet weder Lagerbestand noch eine feste Mindestmenge."],
+      ["Muster und Produktion", "Musterkosten, Zeitplan und Freigabe werden mit unserem Team abgestimmt. Produktions- und Lieferzeiten werden je Auftrag bestätigt."],
+      ["Angebotsgrundlage", "Preise hängen von Spezifikation, Menge, Verpackung und Lieferbedingungen ab. Ihr gewünschter Liefertermin muss bestätigt werden."]
+    ]
+  },
+  "es": {
+    "quote": "Consultar", "reference": "Referencia del modelo", "noReference": "Sin referencia / diseño propio", "selected": "Modelo seleccionado", "quantity": "Cantidad estimada (pares)", "delivery": "Fecha de entrega deseada", "optional": "Opcional", "termsTitle": "Antes de Solicitar un Presupuesto",
+    "terms": [
+      ["Diseño y cantidades", "La referencia identifica una propuesta de diseño. Indique cantidades por modelo, color y talla, y cambios de material, logotipo o embalaje."],
+      ["Pedido mínimo", "El MOQ se confirma según diseño, hilos, colores y tallas. Una referencia de la galería no indica existencias ni un mínimo fijo."],
+      ["Muestras y producción", "Confirme con nuestro equipo el coste, el plazo y la aprobación de las muestras. La producción y la entrega se acuerdan para cada pedido."],
+      ["Condiciones del presupuesto", "El precio depende de las especificaciones, cantidad, embalaje y condiciones de entrega. La fecha solicitada requiere confirmación."]
+    ]
+  },
+  "fr": {
+    "quote": "Demander un devis", "reference": "Référence du modèle", "noReference": "Sans référence / mon propre design", "selected": "Modèle sélectionné", "quantity": "Quantité estimée (paires)", "delivery": "Date de livraison souhaitée", "optional": "Facultatif", "termsTitle": "Avant de Demander un Devis",
+    "terms": [
+      ["Design et quantités", "La référence identifie une piste de design. Précisez les quantités par modèle, couleur et taille, ainsi que les modifications de matière, logo ou emballage."],
+      ["Quantité minimale", "Le MOQ est confirmé selon le design, les fils, les couleurs et les tailles. Une référence de galerie ne signifie ni stock disponible ni minimum fixe."],
+      ["Échantillons et production", "Confirmez avec notre équipe le coût, le délai et la validation des échantillons. Les délais de production et de livraison sont confirmés pour chaque commande."],
+      ["Conditions du devis", "Le prix dépend des spécifications, de la quantité, de l’emballage et des conditions de livraison. La date demandée reste à confirmer."]
+    ]
+  }
+}
