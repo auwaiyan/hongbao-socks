@@ -17,12 +17,12 @@ const LOCALE_NAMES = { en: 'English', zh: '中文', de: 'Deutsch', es: 'Español
 const SEO_META = {
   en: {
     home: {
-      title: 'Custom Socks Manufacturer in China | OEM, Private Label & Logo Socks | Huakui',
+      title: 'Custom Socks Manufacturer in China | Huakui',
       description: 'Direct custom socks manufacturer in Foshan, China. OEM, private-label and custom logo socks for brands, corporate promotions, events and teams.'
     },
     products: {
-      title: 'Custom Socks & Private Label Collections | Huakui Manufacturer',
-      description: 'Explore custom sports, dress, lifestyle, outdoor and OEM sock collections. Work directly with a China sock factory for sampling, private label and repeat production.'
+      title: 'Custom Sock Collections for Brands & Teams | Huakui',
+      description: 'Explore promotional, jacquard and sports sock collections from Huakui. Discuss custom designs, samples and private label production with our China factory.'
     }
   },
   zh: {
@@ -297,7 +297,7 @@ function build() {
       const privateLabelContext = Object.assign({}, content, {
         privateLabel: PRIVATE_LABEL,
         __canonical: `${SITE_URL}${BASE}/en/private-label.html`,
-        meta: { title: 'Private Label Socks Manufacturer | OEM & Custom Packaging | Huakui', description: PRIVATE_LABEL.description }
+        meta: { title: 'Private Label Socks Manufacturer | Huakui', description: PRIVATE_LABEL.description }
       });
       let privateLabelHtml = render(templates.privateLabel, privateLabelContext, partials);
       privateLabelHtml = privateLabelHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
@@ -363,3 +363,4 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
 }
 
 build();
+require('./seo-build')(OUT, SITE_URL, BASE, LOCALES);
