@@ -1,0 +1,22 @@
+/* Inherit the site's Montserrat stack; keep catalogue images at their existing ratio. */
+.style-caption{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.35rem 1rem;padding:.85rem 1rem;background:#fff;border-top:1px solid var(--line);font-family:var(--sans);line-height:1.5}
+.style-code{font-size:.85rem;font-weight:600;letter-spacing:.025em;color:var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums}
+.style-quote{display:inline-flex;align-items:center;min-height:44px;color:var(--green);font-size:.8rem;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.style-quote:hover{color:var(--forest)}
+.style-quote:focus-visible{outline:2px solid var(--green);outline-offset:4px;border-radius:2px}
+.style-preview{display:flex;align-items:center;gap:1rem;padding:.8rem;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);color:var(--ink)}
+.style-preview[hidden]{display:none}
+.style-preview img{display:block;width:72px;height:auto;aspect-ratio:1122/1402;object-fit:contain;flex:none}
+.style-preview span{display:block;font-size:.8rem;color:var(--muted)}
+.style-preview strong{display:block;font-size:.9rem;font-weight:600;overflow-wrap:anywhere}
+.inquiry-form .style-order-fields{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.style-terms{margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--line)}
+.style-terms h2{font-size:clamp(1.4rem,2.5vw,2rem)}
+.style-terms dl{display:grid;gap:1rem;margin:1rem 0 0}
+.style-terms dt{font-weight:600;font-size:.92rem}
+.style-terms dd{margin:.25rem 0 0;font-size:.88rem;color:var(--muted);line-height:1.7}
+.inquiry .style-terms{border-color:rgba(255,255,255,.25)}
+.inquiry .style-terms h3,.inquiry .style-terms dt{color:#fff}
+.inquiry .style-terms h3{font-size:1.15rem}
+.inquiry .style-terms dd{color:rgba(255,255,255,.84)}
+@media(max-width:480px){.style-caption{padding:.65rem .7rem;gap:.1rem .5rem}.style-code{font-size:.78rem}.style-quote{font-size:.76rem}.inquiry-form .style-order-fields{grid-template-columns:1fr}}

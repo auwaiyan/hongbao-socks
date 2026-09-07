@@ -364,3 +364,4 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
 
 build();
 require('./seo-build')(OUT, SITE_URL, BASE, LOCALES);
+require('./catalogue-build')(OUT, SITE_URL, BASE, LOCALES);

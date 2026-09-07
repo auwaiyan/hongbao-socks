@@ -122,9 +122,8 @@
           }
         })
         .catch(function () {
-          // fall back to a normal POST so the message still goes through
-          form.removeEventListener('submit', arguments.callee);
-          form.submit();
+          // Keep the buyer's brief for retry; an automatic second POST could duplicate an inquiry.
+          alert('We could not confirm delivery. Your details are still here. Please try again or email us directly.');
         })
         .finally(function () {
           if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label; }
