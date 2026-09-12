@@ -197,6 +197,7 @@ function build() {
     content.__locales = LOCALES.map(l => ({ code: l, name: LOCALE_NAMES[l], current: l === locale }));
     content.__base = BASE;
     content.__siteUrl = SITE_URL;
+    content.sourcingGuide = locale === 'en';
     // Keep every language on the same four current product lines.
     if (content.products && Array.isArray(content.products.categories)) {
       const translated = PRODUCT_LINES_I18N[locale];
