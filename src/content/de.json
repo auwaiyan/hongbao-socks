@@ -183,48 +183,48 @@
     }
   },
   "process": {
-    "eyebrow": "End-to-End",
-    "title": "Acht Schritte unter einem Dach",
-    "subtitle": "Ein geschlossener, standardisierter Prozess im eigenen Werk — vom Stricken bis zur Lieferung.",
+    "eyebrow": "Integrierte Fertigung",
+    "title": "Acht Produktionsstufen, in einem Werk gesteuert",
+    "subtitle": "Vom Stricken und Prüfen bis zu Verpackung und Versand steuert Huakui jeden wichtigen Schritt intern nach einem klaren Standard.",
     "steps": [
       {
         "title": "Stricken",
-        "desc": "Lonati Ein- und Doppelzylindermaschinen fertigen nach Auftragsspezifikation.",
+        "desc": "Lonati Ein- und Doppelzylindermaschinen fertigen jede Bestellung nach der freigegebenen Konstruktion und Spezifikation.",
         "icon": "knit"
       },
       {
-        "title": "FQC-Prüfung",
-        "desc": "Jede halbfertige Socke wird erstmals vollständig manuell geprüft.",
+        "title": "FQC-Sockenprüfung",
+        "desc": "Nach dem Stricken wird jede halbfertige Socke einzeln optisch und anhand grundlegender Maße geprüft, um Fehler früh zu erkennen.",
         "icon": "inspect"
       },
       {
         "title": "Stickerei",
-        "desc": "Computergesteuerte Stickerei für präzise Markenmotive im eigenen Werk.",
+        "desc": "Die computergesteuerte Stickerei erfolgt intern und sichert eine gleichbleibende Logo-Position, Farbe und Stichqualität.",
         "icon": "embroider"
       },
       {
-        "title": "Formgebung",
-        "desc": "Wärmeformung stabilisiert Größe, Passform und Erscheinungsbild.",
+        "title": "Boarding & Formgebung",
+        "desc": "Das Dampf-Boarding stabilisiert Form, Maße und Griff der Socke für ein sauberes, einheitliches Finish.",
         "icon": "board"
       },
       {
-        "title": "Paarung",
-        "desc": "Socken werden nach Größe, Farbe und Erscheinungsbild gepaart und geprüft.",
+        "title": "Paarung & Abgleich",
+        "desc": "Linke und rechte Socken werden nach Größe, Farbe und Stil zusammengeführt und abschließend auf einheitliches Aussehen geprüft.",
         "icon": "pair"
       },
       {
-        "title": "Verpackung",
-        "desc": "Etikettierung und Verpackung erfolgen auf einer kontrollierten internen Linie.",
+        "title": "Verpacken",
+        "desc": "Hangtags, Etiketten sowie Einzelpaar- oder Set-Verpackungen werden nach Ihren freigegebenen Verpackungsvorgaben angebracht.",
         "icon": "pack"
       },
       {
         "title": "Versandkontrolle",
-        "desc": "Stichproben bestätigen die Qualität vor jeder Auslieferung.",
+        "desc": "Vor dem Versand prüfen Stichproben Menge, Aussehen, Verpackung und Kartonangaben anhand der Freigabeanforderungen.",
         "icon": "audit"
       },
       {
         "title": "Lager & Logistik",
-        "desc": "Strukturierte Lagerung und Logistik sichern die pünktliche Lieferung.",
+        "desc": "Fertige Ware wird entsprechend dem Auftragsplan gelagert, vorbereitet und versendet, um zum vereinbarten Termin auszuliefern.",
         "icon": "logistics"
       }
     ]
