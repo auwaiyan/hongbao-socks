@@ -183,48 +183,48 @@
     }
   },
   "process": {
-    "eyebrow": "De bout en bout",
-    "title": "Huit étapes sous un même toit",
-    "subtitle": "Un processus standardisé en circuit fermé, entièrement interne — du tricot à la livraison.",
+    "eyebrow": "Fabrication intégrée",
+    "title": "Huit étapes de production, gérées dans une seule usine",
+    "subtitle": "Du tricotage et du contrôle jusqu'à l'emballage et l'expédition, Huakui pilote chaque étape clé en interne selon un standard défini.",
     "steps": [
       {
         "title": "Tricot",
-        "desc": "Les machines Lonati mono- et double-cylindre tricotent selon les spécifications.",
+        "desc": "Les machines Lonati à simple et double cylindre tricotent chaque commande selon la construction et les spécifications approuvées.",
         "icon": "knit"
       },
       {
-        "title": "Inspection FQC",
-        "desc": "Chaque chaussette semi-finie fait l'objet d'un premier contrôle manuel complet.",
+        "title": "Contrôle FQC des chaussettes",
+        "desc": "Après le tricotage, chaque chaussette semi-finie fait l'objet d'un contrôle visuel individuel et de mesures de base afin d'identifier rapidement les défauts.",
         "icon": "inspect"
       },
       {
         "title": "Broderie",
-        "desc": "Broderie informatisée en interne pour une reproduction précise de la marque.",
+        "desc": "La broderie informatisée est réalisée en interne afin de garantir la régularité du positionnement du logo, des couleurs et des points.",
         "icon": "embroider"
       },
       {
-        "title": "Formage",
-        "desc": "La mise en forme thermique stabilise taille, ajustement et apparence.",
+        "title": "Boarding et mise en forme",
+        "desc": "Le boarding vapeur stabilise la forme, les dimensions et le toucher de la chaussette pour une finition nette et homogène.",
         "icon": "board"
       },
       {
-        "title": "Appairage",
-        "desc": "Les chaussettes sont appairées et contrôlées par taille, couleur et aspect.",
+        "title": "Appairage et vérification",
+        "desc": "Les chaussettes gauche et droite sont appairées selon la taille, la couleur et le style, puis soumises à un dernier contrôle visuel de cohérence.",
         "icon": "pair"
       },
       {
-        "title": "Emballage",
-        "desc": "Étiquetage et emballage sur une ligne interne contrôlée.",
+        "title": "Conditionnement",
+        "desc": "Nous appliquons hangtags, étiquettes et conditionnements à l'unité ou par lot selon vos exigences d'emballage approuvées.",
         "icon": "pack"
       },
       {
         "title": "Contrôle avant expédition",
-        "desc": "Un échantillonnage aléatoire valide la qualité avant chaque expédition.",
+        "desc": "Avant l'expédition, des contrôles par échantillonnage vérifient la quantité, l'aspect, l'emballage et les informations de carton selon les exigences de libération.",
         "icon": "audit"
       },
       {
         "title": "Stockage et logistique",
-        "desc": "Un stockage et une logistique structurés assurent une livraison ponctuelle.",
+        "desc": "Les produits finis sont stockés, préparés et expédiés selon le plan de commande afin de respecter la date d'envoi convenue.",
         "icon": "logistics"
       }
     ]
