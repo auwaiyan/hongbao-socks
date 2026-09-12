@@ -33,6 +33,15 @@
     });
   }
 
+  /* ---- homepage factory video ---- */
+  var factoryVideo = document.querySelector('.hero-video video');
+  if (factoryVideo) {
+    factoryVideo.muted = true;
+    factoryVideo.play().catch(function () {
+      // A browser may defer playback until it has enough data or a user interaction.
+    });
+  }
+
   /* ---- portfolio product-line navigation ---- */
   var portfolioLinks = Array.from(document.querySelectorAll('.portfolio-line[href^="#"]'));
   if (portfolioLinks.length) {
