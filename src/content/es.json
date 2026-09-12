@@ -183,48 +183,48 @@
     }
   },
   "process": {
-    "eyebrow": "De principio a fin",
-    "title": "Ocho pasos, una sola fábrica",
-    "subtitle": "Un proceso estandarizado y de circuito cerrado, totalmente interno — del tejido a la entrega.",
+    "eyebrow": "Fabricación integrada",
+    "title": "Ocho etapas de producción, gestionadas en una sola fábrica",
+    "subtitle": "Desde el tejido y la inspección hasta el embalaje y el envío, Huakui gestiona internamente cada etapa crítica según un estándar definido.",
     "steps": [
       {
         "title": "Tejido",
-        "desc": "Máquinas Lonati de cilindro simple y doble tejen según las especificaciones del pedido.",
+        "desc": "Máquinas Lonati de cilindro simple y doble tejen cada pedido según la construcción y las especificaciones aprobadas.",
         "icon": "knit"
       },
       {
-        "title": "Inspección FQC",
-        "desc": "Cada calcetín semiterminado recibe una primera inspección manual completa.",
+        "title": "Inspección FQC de calcetines",
+        "desc": "Después del tejido, cada calcetín semiterminado recibe una inspección individual visual y de medidas básicas para detectar defectos a tiempo.",
         "icon": "inspect"
       },
       {
         "title": "Bordado",
-        "desc": "Bordado computarizado interno para reproducir la marca con precisión.",
+        "desc": "El bordado computarizado se realiza internamente para mantener constantes la posición del logotipo, los colores y la calidad de la puntada.",
         "icon": "embroider"
       },
       {
-        "title": "Formado",
-        "desc": "El conformado térmico estabiliza la talla, el ajuste y el acabado.",
+        "title": "Vaporizado y conformado",
+        "desc": "El vaporizado estabiliza la forma, las medidas y el tacto del calcetín para un acabado limpio y uniforme.",
         "icon": "board"
       },
       {
-        "title": "Emparejado",
-        "desc": "Los calcetines se emparejan y revisan por talla, color y apariencia.",
+        "title": "Emparejado y verificación",
+        "desc": "Los calcetines izquierdo y derecho se emparejan por talla, color y estilo, con una revisión final de uniformidad visual.",
         "icon": "pair"
       },
       {
-        "title": "Embalaje",
-        "desc": "Etiquetado y embalaje en una línea interna controlada.",
+        "title": "Empaque",
+        "desc": "Aplicamos hangtags, etiquetas y empaque por par o por set según sus requisitos de embalaje aprobados.",
         "icon": "pack"
       },
       {
         "title": "Inspección preembarque",
-        "desc": "Un muestreo aleatorio verifica la calidad antes de cada envío.",
+        "desc": "Antes del envío, las verificaciones por muestreo revisan cantidad, apariencia, empaque e información de las cajas frente a los requisitos de liberación.",
         "icon": "audit"
       },
       {
         "title": "Almacén y logística",
-        "desc": "El almacenamiento y la logística estructurados aseguran entregas puntuales.",
+        "desc": "Los productos terminados se almacenan, preparan y despachan según el plan del pedido para apoyar el envío en la fecha acordada.",
         "icon": "logistics"
       }
     ]
