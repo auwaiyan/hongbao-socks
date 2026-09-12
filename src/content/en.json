@@ -183,48 +183,48 @@
     }
   },
   "process": {
-    "eyebrow": "End-to-end",
-    "title": "Eight steps, one roof",
-    "subtitle": "A closed-loop, standardised process managed fully in-house — from knitting to delivery.",
+    "eyebrow": "Integrated manufacturing",
+    "title": "Eight production stages, managed in one factory",
+    "subtitle": "From knitting and inspection to packing and shipment, Huakui manages every critical stage in-house to a defined standard.",
     "steps": [
       {
         "title": "Knitting",
-        "desc": "Lonati single- and double-cylinder machines knit each order to specification.",
+        "desc": "Lonati single- and double-cylinder machines knit each order to the approved construction and specification.",
         "icon": "knit"
       },
       {
-        "title": "FQC Inspection",
-        "desc": "Every semi-finished sock receives a first full manual inspection.",
+        "title": "FQC Sock Inspection",
+        "desc": "After knitting, every semi-finished sock receives an individual visual and basic measurement check to identify defects early.",
         "icon": "inspect"
       },
       {
         "title": "Embroidery",
-        "desc": "Computerised embroidery is completed in-house for precise branding.",
+        "desc": "Computerised embroidery is completed in-house to keep logo placement, colours and stitch quality consistent.",
         "icon": "embroider"
       },
       {
-        "title": "Boarding",
-        "desc": "Heat shaping stabilises size, fit and finished appearance.",
+        "title": "Boarding & Shaping",
+        "desc": "Steam boarding stabilises the sock shape, dimensions and hand feel for a neat, consistent finish.",
         "icon": "board"
       },
       {
-        "title": "Pairing",
-        "desc": "Socks are matched and checked for size, colour and appearance.",
+        "title": "Pairing & Matching",
+        "desc": "Left and right socks are matched by size, colour and style, with a final visual consistency check.",
         "icon": "pair"
       },
       {
-        "title": "Packaging",
-        "desc": "Products are labelled and packed on a controlled in-house line.",
+        "title": "Packing",
+        "desc": "We apply hangtags, labels and single-pair or set packing according to your approved packaging requirements.",
         "icon": "pack"
       },
       {
         "title": "Pre-shipment Inspection",
-        "desc": "Random sampling verifies quality before every shipment.",
+        "desc": "Before shipment, sampling checks verify quantity, appearance, packing and carton information against release requirements.",
         "icon": "audit"
       },
       {
         "title": "Warehousing & Logistics",
-        "desc": "Structured warehousing and logistics support reliable on-time delivery.",
+        "desc": "Finished goods are stored, prepared and dispatched against the order plan, supporting shipment on the agreed schedule.",
         "icon": "logistics"
       }
     ]
