@@ -506,7 +506,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .private-label-how { margin-top: 1.5cm; }.private-label-branding { margin-top: 1.5cm; }.private-label-brand-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5cm; }.private-label-brand-grid article { padding: 1.25rem; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--green); border-radius: var(--radius); }.private-label-brand-grid h3 { font-size: 1.05rem; margin-bottom: .45rem; }.private-label-brand-grid p { margin: 0; color: var(--muted); font-size: .92rem; }
 .private-label-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.2rem; }.private-label-metric { padding: 1.35rem 1.1rem; background: linear-gradient(145deg, #064E83, #0878C9); border-radius: var(--radius); color: #fff; }.private-label-metric strong { display: block; font-size: 1.6rem; line-height: 1.2; }.private-label-metric span { display: block; margin-top: .45rem; color: #e2f3ff; font-size: .86rem; line-height: 1.4; }
 .private-label-faq { margin-top: 4.5rem; padding-bottom: 4.5rem; }.private-label-faq article { padding: 1.2rem 0; border-bottom: 1px solid var(--line); }.private-label-faq h3 { margin: 0 0 .35rem; }.private-label-faq p { max-width: 880px; margin: 0; color: var(--muted); }
+.private-label-seo-content { padding: 1.5cm 0; }
+.private-label-next-steps { padding: 1.5cm 0; }
 .private-label-seo-content .private-label-container { max-width: calc(100% - clamp(7.5rem, 10vw, 13rem)); padding: 0; }
+.private-label-seo-topic + .private-label-seo-topic { margin-top: 1cm; }
+.private-label-seo-topic > *:last-child { margin-bottom: 0; }
 @media (max-width: 800px) { .private-label-fact-grid, .private-label-brand-grid, .private-label-metrics { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 800px) { .private-label-seo-content .private-label-container { max-width: none; padding: 0 1.5rem; } }
 @media (max-width: 560px) { .private-label-facts, .private-label-branding { padding: 1.5rem; }.private-label-fact-grid, .private-label-brand-grid, .private-label-metrics { grid-template-columns: 1fr; } }
