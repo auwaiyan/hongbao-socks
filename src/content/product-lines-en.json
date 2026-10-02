@@ -40,17 +40,21 @@
     "galleryLabel": "Jacquard, novelty and lifestyle sock example",
     "highlights": [
       {
-        "heading": "Patterns that translate into knitting",
+        "heading": "Pattern & knit planning",
         "text": "Start with artwork, a mood board or a reference sample. We help establish knit-friendly pattern placement, colour direction and construction."
       },
       {
-        "heading": "More than a novelty item",
+        "heading": "Everyday wear & finish",
         "text": "Balance visual impact with everyday comfort, fit and finish so a seasonal concept can become a credible product line."
       },
       {
-        "heading": "Private label from product to pack",
+        "heading": "Private label & packaging",
         "text": "Align socks, branding details and packaging to create a coherent retail presentation—and retain approved references for reorders."
       }
+    ],
+    "resources": [
+      { "href": "/en/private-label.html", "label": "Plan a private-label sock programme" },
+      { "href": "/en/guides.html", "label": "Read the sock sourcing guides" }
     ]
   },
   {
