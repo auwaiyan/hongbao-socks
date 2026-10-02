@@ -53,6 +53,17 @@
       </section>
       {{/if}}
 
+      {{#if line.resources}}
+      <section class="product-line-resources" aria-label="Related resources">
+        <p class="eyebrow">Related planning resources</p>
+        <div>
+        {{#each line.resources}}
+          <a href="{{__base}}{{href}}">{{label}} →</a>
+        {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
       <aside class="guide-cta">
         <h2>{{line.ui.ctaTitle}}</h2>
         <p>{{line.ui.ctaText}}</p>

@@ -36,7 +36,7 @@ module.exports = function buildCatalogue(out, site, base, locales) {
         return figure.replace('</figure>',caption(item,'figcaption')+'</figure>');
       })+'</div>');
     function terms(headingTag) { return `<section class="style-terms"><${headingTag}>${esc(labels.termsTitle)}</${headingTag}><dl>${labels.terms.map(t=>`<div><dt>${esc(t[0])}</dt><dd>${esc(t[1])}</dd></div>`).join('')}</dl></section>`; }
-    if(count) h=h.replace('</main>',`<section class="band"><div class="container">${terms('h2')}</div></section>\n</main>`);
+    if(count) h=h.replace('</main>',`<section class="band product-line-terms"><div class="container">${terms('h2')}</div></section>\n</main>`);
     const hasForm=h.includes('data-form="inquiry"');
     if(hasForm) {
       h=h.replace(`src="${base}/assets/js/main.js"`, `src="${base}/assets/js/main.js?v=yyj-20260907"`);

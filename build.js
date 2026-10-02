@@ -289,7 +289,7 @@ function build() {
           meta: { title: `${line.title} | Huakui`, description: line.description }
         });
         let lineHtml = render(templates.productLine, lineContext, partials);
-        lineHtml = lineHtml.replace('<html>', `<html lang="${locale}">`).replace('<!--HREFLANG-->', '');
+        lineHtml = lineHtml.replace('<html>', `<html lang="${locale}">`).replace('<!--HREFLANG-->', hreflangTags(`products/${line.slug}.html`));
         fs.writeFileSync(path.join(productDir, `${line.slug}.html`), lineHtml);
       }
     }
@@ -350,9 +350,10 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
   for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/private-label.html</loc>\n  </url>\n`;
   for (const product of PRODUCT_PAGES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/products/${product.slug}.html</loc>\n  </url>\n`;
-  for (const locale of LOCALES) {
-    const lines = PRODUCT_LINES_I18N[locale] ? PRODUCT_LINES_I18N[locale].lines : PRODUCT_LINES;
-    for (const line of lines) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/${locale}/products/${line.slug}.html</loc>\n  </url>\n`;
+  for (const line of PRODUCT_LINES) {
+    sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/${DEFAULT_LOCALE}/products/${line.slug}.html</loc>\n`;
+    for (const locale of LOCALES) sitemap += `    <xhtml:link rel="alternate" hreflang="${locale}" href="${SITE_URL}${BASE}/${locale}/products/${line.slug}.html"/>\n`;
+    sitemap += `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${BASE}/${DEFAULT_LOCALE}/products/${line.slug}.html"/>\n  </url>\n`;
   }
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides.html</loc>\n  </url>\n`;
   sitemap += `</urlset>\n`;

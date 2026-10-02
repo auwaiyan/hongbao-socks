@@ -11,17 +11,21 @@
     "galleryLabel": "Corporate, promotional and event sock example",
     "highlights": [
       {
-        "heading": "Built around the occasion",
+        "heading": "Occasion & programme planning",
         "text": "Develop socks for corporate gifts, exhibitions, launches, employee programmes and branded merchandise, with the construction matched to the intended use."
       },
       {
-        "heading": "Custom Logo Socks: Artwork and Knitted Patterns",
+        "heading": "Logo, colour & knit detail",
         "text": "Plan logo placement, colour matching, jacquard patterns and finished details so the sock remains recognisably yours."
       },
       {
-        "heading": "Packing ready for distribution",
+        "heading": "Packaging & distribution",
         "text": "Coordinate individual sleeves, sets, cards or gift-ready packaging alongside the product, rather than treating packaging as an afterthought."
       }
+    ],
+    "resources": [
+      { "href": "/en/private-label.html", "label": "Plan a private-label sock programme" },
+      { "href": "/en/guides.html", "label": "Read the sock sourcing guides" }
     ]
   },
   {
@@ -72,6 +76,10 @@
         "heading": "A clear route to repeat orders",
         "text": "Keep approved samples, size specifications and packaging references connected to bulk production for more consistent seasonal and replenishment orders."
       }
+    ],
+    "resources": [
+      { "href": "/en/private-label.html", "label": "Plan a private-label sock programme" },
+      { "href": "/en/guides.html", "label": "Read the sock sourcing guides" }
     ]
   }
 ]
