@@ -509,7 +509,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .private-label-seo-content { padding: 1.5cm 0; }
 .private-label-next-steps { padding: 1.5cm 0; }
 .product-line-next-steps { padding: 1.8cm 0; }
-.product-line-terms { padding: 1.8cm 0; }
+.band.product-line-terms { padding: 1.8cm 0; }
+.product-line-terms .style-terms { margin-top: 0; }
 .private-label-seo-content .private-label-container { max-width: calc(100% - clamp(7.5rem, 10vw, 13rem)); padding: 0; }
 .private-label-seo-topic + .private-label-seo-topic { margin-top: 1cm; }
 .private-label-seo-topic > *:last-child { margin-bottom: 0; }
@@ -521,8 +522,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .product-line-container { max-width: 1120px; }
 .product-line-page { padding-top: clamp(2.25rem, 4vw, 3.75rem); padding-bottom: 1.8cm; }
 .product-line-page .back-link { margin-bottom: 1.35rem; }
+.product-line-container > nav[aria-label="Breadcrumb"] { margin: 0; }
+.product-line-container > nav[aria-label="Breadcrumb"] + .product-line-hero { margin-top: .5cm; }
 .product-line-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(2.25rem, 5vw, 4.5rem); align-items: center; }
-.product-line-page h1 { max-width: 12ch; margin: .25rem 0 .75rem; font-size: clamp(2.35rem, 5vw, 4.35rem); line-height: 1.08; }
+.product-line-hero .eyebrow { margin-bottom: .8cm; }
+.product-line-page h1 { max-width: 12ch; margin: 0 0 1cm; font-size: clamp(2.35rem, 5vw, 4.35rem); line-height: 1.08; }
 .product-line-intro { max-width: 58ch; margin: 0 0 1.8rem; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
 .product-line-image { min-height: 430px; margin: 0; overflow: hidden; background: #f1f5f7; border-radius: var(--radius-lg); }
 .product-line-image img { width: 100%; height: 100%; object-fit: cover; }
