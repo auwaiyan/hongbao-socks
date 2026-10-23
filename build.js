@@ -236,7 +236,7 @@ function build() {
 
     if (locale === 'en' && templates.guides && templates.guide) {
       content.__canonical = `${SITE_URL}${BASE}/en/guides.html`;
-      content.meta = { title: 'Sock Sourcing Guides for Brands & Buyers | Huakui', description: 'Practical guides for buyers sourcing custom, OEM and private-label socks from China.' };
+      content.meta = { title: 'Custom Socks Sourcing Guide: MOQ, Samples & China Factories | Huakui', description: 'Practical guides for buyers sourcing custom, OEM and private-label socks from China: compare factories, plan MOQ, approve samples and prepare production.' };
       content.guides = GUIDES;
       let guidesHtml = render(templates.guides, content, partials);
       guidesHtml = guidesHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
