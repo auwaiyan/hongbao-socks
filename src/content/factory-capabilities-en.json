@@ -1,0 +1,36 @@
+{
+  "eyebrow": "Factory capabilities · Foshan, China",
+  "title": "A sock manufacturing partner from development to packed goods.",
+  "intro": "Huakui works with brands, promotional merchandise buyers, retailers, sports teams and e-commerce sellers on custom sock programmes. Since 2003, our Foshan, China factory has supported product development, sampling, production, branding details and packaging before bulk production.",
+  "facts": [
+    { "value": "Since 2003", "label": "Established in Foshan, China" },
+    { "value": "16,000 m²", "label": "Standardised factory floor" },
+    { "value": "110", "label": "Specialists across four teams" },
+    { "value": "ISO", "label": "9001 · 14001 · 45001" }
+  ],
+  "capabilities": [
+    { "icon": "reference", "title": "Develop from a reference", "text": "Start from a sock sample, product image or artwork, then turn the direction into a clearer sock specification." },
+    { "icon": "sample", "title": "Sample before bulk", "text": "Use sampling to review size, colour, logo treatment, packaging, hand-feel and wash results before production approval." },
+    { "icon": "branding", "title": "Build the sock and brand details", "text": "Jacquard, knitted logos, embroidery, printing, functional sport-sock development, labels, hangtags, belly bands and retail-ready packaging can be planned together." },
+    { "icon": "inspection", "title": "Inspect finished goods", "text": "Huakui carries out finished-product inspection and can cooperate with buyer-arranged inspection requirements." }
+  ],
+  "productionStages": [
+    { "number": "01", "image": "factory/knitting-floor.jpg", "title": "Knitting", "caption": "Each order is knitted to the approved construction and specification.", "alt": "Sock knitting machines operating at Huakui factory in Foshan" },
+    { "number": "02", "image": "factory/in-process-check.jpg", "title": "FQC Sock Inspection", "caption": "Semi-finished socks receive visual checking during production handling.", "alt": "Factory worker checking a sock beside knitting machines" },
+    { "number": "03", "image": "factory/embroidery-machines.jpg", "title": "Embroidery", "caption": "Computerised embroidery is completed in-house for applicable logo work.", "alt": "Computerised embroidery machines at Huakui sock factory" },
+    { "number": "04", "image": "factory/boarding-shaping.jpg", "title": "Boarding & Shaping", "caption": "Boarding helps stabilise the sock shape and dimensions for a consistent finish.", "alt": "Worker operating sock boarding and shaping equipment" },
+    { "number": "05", "image": "factory/pairing-socks.jpg", "title": "Pairing & Matching", "caption": "Left and right socks are matched by size, colour and style.", "alt": "White logo socks being paired and matched at Huakui factory" },
+    { "number": "06", "image": "factory/tagging-packing.jpg", "title": "Packing", "caption": "Finished products are packed to the approved packaging requirements.", "alt": "Worker preparing socks for packing at Huakui factory" },
+    { "number": "07", "image": "factory/pre-shipment-inspection.jpg", "title": "Pre-shipment Inspection", "caption": "Finished goods are checked again before shipment preparation.", "alt": "Factory worker inspecting finished socks before shipment" },
+    { "number": "08", "image": "factory/carton-loading.jpg", "title": "Warehousing & Logistics", "caption": "Packed cartons are staged and loaded in line with the order plan.", "alt": "Packed cartons being loaded into a shipping container outside Huakui factory" }
+  ],
+  "quoteItems": [
+    { "text": "A reference sock, product image or artwork" },
+    { "text": "Expected quantity for each style" },
+    { "text": "Target fibre composition and target weight" },
+    { "text": "Colours and size range" },
+    { "text": "Any specified technique, performance function or packaging requirement" }
+  ],
+  "certifications": [{ "name": "ISO 9001" }, { "name": "ISO 14001" }, { "name": "ISO 45001" }, { "name": "High-Tech Enterprise" }],
+  "customers": [{ "name": "Brands and private-label programmes" }, { "name": "Corporate gifts and promotional projects" }, { "name": "Retailers and e-commerce sellers" }, { "name": "Sports teams and activity-based programmes" }]
+}

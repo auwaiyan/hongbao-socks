@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main class="factory-capabilities-page">
+  <section class="factory-capabilities-hero">
+    <div class="container">
+      <a class="back-link" href="{{__base}}/en/">← Back to home</a>
+      <div class="factory-capabilities-hero-grid">
+        <div>
+          <p class="eyebrow">{{factoryCapabilities.eyebrow}}</p>
+          <h1>{{factoryCapabilities.title}}</h1>
+          <p class="factory-capabilities-intro">{{factoryCapabilities.intro}}</p>
+          <aside class="factory-capabilities-proof" aria-label="Factory facts">
+            {{#each factoryCapabilities.facts}}<div><strong>{{value}}</strong><span>{{label}}</span></div>{{/each}}
+          </aside>
+          <div class="factory-capabilities-actions"><a class="btn btn-primary btn-lg" href="{{__base}}/en/#inquiry">Request a Quote</a><a class="text-link" href="{{__base}}/en/products.html">Explore product lines →</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="factory-capabilities-section">
+    <div class="container">
+      <div class="factory-capabilities-heading"><p class="eyebrow">What Huakui can support</p><h2>Keep development, production and presentation in one conversation.</h2><p>Capabilities are planned around the approved sock design and order requirements—not treated as separate add-ons after the product is decided.</p></div>
+      <div class="factory-capabilities-grid">{{#each factoryCapabilities.capabilities}}<article><span class="factory-capabilities-icon factory-capabilities-icon-{{icon}}" aria-hidden="true"></span><h3>{{title}}</h3><p>{{text}}</p></article>{{/each}}</div>
+    </div>
+  </section>
+
+  <section class="factory-capabilities-gallery" aria-labelledby="factory-gallery-title">
+    <div class="container">
+      <div class="factory-capabilities-gallery-heading"><h2 id="factory-gallery-title">8 production stages, managed in one factory.</h2><p>From knitting and inspection to packing and logistics, these are selected working views from Huakui’s factory in Foshan.</p></div>
+      <ol class="factory-capabilities-gallery-grid">{{#each factoryCapabilities.productionStages}}<li><figure><div class="factory-capabilities-stage-image"><img src="{{__base}}/assets/images/{{image}}" alt="{{alt}}" loading="lazy"><span>{{number}}</span></div><figcaption><strong>{{title}}</strong><span>{{caption}}</span></figcaption></figure></li>{{/each}}</ol>
+    </div>
+  </section>
+
+  <section class="factory-capabilities-brief">
+    <div class="container">
+      <p class="eyebrow">For a clearer first quotation</p>
+      <div class="factory-capabilities-brief-grid">
+        <div><h2>What to send with a custom sock enquiry.</h2><p>A complete brief lets the factory assess feasibility and give a more useful next step. The expected quantity per style is more useful than a buyer-provided MOQ; MOQ is confirmed after the specification is understood.</p></div>
+        <ul>{{#each factoryCapabilities.quoteItems}}<li>{{text}}</li>{{/each}}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="factory-capabilities-section factory-capabilities-evidence">
+    <div class="container">
+      <p class="eyebrow">Public evidence</p>
+      <div class="factory-capabilities-evidence-grid">
+        <div><h2>Credentials and factory evidence buyers can review.</h2><p>Huakui can publicly present its current certifications, factory imagery, equipment, quality-control images, sampling images and factory video. Certificate details can be supplied for buyer due diligence when relevant.</p></div>
+        <div class="factory-capabilities-cert-list">{{#each factoryCapabilities.certifications}}<span>{{name}}</span>{{/each}}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="factory-capabilities-fit">
+    <div class="container"><p class="eyebrow">Programme fit</p><h2>Built for different routes to market.</h2><div>{{#each factoryCapabilities.customers}}<article>{{name}}</article>{{/each}}</div><p class="factory-capabilities-note">Each enquiry is assessed against the product brief, materials, construction, required technique and packaging—not on a blanket promise that every request is automatically feasible.</p></div>
+  </section>
+
+  <section class="factory-capabilities-cta"><div class="container"><div><h2>Have a reference sock or product idea?</h2><p>Send the details you already have. Huakui will help identify the practical next step for development, sampling and production.</p></div><a class="btn btn-primary btn-lg" href="{{__base}}/en/#inquiry">Discuss Your Project</a></div></section>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>
