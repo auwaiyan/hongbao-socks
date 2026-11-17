@@ -247,6 +247,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .stat-label { display: block; font-size: .84rem; color: var(--muted); margin-top: .2rem; }
 .factory-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
 .factory-block h3 { color: var(--forest); border-bottom: 2px solid var(--green-20); padding-bottom: .4rem; margin-bottom: 1rem; }
+.factory-capabilities-link { display: inline-flex; margin-top: 1.5rem; }
 .bullet-list li { position: relative; padding-left: 1.4rem; margin-bottom: .7rem; color: var(--ink); }
 .bullet-list li::before { content: ""; position: absolute; left: 0; top: .6em; width: 7px; height: 7px; background: var(--green); border-radius: 50%; }
 .bullet-list strong { color: var(--forest); }
@@ -531,6 +532,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .factory-capabilities-intro { max-width: 76ch; margin: 0; color: var(--muted); font-size: 1.08rem; line-height: 1.7; }
 .factory-capabilities-actions { display: flex; align-items: center; flex-wrap: nowrap; gap: 1.15rem; margin-top: 1.8rem; }
 .factory-capabilities-actions .text-link { margin-top: 0; white-space: nowrap; }
+.factory-capabilities-action-note { margin: .75rem 0 0; color: var(--muted); font-size: .9rem; }
 .factory-capabilities-proof { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: .8cm; overflow: hidden; border: 1px solid var(--line); background: var(--line); border-radius: var(--radius-lg); }
 .factory-capabilities-proof div { min-height: 142px; padding: 1.35rem; background: var(--green-50); display: flex; flex-direction: column; justify-content: center; }
 .factory-capabilities-proof strong { color: var(--forest); font-size: 1.55rem; line-height: 1.1; }
