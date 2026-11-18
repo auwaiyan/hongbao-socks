@@ -32,6 +32,12 @@
 .portfolio-next h2{max-width:520px;margin:auto 0 1.25rem;font-size:clamp(2.1rem,3.7vw,3.8rem);line-height:1.02;letter-spacing:-.04em}
 .portfolio-next p{max-width:520px;color:#b4bec8;line-height:1.6}
 .portfolio-next em{margin-top:2rem;color:#54b4ef;font-style:normal;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase}
+.portfolio-private-label-entry{padding:0}
+.portfolio-private-label-entry .portfolio-next-grid{background:transparent}
+.portfolio-private-label-entry article{min-height:0;padding:1.5cm 3.3rem}
+.portfolio-private-label-entry h2{color:#fff}
+.portfolio-private-label-link{display:inline-block;width:max-content;margin-top:2rem;color:#54b4ef;font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.portfolio-private-label-link:hover{color:#fff}
 .portfolio-cta{text-align:center;padding:7rem 0;background:#eef6fb}
 .portfolio-cta h2{max-width:780px;margin:.7rem auto 2rem;font-size:clamp(2.5rem,5vw,5rem);line-height:1;letter-spacing:-.045em}
 @media(max-width:900px){.portfolio-line{padding:1rem}.portfolio-line strong{font-size:.8rem}.portfolio-collection-head{grid-template-columns:1fr;gap:1.5rem}.portfolio-grid{grid-template-columns:repeat(2,1fr)}.portfolio-next-grid{grid-template-columns:1fr}}
