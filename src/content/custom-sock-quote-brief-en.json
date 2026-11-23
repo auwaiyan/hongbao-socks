@@ -1,0 +1,16 @@
+{
+  "title": "Custom Sock Quote Brief",
+  "description": "What to send when requesting a custom sock quote from Huakui: artwork, quantity, construction, materials, colours, sizes, packaging and target date.",
+  "eyebrow": "Buyer resources · Start with what you have",
+  "intro": "A complete technical pack is helpful, but it is not required. A logo, reference sock, product photo or simple idea is enough to begin. The clearer the first brief, the more accurately we can assess the construction, sampling route and quotation.",
+  "image": "factory/in-process-check.jpg",
+  "imageAlt": "Huakui team member checking a sock during production",
+  "checklist": [
+    { "number": "01", "title": "Reference or artwork", "text": "Send a reference sock, product photos, a logo file, an artwork file or a simple sketch. Mark the details that must stay unchanged." },
+    { "number": "02", "title": "Expected quantity", "text": "Tell us the estimated pairs for each style, colour and size. This lets us assess practical production and quotation options." },
+    { "number": "03", "title": "Sock type and intended use", "text": "For example: crew, ankle or sports sock; corporate gift, retail, teamwear or daily use. This helps define construction and performance needs." },
+    { "number": "04", "title": "Materials, colours and sizes", "text": "Share your preferred material direction, colour references and intended size range. If these are undecided, say so and we can discuss suitable routes." },
+    { "number": "05", "title": "Branding and special details", "text": "Include logo placement, jacquard, embroidery, print, cushioning, compression or other details that are important to the finished product." },
+    { "number": "06", "title": "Packaging and target date", "text": "Tell us whether you need labels, hangtags, belly bands, retail packaging or carton markings, plus the date you are working toward." }
+  ]
+}

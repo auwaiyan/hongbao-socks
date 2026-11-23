@@ -52,6 +52,7 @@ const PRODUCT_LINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'co
 const PRODUCT_LINES_I18N = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'product-lines-i18n.json'), 'utf8'));
 const PRIVATE_LABEL = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'private-label-en.json'), 'utf8'));
 const FACTORY_CAPABILITIES = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'factory-capabilities-en.json'), 'utf8'));
+const QUOTE_BRIEF = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'content', 'custom-sock-quote-brief-en.json'), 'utf8'));
 const SRC = path.join(__dirname, 'src');
 const OUT = path.join(__dirname, 'docs');
 const BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') || '';
@@ -182,6 +183,8 @@ function build() {
       ? fs.readFileSync(path.join(SRC, 'templates', 'private-label.html'), 'utf8') : null,
     factoryCapabilities: fs.existsSync(path.join(SRC, 'templates', 'factory-capabilities.html'))
       ? fs.readFileSync(path.join(SRC, 'templates', 'factory-capabilities.html'), 'utf8') : null,
+    quoteBrief: fs.existsSync(path.join(SRC, 'templates', 'custom-sock-quote-brief.html'))
+      ? fs.readFileSync(path.join(SRC, 'templates', 'custom-sock-quote-brief.html'), 'utf8') : null,
     productSeo: fs.existsSync(path.join(SRC, 'templates', 'product-seo.html'))
       ? fs.readFileSync(path.join(SRC, 'templates', 'product-seo.html'), 'utf8') : null,
     productLine: fs.existsSync(path.join(SRC, 'templates', 'product-line.html'))
@@ -321,6 +324,17 @@ function build() {
       factoryCapabilitiesHtml = factoryCapabilitiesHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
       fs.writeFileSync(path.join(localeDir, 'factory-capabilities.html'), factoryCapabilitiesHtml);
     }
+
+    if (locale === 'en' && templates.quoteBrief) {
+      const quoteBriefContext = Object.assign({}, content, {
+        quoteBrief: QUOTE_BRIEF,
+        __canonical: `${SITE_URL}${BASE}/en/custom-sock-quote-brief.html`,
+        meta: { title: 'Custom Sock Quote Brief: What to Send | Huakui', description: QUOTE_BRIEF.description }
+      });
+      let quoteBriefHtml = render(templates.quoteBrief, quoteBriefContext, partials);
+      quoteBriefHtml = quoteBriefHtml.replace('<html>', '<html lang="en">').replace('<!--HREFLANG-->', '');
+      fs.writeFileSync(path.join(localeDir, 'custom-sock-quote-brief.html'), quoteBriefHtml);
+    }
     console.log(`[ok] rendered ${locale}`);
   }
 
@@ -367,6 +381,7 @@ a{color:#0878C9}</style></head><body><div><h1 style="font-size:4rem;margin:0;col
   for (const guide of GUIDES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/guides/${guide.slug}.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/private-label.html</loc>\n  </url>\n`;
   sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/factory-capabilities.html</loc>\n  </url>\n`;
+  sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/custom-sock-quote-brief.html</loc>\n  </url>\n`;
   for (const product of PRODUCT_PAGES) sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/en/products/${product.slug}.html</loc>\n  </url>\n`;
   for (const line of PRODUCT_LINES) {
     sitemap += `  <url>\n    <loc>${SITE_URL}${BASE}/${DEFAULT_LOCALE}/products/${line.slug}.html</loc>\n`;

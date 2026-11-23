@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+{{> head}}
+</head>
+<body>
+{{> header}}
+<main class="quote-brief-page">
+  <section class="quote-brief-hero"><div class="container quote-brief-container">
+    <a class="back-link" href="{{__base}}/en/guides.html">← Back to sourcing guides</a>
+    <div class="quote-brief-hero-grid"><div>
+      <p class="eyebrow">{{quoteBrief.eyebrow}}</p>
+      <h1>{{quoteBrief.title}}</h1>
+      <p class="quote-brief-intro">{{quoteBrief.intro}}</p>
+      <div class="quote-brief-actions"><a class="btn btn-primary btn-lg" href="{{__base}}/en/#inquiry">Request a Quote</a><a class="text-link" href="#brief-checklist">See the brief checklist</a></div>
+    </div><figure><img src="{{__base}}/assets/images/quote-brief/sock-brief-overview.png" alt="Custom sock brief with logo, colours, material swatches and packaging references"></figure></div>
+  </div></section>
+  <section class="quote-brief-why"><div class="container quote-brief-why-grid"><div><p class="eyebrow">Why this helps</p><h2>Better input makes a more useful first reply.</h2></div><p>We use the brief to identify the product questions that need to be confirmed before sampling or a final quotation. If you do not have every detail, send what is available and note what still needs a recommendation.</p></div></section>
+  <section class="quote-brief-start"><div class="container quote-brief-container"><p class="eyebrow">A practical starting point</p><figure class="quote-brief-reference-materials"><img src="{{__base}}/assets/images/quote-brief/reference-materials-3-steps-en.png" alt="Prepare Reference Materials: 3 Steps — logos or graphics, reference socks or photos, and packaging direction"></figure></div></section>
+  <section class="quote-brief-checklist" id="brief-checklist"><div class="container quote-brief-container"><div class="quote-brief-heading"><p class="eyebrow">Your first enquiry</p><h2>Six details that help us assess your project.</h2><p>They do not need to arrive in a formal document. An email, message, image folder or sample can all be a good starting point.</p></div><ol>{{#each quoteBrief.checklist}}<li><span>{{number}}</span><div><h3>{{title}}</h3><p>{{text}}</p></div></li>{{/each}}</ol></div></section>
+  <section class="quote-brief-response"><div class="container quote-brief-container"><p class="eyebrow">What happens next</p><h2>From your brief to a practical next step.</h2><div><article><span>01</span><h3>We review the available details</h3><p>We check the reference, product direction and order assumptions, then identify any information that needs clarification.</p></article><article><span>02</span><h3>We discuss the product route</h3><p>Construction, material direction, branding technique, packaging and sampling needs are considered together—not as disconnected choices.</p></article><article><span>03</span><h3>We confirm what can be quoted</h3><p>Once the key assumptions are clear, we can outline the practical quotation or sample-development step.</p></article></div></div></section>
+  <section class="quote-brief-cta"><div class="container quote-brief-container"><div><h2>Have a logo, reference sock or product idea?</h2><p>Send the details you already have. We will help identify the next practical step for your custom sock programme.</p></div><a class="btn btn-primary btn-lg" href="{{__base}}/en/#inquiry">Send Your Brief</a></div></section>
+</main>
+{{> footer}}
+<script src="{{__base}}/assets/js/main.js" defer></script>
+</body>
+</html>

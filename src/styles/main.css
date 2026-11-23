@@ -592,6 +592,64 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 960px) { .factory-capabilities-brief-grid, .factory-capabilities-evidence-grid { grid-template-columns: 1fr; } .factory-capabilities-proof, .factory-capabilities-grid, .factory-capabilities-gallery-grid, .factory-capabilities-fit > .container > div { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .factory-capabilities-actions { flex-wrap: wrap; } .factory-capabilities-proof, .factory-capabilities-grid, .factory-capabilities-gallery-grid, .factory-capabilities-fit > .container > div, .factory-capabilities-cert-list { grid-template-columns: 1fr; } .factory-capabilities-grid article { min-height: 0; } .factory-capabilities-cta .container { align-items: flex-start; flex-direction: column; } }
 
+/* ---------- custom sock quote brief ---------- */
+.quote-brief-page { background: #f4f7fa; }
+.quote-brief-container { max-width: 1180px; }
+.quote-brief-hero { padding: clamp(2.25rem, 4vw, 3.75rem) 0 4.5rem; background: #fff; }
+.quote-brief-hero .back-link { margin-bottom: 1.7rem; color: #47728f; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+.quote-brief-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(330px, .8fr); gap: clamp(2.5rem, 7vw, 7rem); align-items: center; }
+.quote-brief-hero h1 { max-width: 10ch; margin: .2rem 0 1rem; font-size: clamp(3rem, 5.5vw, 5.15rem); line-height: 1.02; letter-spacing: -.055em; }
+.quote-brief-intro { max-width: 57ch; margin: 0; color: var(--muted); font-size: 1.11rem; line-height: 1.72; }
+.quote-brief-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.15rem; margin-top: 2rem; }
+.quote-brief-actions .text-link { margin-top: 0; }
+.quote-brief-hero figure { position: relative; height: 410px; margin: 0; overflow: hidden; background: var(--green-50); }
+.quote-brief-hero img { width: 100%; height: 410px; object-fit: cover; object-position: center; display: block; }
+.quote-brief-hero figcaption { position: absolute; right: 0; bottom: 0; max-width: 24rem; padding: .7rem 1rem; background: rgba(6, 29, 45, .88); color: #fff; font-size: .7rem; letter-spacing: .055em; line-height: 1.45; }
+.quote-brief-why { padding: 3.5rem 0; background: #e5f2fa; }
+.quote-brief-why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 8vw, 9rem); align-items: start; }
+.quote-brief-why h2, .quote-brief-heading h2, .quote-brief-response h2 { margin: .2rem 0 0; font-size: clamp(2rem, 3.6vw, 3.35rem); line-height: 1.08; letter-spacing: -.04em; }
+.quote-brief-why-grid > p { max-width: 53ch; margin: 1.8rem 0 0; color: var(--muted); font-size: 1.04rem; line-height: 1.72; }
+.quote-brief-start { padding: 5.2rem 0 0; background: #f4f7fa; }
+.quote-brief-start > .container > .eyebrow { margin-bottom: 1.25rem; }
+.quote-brief-reference-materials { width: 100%; margin: 0; overflow: hidden; background: #fff; }
+.quote-brief-reference-materials img { display: block; width: 100%; height: auto; }
+.quote-brief-start-head { max-width: 760px; }
+.quote-brief-start-head h2 { margin: .2rem 0 0; font-size: clamp(2rem, 3.5vw, 3.15rem); line-height: 1.08; letter-spacing: -.04em; }
+.quote-brief-start-head > p:last-child { max-width: 56ch; margin: .85rem 0 0; color: var(--muted); line-height: 1.7; }
+.quote-brief-start-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; margin-top: 2.35rem; }
+.quote-brief-start-grid article { position: relative; display: flex; flex-direction: column; min-height: 365px; padding: 1.65rem; overflow: visible; background: linear-gradient(145deg, #fff, #f7fbff); border: 1px solid rgba(8, 120, 201, .23); border-radius: 1.3rem; }
+.quote-brief-start-grid article:not(:last-child)::after { content: "→"; position: absolute; top: 50%; right: -3.15rem; z-index: 2; color: var(--green); font-size: 3.25rem; font-weight: 400; line-height: 1; transform: translateY(-50%); }
+.quote-brief-step-number { display: inline-flex; align-items: center; justify-content: center; width: 3.1rem; height: 3.1rem; border-radius: 50%; background: linear-gradient(145deg, #0878c9, #45b6ef); color: #fff; font-size: 1.55rem; font-weight: 800; box-shadow: 0 8px 18px rgba(8, 120, 201, .17); }
+.quote-brief-start-copy h3 { margin: 1rem 0 .65rem; font-size: 1.28rem; line-height: 1.16; }
+.quote-brief-start-copy p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.62; }
+.quote-brief-card-symbol { position: relative; height: 118px; margin-top: auto; color: var(--green); }
+.quote-brief-card-symbol *, .quote-brief-card-symbol::before, .quote-brief-card-symbol::after { position: absolute; box-sizing: border-box; }
+.quote-brief-card-symbol-art i { left: 10%; bottom: 6px; width: 90px; height: 104px; border: 3px solid currentColor; border-radius: 6px; }.quote-brief-card-symbol-art i::after { content: ""; position: absolute; right: -3px; top: -3px; width: 32px; height: 32px; border-left: 3px solid currentColor; border-bottom: 3px solid currentColor; background: #fff; }.quote-brief-card-symbol-art b, .quote-brief-card-symbol-art em { bottom: 20px; padding: .28rem .42rem; border-radius: 4px; color: #fff; font-style: normal; font-weight: 800; line-height: 1; }.quote-brief-card-symbol-art b { left: 1px; background: #ff9a1f; }.quote-brief-card-symbol-art em { left: 53px; bottom: 1px; background: #e4483d; }
+.quote-brief-card-symbol-sock i { left: 10%; bottom: 7px; width: 92px; height: 78px; border: 3px solid currentColor; border-radius: 10px 10px 32px 32px; transform: rotate(-24deg); }.quote-brief-card-symbol-sock i::after { content: ""; position: absolute; width: 40px; height: 32px; left: 19px; bottom: -2px; border-top: 3px dashed currentColor; border-radius: 50%; }.quote-brief-card-symbol-sock b { right: 12%; bottom: 12px; width: 83px; height: 63px; border: 3px solid currentColor; border-radius: 4px; }.quote-brief-card-symbol-sock b::after { content: ""; position: absolute; left: 18px; bottom: 10px; width: 38px; height: 18px; background: rgba(8, 120, 201, .16); clip-path: polygon(0 100%, 38% 38%, 62% 72%, 80% 25%, 100% 100%); }
+.quote-brief-card-symbol-pack i { left: 5%; bottom: 16px; width: 70px; height: 70px; border: 3px solid currentColor; border-radius: 4px; }.quote-brief-card-symbol-pack b { left: 32%; bottom: 8px; width: 82px; height: 90px; border: 3px solid currentColor; border-radius: 4px; }.quote-brief-card-symbol-pack b::after { content: ""; position: absolute; left: 25px; bottom: 14px; width: 30px; height: 40px; border: 3px solid currentColor; border-radius: 8px 8px 15px 15px; }.quote-brief-card-symbol-pack em { right: 2%; bottom: 17px; width: 74px; height: 64px; border: 3px solid currentColor; transform: skewY(-25deg); }
+.quote-brief-checklist { padding: 5.2rem 0; }
+.quote-brief-heading { max-width: 720px; }
+.quote-brief-heading > p:last-child { max-width: 61ch; margin: .85rem 0 0; color: var(--muted); font-size: 1.04rem; line-height: 1.7; }
+.quote-brief-checklist ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin: 2.4rem 0 0; padding: 1px; list-style: none; background: var(--line); border: 1px solid var(--line); }
+.quote-brief-checklist li { display: grid; grid-template-columns: 3.4rem 1fr; gap: 1.15rem; min-height: 185px; padding: 1.7rem; align-content: center; align-items: start; background: #fff; }
+.quote-brief-checklist li > span, .quote-brief-response article > span { color: var(--green); font-size: .8rem; font-weight: 800; letter-spacing: .1em; }
+.quote-brief-checklist h3 { margin: 0 0 .55rem; font-size: 1.22rem; }
+.quote-brief-checklist p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.62; }
+.quote-brief-response { padding: 4.8rem 0; background: #fff; }
+.quote-brief-response > .container > div { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
+.quote-brief-response article { position: relative; min-height: 205px; overflow: hidden; padding: 1.65rem; border-top: 3px solid var(--green); background: var(--green-50); }
+.quote-brief-response h3 { margin: 2.1rem 0 .55rem; font-size: 1.18rem; }
+.quote-brief-response article p { margin: 0; color: var(--muted); font-size: .93rem; line-height: 1.6; }
+.quote-brief-cta { padding: 4rem 0; background: var(--forest); }
+.quote-brief-cta .container { display: flex; align-items: center; justify-content: space-between; gap: 2.5rem; }
+.quote-brief-cta h2 { margin: 0 0 .6rem; color: #fff; font-size: clamp(1.9rem, 3.4vw, 3rem); }
+.quote-brief-cta p { max-width: 60ch; margin: 0; color: #d7e9f5; line-height: 1.65; }
+.quote-brief-cta .btn { flex: 0 0 auto; background: #fff; color: var(--forest); box-shadow: none; }
+.quote-brief-cta .btn:hover { color: #fff; background: var(--green); }
+@media (max-width: 980px) { .quote-brief-start-grid { gap: 1rem; } .quote-brief-start-grid article:not(:last-child)::after { display: none; } }
+@media (max-width: 800px) { .quote-brief-hero-grid, .quote-brief-why-grid { grid-template-columns: 1fr; } .quote-brief-hero figure, .quote-brief-hero img { height: 300px; } .quote-brief-why-grid > p { margin-top: 1rem; } .quote-brief-start-head > p:last-child { margin: 0; } .quote-brief-start-grid, .quote-brief-response > .container > div { grid-template-columns: 1fr; } .quote-brief-start-grid article { min-height: 275px; } }
+@media (max-width: 560px) { .quote-brief-checklist { padding: 3.75rem 0; } .quote-brief-checklist ol { grid-template-columns: 1fr; } .quote-brief-checklist li { min-height: 0; padding: 1.35rem; } .quote-brief-cta .container { flex-direction: column; align-items: flex-start; } }
+
 /* ---------- product-line landing pages ---------- */
 .product-line-container { max-width: 1120px; }
 .product-line-page { padding-top: clamp(2.25rem, 4vw, 3.75rem); padding-bottom: 1.8cm; }
